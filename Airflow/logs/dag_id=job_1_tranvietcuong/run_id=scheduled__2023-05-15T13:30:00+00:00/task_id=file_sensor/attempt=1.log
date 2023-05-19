@@ -1,0 +1,106 @@
+[2023-05-16T01:32:33.539+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:871: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti: TaskInstance | None = qry.with_for_update().one_or_none()
+
+[2023-05-16T01:32:33.609+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: job_1_tranvietcuong.file_sensor scheduled__2023-05-15T13:30:00+00:00 [queued]>
+[2023-05-16T01:32:33.658+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: job_1_tranvietcuong.file_sensor scheduled__2023-05-15T13:30:00+00:00 [queued]>
+[2023-05-16T01:32:33.659+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-16T01:32:33.660+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-05-16T01:32:33.660+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-16T01:32:33.737+0000] {taskinstance.py:1383} INFO - Executing <Task(FileSensor): file_sensor> on 2023-05-15 13:30:00+00:00
+[2023-05-16T01:32:33.752+0000] {standard_task_runner.py:54} INFO - Started process 242 to run task
+[2023-05-16T01:32:33.764+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'job_1_tranvietcuong', 'file_sensor', 'scheduled__2023-05-15T13:30:00+00:00', '--job-id', '3275', '--raw', '--subdir', 'DAGS_FOLDER/tranvietcuong.py', '--cfg-path', '/tmp/tmpusyss0s0']
+[2023-05-16T01:32:33.767+0000] {standard_task_runner.py:83} INFO - Job 3275: Subtask file_sensor
+[2023-05-16T01:32:33.770+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/tranvietcuong.py
+[2023-05-16T01:32:34.049+0000] {task_command.py:384} INFO - Running <TaskInstance: job_1_tranvietcuong.file_sensor scheduled__2023-05-15T13:30:00+00:00 [running]> on host 1158220c4572
+[2023-05-16T01:32:34.060+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:873: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti = qry.one_or_none()
+
+[2023-05-16T01:32:34.399+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=user@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=job_1_tranvietcuong
+AIRFLOW_CTX_TASK_ID=file_sensor
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-15T13:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-05-15T13:30:00+00:00
+[2023-05-16T01:32:34.517+0000] {base.py:71} INFO - Using connection ID 'fs_default' for task execution.
+[2023-05-16T01:32:34.518+0000] {filesystem.py:58} INFO - Poking for file /opt/***/dags/tmp/*dejob*
+[2023-05-16T01:32:34.551+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:873: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti = qry.one_or_none()
+
+[2023-05-16T01:32:34.901+0000] {taskinstance.py:1815} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2023-05-16T01:32:34.942+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-05-16T01:32:35.129+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-05-16T01:32:47.562+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:871: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti: TaskInstance | None = qry.with_for_update().one_or_none()
+
+[2023-05-16T01:32:47.695+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: job_1_tranvietcuong.file_sensor scheduled__2023-05-15T13:30:00+00:00 [queued]>
+[2023-05-16T01:32:47.749+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: job_1_tranvietcuong.file_sensor scheduled__2023-05-15T13:30:00+00:00 [queued]>
+[2023-05-16T01:32:47.750+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-16T01:32:47.750+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-05-16T01:32:47.751+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-16T01:32:47.868+0000] {taskinstance.py:1383} INFO - Executing <Task(FileSensor): file_sensor> on 2023-05-15 13:30:00+00:00
+[2023-05-16T01:32:47.889+0000] {standard_task_runner.py:54} INFO - Started process 285 to run task
+[2023-05-16T01:32:47.907+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'job_1_tranvietcuong', 'file_sensor', 'scheduled__2023-05-15T13:30:00+00:00', '--job-id', '3293', '--raw', '--subdir', 'DAGS_FOLDER/tranvietcuong.py', '--cfg-path', '/tmp/tmp3orruyq8']
+[2023-05-16T01:32:47.909+0000] {standard_task_runner.py:83} INFO - Job 3293: Subtask file_sensor
+[2023-05-16T01:32:47.913+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/tranvietcuong.py
+[2023-05-16T01:32:48.317+0000] {task_command.py:384} INFO - Running <TaskInstance: job_1_tranvietcuong.file_sensor scheduled__2023-05-15T13:30:00+00:00 [running]> on host 1158220c4572
+[2023-05-16T01:32:48.333+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:873: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti = qry.one_or_none()
+
+[2023-05-16T01:32:48.709+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=user@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=job_1_tranvietcuong
+AIRFLOW_CTX_TASK_ID=file_sensor
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-15T13:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-05-15T13:30:00+00:00
+[2023-05-16T01:32:48.814+0000] {base.py:71} INFO - Using connection ID 'fs_default' for task execution.
+[2023-05-16T01:32:48.816+0000] {filesystem.py:58} INFO - Poking for file /opt/***/dags/tmp/*dejob*
+[2023-05-16T01:32:48.844+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:873: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti = qry.one_or_none()
+
+[2023-05-16T01:32:49.347+0000] {taskinstance.py:1815} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2023-05-16T01:32:49.396+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-05-16T01:32:49.620+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-05-16T01:33:02.000+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:871: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti: TaskInstance | None = qry.with_for_update().one_or_none()
+
+[2023-05-16T01:33:02.082+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: job_1_tranvietcuong.file_sensor scheduled__2023-05-15T13:30:00+00:00 [queued]>
+[2023-05-16T01:33:02.130+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: job_1_tranvietcuong.file_sensor scheduled__2023-05-15T13:30:00+00:00 [queued]>
+[2023-05-16T01:33:02.130+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-16T01:33:02.131+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-05-16T01:33:02.131+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-16T01:33:02.212+0000] {taskinstance.py:1383} INFO - Executing <Task(FileSensor): file_sensor> on 2023-05-15 13:30:00+00:00
+[2023-05-16T01:33:02.225+0000] {standard_task_runner.py:54} INFO - Started process 326 to run task
+[2023-05-16T01:33:02.238+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'job_1_tranvietcuong', 'file_sensor', 'scheduled__2023-05-15T13:30:00+00:00', '--job-id', '3308', '--raw', '--subdir', 'DAGS_FOLDER/tranvietcuong.py', '--cfg-path', '/tmp/tmpdc30rlly']
+[2023-05-16T01:33:02.240+0000] {standard_task_runner.py:83} INFO - Job 3308: Subtask file_sensor
+[2023-05-16T01:33:02.243+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/tranvietcuong.py
+[2023-05-16T01:33:02.608+0000] {task_command.py:384} INFO - Running <TaskInstance: job_1_tranvietcuong.file_sensor scheduled__2023-05-15T13:30:00+00:00 [running]> on host 1158220c4572
+[2023-05-16T01:33:02.626+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:873: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti = qry.one_or_none()
+
+[2023-05-16T01:33:03.069+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=user@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=job_1_tranvietcuong
+AIRFLOW_CTX_TASK_ID=file_sensor
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-15T13:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-05-15T13:30:00+00:00
+[2023-05-16T01:33:03.248+0000] {base.py:71} INFO - Using connection ID 'fs_default' for task execution.
+[2023-05-16T01:33:03.250+0000] {filesystem.py:58} INFO - Poking for file /opt/***/dags/tmp/*dejob*
+[2023-05-16T01:33:03.253+0000] {taskinstance.py:1481} INFO - Snap. Time is OUT. DAG id: job_1_tranvietcuong
+[2023-05-16T01:33:03.305+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:871: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti: TaskInstance | None = qry.with_for_update().one_or_none()
+
+[2023-05-16T01:33:03.337+0000] {taskinstance.py:1406} INFO - Marking task as SKIPPED. dag_id=job_1_tranvietcuong, task_id=file_sensor, execution_date=20230515T133000, start_date=20230516T013302, end_date=20230516T013303
+[2023-05-16T01:33:03.432+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-05-16T01:33:03.965+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

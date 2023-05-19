@@ -1,0 +1,49 @@
+[2023-05-19T04:05:56.325+0000] {processor.py:156} INFO - Started process (PID=46) to work on /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:05:56.328+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/testcelerydag.py for tasks to queue
+[2023-05-19T04:05:56.331+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:05:56.330+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:05:56.414+0000] {processor.py:768} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:05:56.846+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:05:56.846+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:05:56.995+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:05:56.995+0000] {dag.py:3328} INFO - Setting next_dagrun for parallel_dag to 2023-05-17T17:00:00+00:00, run_after=2023-05-18T17:00:00+00:00
+[2023-05-19T04:05:57.096+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/testcelerydag.py took 0.785 seconds
+[2023-05-19T04:06:28.550+0000] {processor.py:156} INFO - Started process (PID=71) to work on /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:06:28.553+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/testcelerydag.py for tasks to queue
+[2023-05-19T04:06:28.556+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:06:28.555+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:06:28.650+0000] {processor.py:768} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:06:28.851+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:06:28.850+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:06:29.013+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:06:29.013+0000] {dag.py:3328} INFO - Setting next_dagrun for parallel_dag to 2023-05-17T17:00:00+00:00, run_after=2023-05-18T17:00:00+00:00
+[2023-05-19T04:06:29.098+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/testcelerydag.py took 0.564 seconds
+[2023-05-19T04:07:01.079+0000] {processor.py:156} INFO - Started process (PID=97) to work on /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:07:01.094+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/testcelerydag.py for tasks to queue
+[2023-05-19T04:07:01.097+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:07:01.096+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:07:01.185+0000] {processor.py:768} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:07:01.576+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:07:01.575+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:07:01.821+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:07:01.821+0000] {dag.py:3328} INFO - Setting next_dagrun for parallel_dag to 2023-05-17T17:00:00+00:00, run_after=2023-05-18T17:00:00+00:00
+[2023-05-19T04:07:01.938+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/testcelerydag.py took 0.884 seconds
+[2023-05-19T04:07:32.569+0000] {processor.py:156} INFO - Started process (PID=121) to work on /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:07:32.579+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/testcelerydag.py for tasks to queue
+[2023-05-19T04:07:32.580+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:07:32.580+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:07:32.633+0000] {processor.py:768} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:07:32.755+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:07:32.755+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:07:32.848+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:07:32.848+0000] {dag.py:3328} INFO - Setting next_dagrun for parallel_dag to 2023-05-17T17:00:00+00:00, run_after=2023-05-18T17:00:00+00:00
+[2023-05-19T04:07:32.894+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/testcelerydag.py took 0.333 seconds
+[2023-05-19T04:08:03.059+0000] {processor.py:156} INFO - Started process (PID=146) to work on /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:08:03.062+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/testcelerydag.py for tasks to queue
+[2023-05-19T04:08:03.065+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:03.064+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:08:03.175+0000] {processor.py:768} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:08:03.336+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:03.335+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:08:03.513+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:03.512+0000] {dag.py:3328} INFO - Setting next_dagrun for parallel_dag to 2023-05-17T17:00:00+00:00, run_after=2023-05-18T17:00:00+00:00
+[2023-05-19T04:08:03.596+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/testcelerydag.py took 0.552 seconds
+[2023-05-19T04:08:34.062+0000] {processor.py:156} INFO - Started process (PID=171) to work on /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:08:34.073+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/testcelerydag.py for tasks to queue
+[2023-05-19T04:08:34.075+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:34.074+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:08:34.132+0000] {processor.py:768} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:08:34.253+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:34.253+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:08:34.374+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:34.373+0000] {dag.py:3328} INFO - Setting next_dagrun for parallel_dag to 2023-05-17T17:00:00+00:00, run_after=2023-05-18T17:00:00+00:00
+[2023-05-19T04:08:34.446+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/testcelerydag.py took 0.393 seconds
+[2023-05-19T04:09:05.163+0000] {processor.py:156} INFO - Started process (PID=196) to work on /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:09:05.165+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/testcelerydag.py for tasks to queue
+[2023-05-19T04:09:05.167+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:09:05.167+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:09:05.233+0000] {processor.py:768} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/testcelerydag.py
+[2023-05-19T04:09:05.373+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:09:05.372+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:09:05.478+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:09:05.478+0000] {dag.py:3328} INFO - Setting next_dagrun for parallel_dag to 2023-05-17T17:00:00+00:00, run_after=2023-05-18T17:00:00+00:00
+[2023-05-19T04:09:05.550+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/testcelerydag.py took 0.397 seconds

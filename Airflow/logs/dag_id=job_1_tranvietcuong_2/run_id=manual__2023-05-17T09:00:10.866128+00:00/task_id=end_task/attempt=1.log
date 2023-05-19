@@ -1,0 +1,40 @@
+[2023-05-17T09:00:42.253+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:871: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti: TaskInstance | None = qry.with_for_update().one_or_none()
+
+[2023-05-17T09:00:42.337+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: job_1_tranvietcuong_2.end_task manual__2023-05-17T09:00:10.866128+00:00 [queued]>
+[2023-05-17T09:00:42.393+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: job_1_tranvietcuong_2.end_task manual__2023-05-17T09:00:10.866128+00:00 [queued]>
+[2023-05-17T09:00:42.394+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-17T09:00:42.395+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-05-17T09:00:42.396+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-17T09:00:42.500+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): end_task> on 2023-05-17 09:00:10.866128+00:00
+[2023-05-17T09:00:42.529+0000] {standard_task_runner.py:54} INFO - Started process 235 to run task
+[2023-05-17T09:00:42.565+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'job_1_tranvietcuong_2', 'end_task', 'manual__2023-05-17T09:00:10.866128+00:00', '--job-id', '3899', '--raw', '--subdir', 'DAGS_FOLDER/tranvietcuong.py', '--cfg-path', '/tmp/tmpv1jyqvms']
+[2023-05-17T09:00:42.568+0000] {standard_task_runner.py:83} INFO - Job 3899: Subtask end_task
+[2023-05-17T09:00:42.578+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/tranvietcuong.py
+[2023-05-17T09:00:42.951+0000] {task_command.py:384} INFO - Running <TaskInstance: job_1_tranvietcuong_2.end_task manual__2023-05-17T09:00:10.866128+00:00 [running]> on host b5c083b5be9a
+[2023-05-17T09:00:42.975+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:873: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti = qry.one_or_none()
+
+[2023-05-17T09:00:43.674+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=job_1_tranvietcuong_2
+AIRFLOW_CTX_TASK_ID=end_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-17T09:00:10.866128+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-17T09:00:10.866128+00:00
+[2023-05-17T09:00:43.677+0000] {logging_mixin.py:117} INFO - timeout
+[2023-05-17T09:00:43.795+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/tranvietcuong.py", line 64, in timeout_callback
+    raise AirflowException('Sensor timed out')
+airflow.exceptions.AirflowException: Sensor timed out
+[2023-05-17T09:00:43.898+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=job_1_tranvietcuong_2, task_id=end_task, execution_date=20230517T090010, start_date=20230517T090042, end_date=20230517T090043
+[2023-05-17T09:00:44.001+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 3899 for task end_task (Sensor timed out; 235)
+[2023-05-17T09:00:44.104+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-05-17T09:00:44.378+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,63 @@
+version: "3.3"
+services:
+  spark-master:
+    image: tranvietcuonghust/tichhopdulieu_spark
+    hostname: spark-master
+    ports:
+      - "9090:8080"
+      - "7077:7077"
+      - "4040:4040"
+      - "2222:22"
+    volumes:
+      - ./app:/opt/spark/app
+      - ./resources:/opt/spark/resources
+    environment:
+      - SPARK_LOCAL_IP=spark-master
+      - SPARK_WORKLOAD=master
+      - SPARK_PUBLIC_DNS=localhost
+    networks:
+      - tichhopdulieu
+  spark-worker-a:
+    image: tranvietcuonghust/tichhopdulieu_spark
+    ports:
+      - "8082:8080"
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_DRIVER_MEMORY=1G
+      - SPARK_EXECUTOR_MEMORY=1G
+      - SPARK_WORKLOAD=worker
+      - SPARK_LOCAL_IP=spark-worker-a
+      - SPARK_PUBLIC_DNS=localhost
+    volumes:
+      - ./app:/opt/spark/app
+      - ./resources:/opt/spark/resources
+    networks:
+      - tichhopdulieu
+  # spark-worker-b:
+  #   image: tranvietcuonghust/tichhopdulieu_spark
+  #   ports:
+  #     - "9092:8080"
+  #     - "7001:7000"
+  #   depends_on:
+  #     - spark-master
+  #   environment:
+  #     - SPARK_MASTER=spark://spark-master:7077
+  #     - SPARK_WORKER_CORES=1
+  #     - SPARK_WORKER_MEMORY=1G
+  #     - SPARK_DRIVER_MEMORY=1G
+  #     - SPARK_EXECUTOR_MEMORY=1G
+  #     - SPARK_WORKLOAD=worker
+  #     - SPARK_LOCAL_IP=spark-worker-b
+  #   volumes:
+  #       - ./app:/opt/spark/app
+  #       - ./resources:/opt/spark/resources
+  #   networks:
+  #     - tichhopdulieu
+networks:
+  tichhopdulieu:
+    external: true
+

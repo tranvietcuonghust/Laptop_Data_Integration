@@ -1,0 +1,66 @@
+[2023-05-19T04:05:54.255+0000] {processor.py:156} INFO - Started process (PID=43) to work on /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:05:54.258+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/spark_process_scheduler.py for tasks to queue
+[2023-05-19T04:05:54.261+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:05:54.260+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:05:54.436+0000] {processor.py:768} INFO - DAG(s) dict_keys(['spark_process_data_14']) retrieved from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:05:54.913+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:05:54.912+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:05:55.063+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:05:55.062+0000] {dag.py:3328} INFO - Setting next_dagrun for spark_process_data_14 to 2023-05-18T17:00:00+00:00, run_after=2023-05-19T17:00:00+00:00
+[2023-05-19T04:05:55.180+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/spark_process_scheduler.py took 0.938 seconds
+[2023-05-19T04:06:26.509+0000] {processor.py:156} INFO - Started process (PID=68) to work on /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:06:26.524+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/spark_process_scheduler.py for tasks to queue
+[2023-05-19T04:06:26.526+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:06:26.525+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:06:26.746+0000] {processor.py:768} INFO - DAG(s) dict_keys(['spark_process_data_14']) retrieved from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:06:27.177+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:06:27.176+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:06:27.391+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:06:27.391+0000] {dag.py:3328} INFO - Setting next_dagrun for spark_process_data_14 to 2023-05-18T17:00:00+00:00, run_after=2023-05-19T17:00:00+00:00
+[2023-05-19T04:06:27.525+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/spark_process_scheduler.py took 1.030 seconds
+[2023-05-19T04:06:58.425+0000] {processor.py:156} INFO - Started process (PID=94) to work on /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:06:58.434+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/spark_process_scheduler.py for tasks to queue
+[2023-05-19T04:06:58.437+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:06:58.436+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:06:58.794+0000] {processor.py:768} INFO - DAG(s) dict_keys(['spark_process_data_14']) retrieved from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:06:59.091+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:06:59.090+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:06:59.330+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:06:59.329+0000] {dag.py:3328} INFO - Setting next_dagrun for spark_process_data_14 to 2023-05-18T17:00:00+00:00, run_after=2023-05-19T17:00:00+00:00
+[2023-05-19T04:06:59.469+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/spark_process_scheduler.py took 1.074 seconds
+[2023-05-19T04:07:30.046+0000] {processor.py:156} INFO - Started process (PID=118) to work on /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:07:30.049+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/spark_process_scheduler.py for tasks to queue
+[2023-05-19T04:07:30.051+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:07:30.050+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:07:30.164+0000] {processor.py:768} INFO - DAG(s) dict_keys(['spark_process_data_14']) retrieved from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:07:30.311+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:07:30.310+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:07:30.417+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:07:30.417+0000] {dag.py:3328} INFO - Setting next_dagrun for spark_process_data_14 to 2023-05-18T17:00:00+00:00, run_after=2023-05-19T17:00:00+00:00
+[2023-05-19T04:07:30.486+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/spark_process_scheduler.py took 0.450 seconds
+[2023-05-19T04:08:00.913+0000] {processor.py:156} INFO - Started process (PID=143) to work on /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:08:00.915+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/spark_process_scheduler.py for tasks to queue
+[2023-05-19T04:08:00.917+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:00.916+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:08:01.061+0000] {processor.py:768} INFO - DAG(s) dict_keys(['spark_process_data_14']) retrieved from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:08:01.200+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:01.200+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:08:01.290+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:01.290+0000] {dag.py:3328} INFO - Setting next_dagrun for spark_process_data_14 to 2023-05-18T17:00:00+00:00, run_after=2023-05-19T17:00:00+00:00
+[2023-05-19T04:08:01.362+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/spark_process_scheduler.py took 0.458 seconds
+[2023-05-19T04:08:31.541+0000] {processor.py:156} INFO - Started process (PID=168) to work on /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:08:31.552+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/spark_process_scheduler.py for tasks to queue
+[2023-05-19T04:08:31.553+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:31.553+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:08:31.661+0000] {processor.py:768} INFO - DAG(s) dict_keys(['spark_process_data_14']) retrieved from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:08:31.792+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:31.791+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:08:31.889+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:08:31.889+0000] {dag.py:3328} INFO - Setting next_dagrun for spark_process_data_14 to 2023-05-18T17:00:00+00:00, run_after=2023-05-19T17:00:00+00:00
+[2023-05-19T04:08:31.973+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/spark_process_scheduler.py took 0.441 seconds
+[2023-05-19T04:09:02.562+0000] {processor.py:156} INFO - Started process (PID=193) to work on /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:09:02.573+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/spark_process_scheduler.py for tasks to queue
+[2023-05-19T04:09:02.576+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:09:02.575+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:09:02.707+0000] {processor.py:768} INFO - DAG(s) dict_keys(['spark_process_data_14']) retrieved from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:09:02.871+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:09:02.871+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:09:02.983+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:09:02.982+0000] {dag.py:3328} INFO - Setting next_dagrun for spark_process_data_14 to 2023-05-18T17:00:00+00:00, run_after=2023-05-19T17:00:00+00:00
+[2023-05-19T04:09:03.064+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/spark_process_scheduler.py took 0.517 seconds
+[2023-05-19T04:12:23.432+0000] {processor.py:156} INFO - Started process (PID=44) to work on /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:12:23.439+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/spark_process_scheduler.py for tasks to queue
+[2023-05-19T04:12:23.442+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:12:23.441+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:12:23.677+0000] {processor.py:768} INFO - DAG(s) dict_keys(['spark_process_data_14']) retrieved from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:12:24.469+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:12:24.468+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:12:24.679+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:12:24.678+0000] {dag.py:3328} INFO - Setting next_dagrun for spark_process_data_14 to 2023-05-18T17:00:00+00:00, run_after=2023-05-19T17:00:00+00:00
+[2023-05-19T04:12:24.826+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/spark_process_scheduler.py took 1.426 seconds
+[2023-05-19T04:18:20.801+0000] {processor.py:156} INFO - Started process (PID=45) to work on /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:18:20.804+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/spark_process_scheduler.py for tasks to queue
+[2023-05-19T04:18:20.807+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:18:20.807+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:18:21.085+0000] {processor.py:768} INFO - DAG(s) dict_keys(['spark_process_data_14']) retrieved from /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T04:18:21.793+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:18:21.792+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-19T04:18:21.996+0000] {logging_mixin.py:117} INFO - [2023-05-19T04:18:21.995+0000] {dag.py:3328} INFO - Setting next_dagrun for spark_process_data_14 to 2023-05-18T17:00:00+00:00, run_after=2023-05-19T17:00:00+00:00
+[2023-05-19T04:18:22.114+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/spark_process_scheduler.py took 1.326 seconds
+[2023-05-19T09:07:18.759+0000] {processor.py:156} INFO - Started process (PID=40) to work on /opt/airflow/dags/spark_process_scheduler.py
+[2023-05-19T09:07:18.787+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/spark_process_scheduler.py for tasks to queue
+[2023-05-19T09:07:18.800+0000] {logging_mixin.py:117} INFO - [2023-05-19T09:07:18.799+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/spark_process_scheduler.py

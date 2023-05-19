@@ -1,0 +1,5 @@
+[2023-05-15T08:21:41.514+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:871: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti: TaskInstance | None = qry.with_for_update().one_or_none()
+
+[2023-05-15T08:21:41.714+0000] {taskinstance.py:1159} INFO - Dependencies not met for <TaskInstance: job_1_tranvietcuong.file_sensor scheduled__2023-05-11T20:50:00+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2023-05-15T08:21:42.087+0000] {local_task_job.py:103} INFO - Task is not able to be run
