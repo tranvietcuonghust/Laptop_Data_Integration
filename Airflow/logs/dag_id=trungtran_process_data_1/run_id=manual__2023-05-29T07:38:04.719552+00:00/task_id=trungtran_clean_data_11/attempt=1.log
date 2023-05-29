@@ -1,0 +1,204 @@
+[2023-05-29T07:38:08.046+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:871: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti: TaskInstance | None = qry.with_for_update().one_or_none()
+
+[2023-05-29T07:38:08.112+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: trungtran_process_data_1.trungtran_clean_data_11 manual__2023-05-29T07:38:04.719552+00:00 [queued]>
+[2023-05-29T07:38:08.187+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: trungtran_process_data_1.trungtran_clean_data_11 manual__2023-05-29T07:38:04.719552+00:00 [queued]>
+[2023-05-29T07:38:08.187+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-29T07:38:08.188+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-05-29T07:38:08.188+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-29T07:38:08.273+0000] {taskinstance.py:1383} INFO - Executing <Task(SparkSubmitOperator): trungtran_clean_data_11> on 2023-05-29 07:38:04.719552+00:00
+[2023-05-29T07:38:08.289+0000] {standard_task_runner.py:54} INFO - Started process 1242 to run task
+[2023-05-29T07:38:08.301+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'trungtran_process_data_1', 'trungtran_clean_data_11', 'manual__2023-05-29T07:38:04.719552+00:00', '--job-id', '4516', '--raw', '--subdir', 'DAGS_FOLDER/trungtran_process.py', '--cfg-path', '/tmp/tmpk4yj0v7v']
+[2023-05-29T07:38:08.303+0000] {standard_task_runner.py:83} INFO - Job 4516: Subtask trungtran_clean_data_11
+[2023-05-29T07:38:08.306+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/trungtran_process.py
+[2023-05-29T07:38:08.691+0000] {task_command.py:384} INFO - Running <TaskInstance: trungtran_process_data_1.trungtran_clean_data_11 manual__2023-05-29T07:38:04.719552+00:00 [running]> on host d68e775f4ed7
+[2023-05-29T07:38:08.704+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:873: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti = qry.one_or_none()
+
+[2023-05-29T07:38:09.086+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=pioneer22022001@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=trungtran_process_data_1
+AIRFLOW_CTX_TASK_ID=trungtran_clean_data_11
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-29T07:38:04.719552+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-29T07:38:04.719552+00:00
+[2023-05-29T07:38:09.138+0000] {base.py:71} INFO - Using connection ID 'other_spark_local' for task execution.
+[2023-05-29T07:38:09.143+0000] {spark_submit.py:339} INFO - Spark-Submit cmd: spark-submit --master spark://spark-master:7077 --conf spark.master=spark://spark-master:7077 --name trungtran_clean_data --verbose /opt/spark/app/process_trungtran.py
+[2023-05-29T07:38:09.203+0000] {spark_submit.py:490} INFO - /opt/spark/bin/load-spark-env.sh: line 68: ps: command not found
+[2023-05-29T07:38:13.488+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:873: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti = qry.one_or_none()
+
+[2023-05-29T07:38:13.991+0000] {spark_submit.py:490} INFO - Using properties file: null
+[2023-05-29T07:38:14.616+0000] {spark_submit.py:490} INFO - Parsed arguments:
+[2023-05-29T07:38:14.617+0000] {spark_submit.py:490} INFO - master                  spark://spark-master:7077
+[2023-05-29T07:38:14.618+0000] {spark_submit.py:490} INFO - deployMode              null
+[2023-05-29T07:38:14.619+0000] {spark_submit.py:490} INFO - executorMemory          null
+[2023-05-29T07:38:14.620+0000] {spark_submit.py:490} INFO - executorCores           null
+[2023-05-29T07:38:14.620+0000] {spark_submit.py:490} INFO - totalExecutorCores      null
+[2023-05-29T07:38:14.621+0000] {spark_submit.py:490} INFO - propertiesFile          null
+[2023-05-29T07:38:14.621+0000] {spark_submit.py:490} INFO - driverMemory            null
+[2023-05-29T07:38:14.622+0000] {spark_submit.py:490} INFO - driverCores             null
+[2023-05-29T07:38:14.622+0000] {spark_submit.py:490} INFO - driverExtraClassPath    null
+[2023-05-29T07:38:14.623+0000] {spark_submit.py:490} INFO - driverExtraLibraryPath  null
+[2023-05-29T07:38:14.623+0000] {spark_submit.py:490} INFO - driverExtraJavaOptions  null
+[2023-05-29T07:38:14.625+0000] {spark_submit.py:490} INFO - supervise               false
+[2023-05-29T07:38:14.625+0000] {spark_submit.py:490} INFO - queue                   null
+[2023-05-29T07:38:14.626+0000] {spark_submit.py:490} INFO - numExecutors            null
+[2023-05-29T07:38:14.627+0000] {spark_submit.py:490} INFO - files                   null
+[2023-05-29T07:38:14.627+0000] {spark_submit.py:490} INFO - pyFiles                 null
+[2023-05-29T07:38:14.628+0000] {spark_submit.py:490} INFO - archives                null
+[2023-05-29T07:38:14.629+0000] {spark_submit.py:490} INFO - mainClass               null
+[2023-05-29T07:38:14.630+0000] {spark_submit.py:490} INFO - primaryResource         file:/opt/spark/app/process_trungtran.py
+[2023-05-29T07:38:14.631+0000] {spark_submit.py:490} INFO - name                    trungtran_clean_data
+[2023-05-29T07:38:14.631+0000] {spark_submit.py:490} INFO - childArgs               []
+[2023-05-29T07:38:14.632+0000] {spark_submit.py:490} INFO - jars                    null
+[2023-05-29T07:38:14.633+0000] {spark_submit.py:490} INFO - packages                null
+[2023-05-29T07:38:14.634+0000] {spark_submit.py:490} INFO - packagesExclusions      null
+[2023-05-29T07:38:14.634+0000] {spark_submit.py:490} INFO - repositories            null
+[2023-05-29T07:38:14.635+0000] {spark_submit.py:490} INFO - verbose                 true
+[2023-05-29T07:38:14.636+0000] {spark_submit.py:490} INFO - 
+[2023-05-29T07:38:14.637+0000] {spark_submit.py:490} INFO - Spark properties used, including those specified through
+[2023-05-29T07:38:14.647+0000] {spark_submit.py:490} INFO - --conf and those from the properties file null:
+[2023-05-29T07:38:14.647+0000] {spark_submit.py:490} INFO - (spark.master,spark://spark-master:7077)
+[2023-05-29T07:38:14.648+0000] {spark_submit.py:490} INFO - 
+[2023-05-29T07:38:14.649+0000] {spark_submit.py:490} INFO - 
+[2023-05-29T07:38:17.029+0000] {spark_submit.py:490} INFO - Main class:
+[2023-05-29T07:38:17.030+0000] {spark_submit.py:490} INFO - org.apache.spark.deploy.PythonRunner
+[2023-05-29T07:38:17.032+0000] {spark_submit.py:490} INFO - Arguments:
+[2023-05-29T07:38:17.033+0000] {spark_submit.py:490} INFO - file:/opt/spark/app/process_trungtran.py
+[2023-05-29T07:38:17.035+0000] {spark_submit.py:490} INFO - null
+[2023-05-29T07:38:17.047+0000] {spark_submit.py:490} INFO - Spark config:
+[2023-05-29T07:38:17.048+0000] {spark_submit.py:490} INFO - (spark.app.name,trungtran_clean_data)
+[2023-05-29T07:38:17.048+0000] {spark_submit.py:490} INFO - (spark.master,spark://spark-master:7077)
+[2023-05-29T07:38:17.049+0000] {spark_submit.py:490} INFO - (spark.submit.pyFiles,)
+[2023-05-29T07:38:17.050+0000] {spark_submit.py:490} INFO - (spark.submit.deployMode,client)
+[2023-05-29T07:38:17.057+0000] {spark_submit.py:490} INFO - Classpath elements:
+[2023-05-29T07:38:17.058+0000] {spark_submit.py:490} INFO - 
+[2023-05-29T07:38:17.070+0000] {spark_submit.py:490} INFO - 
+[2023-05-29T07:38:17.071+0000] {spark_submit.py:490} INFO - 
+[2023-05-29T07:38:20.821+0000] {spark_submit.py:490} INFO - Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2023-05-29T07:38:20.863+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:20 INFO SparkContext: Running Spark version 3.2.3
+[2023-05-29T07:38:21.752+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:21 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2023-05-29T07:38:22.455+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:22 INFO ResourceUtils: ==============================================================
+[2023-05-29T07:38:22.463+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:22 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2023-05-29T07:38:22.471+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:22 INFO ResourceUtils: ==============================================================
+[2023-05-29T07:38:22.485+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:22 INFO SparkContext: Submitted application: clean_data_trungtran
+[2023-05-29T07:38:22.695+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:22 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2023-05-29T07:38:22.819+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:22 INFO ResourceProfile: Limiting resource is cpu
+[2023-05-29T07:38:22.829+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:22 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2023-05-29T07:38:23.101+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:23 INFO SecurityManager: Changing view acls to: ***
+[2023-05-29T07:38:23.104+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:23 INFO SecurityManager: Changing modify acls to: ***
+[2023-05-29T07:38:23.107+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:23 INFO SecurityManager: Changing view acls groups to:
+[2023-05-29T07:38:23.109+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:23 INFO SecurityManager: Changing modify acls groups to:
+[2023-05-29T07:38:23.111+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:23 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(***); groups with view permissions: Set(); users  with modify permissions: Set(***); groups with modify permissions: Set()
+[2023-05-29T07:38:24.355+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:24 INFO Utils: Successfully started service 'sparkDriver' on port 43225.
+[2023-05-29T07:38:24.461+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:24 INFO SparkEnv: Registering MapOutputTracker
+[2023-05-29T07:38:24.589+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:24 INFO SparkEnv: Registering BlockManagerMaster
+[2023-05-29T07:38:24.675+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:24 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2023-05-29T07:38:24.678+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:24 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2023-05-29T07:38:24.692+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:24 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2023-05-29T07:38:24.893+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:24 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-2ea84479-f2e1-46d4-b3ea-b185a50c68a3
+[2023-05-29T07:38:25.033+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:25 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+[2023-05-29T07:38:25.199+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:25 INFO SparkEnv: Registering OutputCommitCoordinator
+[2023-05-29T07:38:26.150+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:26 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2023-05-29T07:38:26.184+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:26 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+[2023-05-29T07:38:26.434+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:26 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://d68e775f4ed7:4041
+[2023-05-29T07:38:27.309+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:27 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+[2023-05-29T07:38:27.501+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:27 INFO TransportClientFactory: Successfully created connection to spark-master/172.27.0.2:7077 after 100 ms (0 ms spent in bootstraps)
+[2023-05-29T07:38:27.782+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:27 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20230529073827-0005
+[2023-05-29T07:38:27.815+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:27 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45497.
+[2023-05-29T07:38:27.816+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:27 INFO NettyBlockTransferService: Server created on d68e775f4ed7:45497
+[2023-05-29T07:38:27.822+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:27 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2023-05-29T07:38:27.852+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:27 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, d68e775f4ed7, 45497, None)
+[2023-05-29T07:38:27.866+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:27 INFO BlockManagerMasterEndpoint: Registering block manager d68e775f4ed7:45497 with 366.3 MiB RAM, BlockManagerId(driver, d68e775f4ed7, 45497, None)
+[2023-05-29T07:38:27.876+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:27 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, d68e775f4ed7, 45497, None)
+[2023-05-29T07:38:27.880+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:27 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, d68e775f4ed7, 45497, None)
+[2023-05-29T07:38:28.705+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:28 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2023-05-29T07:38:29.691+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:29 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2023-05-29T07:38:29.835+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:29 INFO SharedState: Warehouse path is 'file:/opt/***/spark-warehouse'.
+[2023-05-29T07:38:32.660+0000] {spark_submit.py:490} INFO - /usr/local/lib/python3.7/site-packages/pyspark/sql/context.py:79: FutureWarning: Deprecated in 3.0.0. Use SparkSession.builder.getOrCreate() instead.
+[2023-05-29T07:38:32.661+0000] {spark_submit.py:490} INFO - FutureWarning
+[2023-05-29T07:38:34.542+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:34 INFO InMemoryFileIndex: It took 286 ms to list leaf files for 1 paths.
+[2023-05-29T07:38:45.674+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:45 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20230529073827-0005/0 on worker-20230529072513-172.27.0.3-7000 (172.27.0.3:7000) with 1 core(s)
+[2023-05-29T07:38:45.682+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:45 INFO StandaloneSchedulerBackend: Granted executor ID app-20230529073827-0005/0 on hostPort 172.27.0.3:7000 with 1 core(s), 1024.0 MiB RAM
+[2023-05-29T07:38:45.866+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:45 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20230529073827-0005/0 is now RUNNING
+[2023-05-29T07:38:46.584+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:46 INFO FileSourceStrategy: Pushed Filters:
+[2023-05-29T07:38:46.589+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:46 INFO FileSourceStrategy: Post-Scan Filters:
+[2023-05-29T07:38:46.599+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:46 INFO FileSourceStrategy: Output Data Schema: struct<Battery: string, Brand,: string, CPU: string, Color: string, Display: string ... 14 more fields>
+[2023-05-29T07:38:47.914+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:47 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 338.6 KiB, free 366.0 MiB)
+[2023-05-29T07:38:48.132+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:48 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.5 KiB, free 365.9 MiB)
+[2023-05-29T07:38:48.141+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:48 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on d68e775f4ed7:45497 (size: 32.5 KiB, free: 366.3 MiB)
+[2023-05-29T07:38:48.159+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:48 INFO SparkContext: Created broadcast 0 from showString at NativeMethodAccessorImpl.java:0
+[2023-05-29T07:38:48.245+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:48 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2023-05-29T07:38:48.689+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:48 INFO SparkContext: Starting job: showString at NativeMethodAccessorImpl.java:0
+[2023-05-29T07:38:48.751+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:48 INFO DAGScheduler: Got job 0 (showString at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2023-05-29T07:38:48.754+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:48 INFO DAGScheduler: Final stage: ResultStage 0 (showString at NativeMethodAccessorImpl.java:0)
+[2023-05-29T07:38:48.755+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:48 INFO DAGScheduler: Parents of final stage: List()
+[2023-05-29T07:38:48.762+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:48 INFO DAGScheduler: Missing parents: List()
+[2023-05-29T07:38:48.780+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:48 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[2] at showString at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2023-05-29T07:38:49.519+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:49 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 11.6 KiB, free 365.9 MiB)
+[2023-05-29T07:38:49.531+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:49 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.1 KiB, free 365.9 MiB)
+[2023-05-29T07:38:49.533+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:49 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on d68e775f4ed7:45497 (size: 6.1 KiB, free: 366.3 MiB)
+[2023-05-29T07:38:49.537+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:49 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1478
+[2023-05-29T07:38:49.579+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:49 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[2] at showString at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2023-05-29T07:38:49.582+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:49 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[2023-05-29T07:38:54.190+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:54 INFO CoarseGrainedSchedulerBackend$DriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.27.0.3:49014) with ID 0,  ResourceProfileId 0
+[2023-05-29T07:38:54.505+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:54 INFO BlockManagerMasterEndpoint: Registering block manager 172.27.0.3:45157 with 366.3 MiB RAM, BlockManagerId(0, 172.27.0.3, 45157, None)
+[2023-05-29T07:38:54.692+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:54 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (172.27.0.3, executor 0, partition 0, PROCESS_LOCAL, 4882 bytes) taskResourceAssignments Map()
+[2023-05-29T07:38:55.951+0000] {spark_submit.py:490} INFO - 23/05/29 07:38:55 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 172.27.0.3:45157 (size: 6.1 KiB, free: 366.3 MiB)
+[2023-05-29T07:39:01.107+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:01 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 172.27.0.3:45157 (size: 32.5 KiB, free: 366.3 MiB)
+[2023-05-29T07:39:02.089+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:02 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 7430 ms on 172.27.0.3 (executor 0) (1/1)
+[2023-05-29T07:39:02.095+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:02 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2023-05-29T07:39:02.119+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:02 INFO DAGScheduler: ResultStage 0 (showString at NativeMethodAccessorImpl.java:0) finished in 13.278 s
+[2023-05-29T07:39:02.134+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:02 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[2023-05-29T07:39:02.136+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:02 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[2023-05-29T07:39:02.144+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:02 INFO DAGScheduler: Job 0 finished: showString at NativeMethodAccessorImpl.java:0, took 13.452019 s
+[2023-05-29T07:39:03.426+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:03 INFO CodeGenerator: Code generated in 1010.106339 ms
+[2023-05-29T07:39:03.562+0000] {spark_submit.py:490} INFO - +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
+[2023-05-29T07:39:03.563+0000] {spark_submit.py:490} INFO - |             Battery|              Brand,|                 CPU|               Color|             Display|            Graphics|            MFG_year|                Name|                  OS|               Price|                 Ram|                Size|             Storage|                 URL|              Weight|            Wireless|
+[2023-05-29T07:39:03.564+0000] {spark_submit.py:490} INFO - +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
+[2023-05-29T07:39:03.564+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Lenovo Thinkpad X...|\n               ...|         11.400.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|                null|
+[2023-05-29T07:39:03.565+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Lenovo Thinkpad X...|\n               ...|         11.900.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|                null|
+[2023-05-29T07:39:03.566+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Thinkpad X1 Carbo...|\n               ...|         10.290.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.566+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Thinkpad X1 Carbo...|\n               ...|         10.790.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.567+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Lenovo Thinkpad X...|\n               ...|         11.400.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.567+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|HP ZBook 17 G3 i7...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.568+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Dell Latitude 740...|\n               ...|          9.400.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.569+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Dell Latitude 740...|\n               ...|          9.900.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.569+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Dell Latitude 740...|\n               ...|          9.900.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.570+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Dell Latitude 740...|\n               ...|         10.400.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.571+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Dell Latitude 740...|\n               ...|          8.100.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.571+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Lenovo Thinkpad T...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.572+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|ThinkPad P50 Xeon...|\n               ...|         15.000.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.573+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|ThinkPad P50 Xeon...|\n               ...|         16.000.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.573+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|ThinkPad P50 Xeon...|\n               ...|         18.000.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.574+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|ThinkPad P50 Xeon...|\n               ...|         19.000.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.574+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Dell Latitude 530...|\n               ...|          8.500.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.575+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Dell Latitude 530...|\n               ...|          9.500.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.575+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Dell Precision 55...|\n               ...|         13.900.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.576+0000] {spark_submit.py:490} INFO - |\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|\n               ...|Dell Precision 55...|\n               ...|         14.900.000đ|\n               ...|\n               ...|\n               ...|https://trungtran...|\n               ...|\n               ...|
+[2023-05-29T07:39:03.577+0000] {spark_submit.py:490} INFO - +--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
+[2023-05-29T07:39:03.577+0000] {spark_submit.py:490} INFO - only showing top 20 rows
+[2023-05-29T07:39:03.578+0000] {spark_submit.py:490} INFO - 
+[2023-05-29T07:39:03.594+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:03 INFO SparkUI: Stopped Spark web UI at http://d68e775f4ed7:4041
+[2023-05-29T07:39:03.606+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:03 INFO StandaloneSchedulerBackend: Shutting down all executors
+[2023-05-29T07:39:03.608+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:03 INFO CoarseGrainedSchedulerBackend$DriverEndpoint: Asking each executor to shut down
+[2023-05-29T07:39:03.708+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:03 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2023-05-29T07:39:03.753+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:03 INFO MemoryStore: MemoryStore cleared
+[2023-05-29T07:39:03.755+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:03 INFO BlockManager: BlockManager stopped
+[2023-05-29T07:39:03.782+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:03 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2023-05-29T07:39:03.791+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:03 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2023-05-29T07:39:03.855+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:03 INFO SparkContext: Successfully stopped SparkContext
+[2023-05-29T07:39:04.338+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:04 INFO ShutdownHookManager: Shutdown hook called
+[2023-05-29T07:39:04.340+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-265419d5-7225-4b76-9a73-4cd784019084
+[2023-05-29T07:39:04.350+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-265419d5-7225-4b76-9a73-4cd784019084/pyspark-64f12d82-c830-4528-9665-7914b3cec85e
+[2023-05-29T07:39:04.361+0000] {spark_submit.py:490} INFO - 23/05/29 07:39:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-271cccc8-2726-4847-8f28-9ab711ea92be
+[2023-05-29T07:39:04.620+0000] {warnings.py:110} WARNING - /usr/local/lib/python3.7/site-packages/***/models/taskinstance.py:871: SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+  ti: TaskInstance | None = qry.with_for_update().one_or_none()
+
+[2023-05-29T07:39:04.646+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=trungtran_process_data_1, task_id=trungtran_clean_data_11, execution_date=20230529T073804, start_date=20230529T073808, end_date=20230529T073904
+[2023-05-29T07:39:04.728+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-05-29T07:39:04.888+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
