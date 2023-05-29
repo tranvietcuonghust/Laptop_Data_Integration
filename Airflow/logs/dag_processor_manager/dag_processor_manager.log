@@ -2133,3 +2133,89 @@ File Path                                        PID    Runtime      # DAGs    #
 /opt/airflow/dags/spark_process_scheduler.py                              1           0  0.69s           2023-05-29T08:35:22
 /opt/airflow/dags/subtaskexample.py                                       2           0  1.16s           2023-05-29T08:35:07
 ================================================================================
+[2023-05-29T08:35:57.234+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/azure_cosmos_with_provider.py                           0           1  0.85s           2023-05-29T08:35:41
+/opt/airflow/dags/trungtran_process.py                                    1           0  0.59s           2023-05-29T08:35:40
+/opt/airflow/dags/processSQL.py                                           1           0  0.44s           2023-05-29T08:35:53
+/opt/airflow/dags/azure_cosmos.py                                         1           0  1.41s           2023-05-29T08:35:34
+/opt/airflow/dags/testcelerydag.py                                        1           0  0.45s           2023-05-29T08:35:53
+/opt/airflow/dags/spark_process_scheduler.py                              1           0  0.51s           2023-05-29T08:35:52
+/opt/airflow/dags/subtaskexample.py                                       2           0  1.36s           2023-05-29T08:35:39
+================================================================================
+[2023-05-29T08:36:27.885+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/azure_cosmos_with_provider.py                           0           1  0.80s           2023-05-29T08:36:12
+/opt/airflow/dags/trungtran_process.py                                    1           0  0.56s           2023-05-29T08:36:11
+/opt/airflow/dags/processSQL.py                                           1           0  0.48s           2023-05-29T08:36:23
+/opt/airflow/dags/azure_cosmos.py                                         1           0  1.43s           2023-05-29T08:36:05
+/opt/airflow/dags/testcelerydag.py                                        1           0  0.41s           2023-05-29T08:36:24
+/opt/airflow/dags/spark_process_scheduler.py                              1           0  0.49s           2023-05-29T08:36:23
+/opt/airflow/dags/subtaskexample.py                                       2           0  1.12s           2023-05-29T08:36:10
+================================================================================
+[2023-05-29T08:36:40.920+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-05-29T08:36:40.935+0000] {manager.py:727} INFO - There are 7 files in /opt/airflow/dags
+[2023-05-29T08:36:58.278+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/azure_cosmos_with_provider.py                           0           1  1.09s           2023-05-29T08:36:43
+/opt/airflow/dags/trungtran_process.py                                    1           0  0.81s           2023-05-29T08:36:42
+/opt/airflow/dags/processSQL.py                                           1           0  0.60s           2023-05-29T08:36:54
+/opt/airflow/dags/azure_cosmos.py                                         1           0  1.91s           2023-05-29T08:36:37
+/opt/airflow/dags/testcelerydag.py                                        1           0  0.60s           2023-05-29T08:36:55
+/opt/airflow/dags/spark_process_scheduler.py                              1           0  0.65s           2023-05-29T08:36:54
+/opt/airflow/dags/subtaskexample.py                                       2           0  1.14s           2023-05-29T08:36:42
+================================================================================
+[2023-05-29T08:37:28.642+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/azure_cosmos_with_provider.py                           0           1  1.08s           2023-05-29T08:37:15
+/opt/airflow/dags/trungtran_process.py                                    1           0  0.97s           2023-05-29T08:37:13
+/opt/airflow/dags/processSQL.py                                           1           0  0.76s           2023-05-29T08:37:26
+/opt/airflow/dags/azure_cosmos.py                                         1           0  2.00s           2023-05-29T08:37:10
+/opt/airflow/dags/testcelerydag.py                                        1           0  0.51s           2023-05-29T08:37:26
+/opt/airflow/dags/spark_process_scheduler.py                              1           0  0.74s           2023-05-29T08:37:26
+/opt/airflow/dags/subtaskexample.py                                       2           0  1.70s           2023-05-29T08:37:14
+================================================================================
+[2023-05-29T08:37:58.951+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/azure_cosmos_with_provider.py                           0           1  1.25s           2023-05-29T08:37:46
+/opt/airflow/dags/trungtran_process.py                                    1           0  0.83s           2023-05-29T08:37:45
+/opt/airflow/dags/processSQL.py                                           1           0  1.07s           2023-05-29T08:37:58
+/opt/airflow/dags/azure_cosmos.py                                         1           0  2.01s           2023-05-29T08:37:42
+/opt/airflow/dags/testcelerydag.py                                        1           0  0.87s           2023-05-29T08:37:58
+/opt/airflow/dags/spark_process_scheduler.py                              1           0  1.32s           2023-05-29T08:37:58
+/opt/airflow/dags/subtaskexample.py                                       2           0  1.34s           2023-05-29T08:37:45
+================================================================================
+[2023-05-29T08:38:29.057+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/azure_cosmos_with_provider.py                           0           1  1.10s           2023-05-29T08:38:18
+/opt/airflow/dags/trungtran_process.py                                    1           0  0.71s           2023-05-29T08:38:15
+/opt/airflow/dags/processSQL.py                                           1           0  0.80s           2023-05-29T08:38:28
+/opt/airflow/dags/azure_cosmos.py                                         1           0  2.88s           2023-05-29T08:38:16
+/opt/airflow/dags/testcelerydag.py                3641  0.02s             1           0  0.87s           2023-05-29T08:37:58
+/opt/airflow/dags/spark_process_scheduler.py      3640  0.03s             1           0  1.32s           2023-05-29T08:37:58
+/opt/airflow/dags/subtaskexample.py                                       2           0  1.35s           2023-05-29T08:38:17
+================================================================================

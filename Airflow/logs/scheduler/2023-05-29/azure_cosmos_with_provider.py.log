@@ -6523,3 +6523,261 @@ Traceback (most recent call last):
 AttributeError: 'CosmosClient' object has no attribute 'get_container_client'
 [2023-05-29T08:35:09.399+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/azure_cosmos_with_provider.py
 [2023-05-29T08:35:09.450+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/azure_cosmos_with_provider.py took 1.045 seconds
+[2023-05-29T08:35:40.292+0000] {processor.py:156} INFO - Started process (PID=3499) to work on /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:35:40.294+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/azure_cosmos_with_provider.py for tasks to queue
+[2023-05-29T08:35:40.297+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:40.296+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:35:40.517+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:40.517+0000] {base.py:71} INFO - Using connection ID 'azure_cosmos_default' for task execution.
+[2023-05-29T08:35:40.531+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:40.530+0000] {_universal.py:513} INFO - Request URL: 'https://tranvietcuonghust.documents.azure.com:443/'
+Request method: 'GET'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '0'
+    'User-Agent': 'azsdk-python-cosmos/4.3.1 Python/3.7.16 (Linux-5.19.0-42-generic-x86_64-with-debian-10.13)'
+No body was attached to the request
+[2023-05-29T08:35:41.025+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:41.024+0000] {_universal.py:549} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Content-Location': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-max-media-storage-usage-mb': 'REDACTED'
+    'x-ms-media-storage-usage-mb': 'REDACTED'
+    'x-ms-databaseaccount-consumed-mb': 'REDACTED'
+    'x-ms-databaseaccount-reserved-mb': 'REDACTED'
+    'x-ms-databaseaccount-provisioned-mb': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Mon, 29 May 2023 08:35:42 GMT'
+[2023-05-29T08:35:41.029+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:41.027+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/azure_cosmos_with_provider.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/azure_cosmos_with_provider.py", line 29, in <module>
+    container_proxy = client.get_container_client(container_link)
+AttributeError: 'CosmosClient' object has no attribute 'get_container_client'
+[2023-05-29T08:35:41.030+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:35:41.076+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/azure_cosmos_with_provider.py took 0.797 seconds
+[2023-05-29T08:36:11.472+0000] {processor.py:156} INFO - Started process (PID=3525) to work on /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:36:11.486+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/azure_cosmos_with_provider.py for tasks to queue
+[2023-05-29T08:36:11.488+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:11.488+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:36:11.705+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:11.704+0000] {base.py:71} INFO - Using connection ID 'azure_cosmos_default' for task execution.
+[2023-05-29T08:36:11.719+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:11.719+0000] {_universal.py:513} INFO - Request URL: 'https://tranvietcuonghust.documents.azure.com:443/'
+Request method: 'GET'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '0'
+    'User-Agent': 'azsdk-python-cosmos/4.3.1 Python/3.7.16 (Linux-5.19.0-42-generic-x86_64-with-debian-10.13)'
+No body was attached to the request
+[2023-05-29T08:36:12.160+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:12.159+0000] {_universal.py:549} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Content-Location': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-max-media-storage-usage-mb': 'REDACTED'
+    'x-ms-media-storage-usage-mb': 'REDACTED'
+    'x-ms-databaseaccount-consumed-mb': 'REDACTED'
+    'x-ms-databaseaccount-reserved-mb': 'REDACTED'
+    'x-ms-databaseaccount-provisioned-mb': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Mon, 29 May 2023 08:36:12 GMT'
+[2023-05-29T08:36:12.164+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:12.161+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/azure_cosmos_with_provider.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/azure_cosmos_with_provider.py", line 29, in <module>
+    container_proxy = client.get_container_client(container_link)
+AttributeError: 'CosmosClient' object has no attribute 'get_container_client'
+[2023-05-29T08:36:12.165+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:36:12.218+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/azure_cosmos_with_provider.py took 0.756 seconds
+[2023-05-29T08:36:42.876+0000] {processor.py:156} INFO - Started process (PID=3559) to work on /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:36:42.887+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/azure_cosmos_with_provider.py for tasks to queue
+[2023-05-29T08:36:42.891+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:42.890+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:36:43.272+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:43.271+0000] {base.py:71} INFO - Using connection ID 'azure_cosmos_default' for task execution.
+[2023-05-29T08:36:43.299+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:43.298+0000] {_universal.py:513} INFO - Request URL: 'https://tranvietcuonghust.documents.azure.com:443/'
+Request method: 'GET'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '0'
+    'User-Agent': 'azsdk-python-cosmos/4.3.1 Python/3.7.16 (Linux-5.19.0-42-generic-x86_64-with-debian-10.13)'
+No body was attached to the request
+[2023-05-29T08:36:43.798+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:43.798+0000] {_universal.py:549} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Content-Location': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-max-media-storage-usage-mb': 'REDACTED'
+    'x-ms-media-storage-usage-mb': 'REDACTED'
+    'x-ms-databaseaccount-consumed-mb': 'REDACTED'
+    'x-ms-databaseaccount-reserved-mb': 'REDACTED'
+    'x-ms-databaseaccount-provisioned-mb': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Mon, 29 May 2023 08:36:44 GMT'
+[2023-05-29T08:36:43.819+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:43.800+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/azure_cosmos_with_provider.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/azure_cosmos_with_provider.py", line 29, in <module>
+    container_proxy = client.get_container_client(container_link)
+AttributeError: 'CosmosClient' object has no attribute 'get_container_client'
+[2023-05-29T08:36:43.820+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:36:43.878+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/azure_cosmos_with_provider.py took 1.014 seconds
+[2023-05-29T08:37:14.228+0000] {processor.py:156} INFO - Started process (PID=3584) to work on /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:37:14.239+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/azure_cosmos_with_provider.py for tasks to queue
+[2023-05-29T08:37:14.242+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:14.241+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:37:14.583+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:14.582+0000] {base.py:71} INFO - Using connection ID 'azure_cosmos_default' for task execution.
+[2023-05-29T08:37:14.600+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:14.600+0000] {_universal.py:513} INFO - Request URL: 'https://tranvietcuonghust.documents.azure.com:443/'
+Request method: 'GET'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '0'
+    'User-Agent': 'azsdk-python-cosmos/4.3.1 Python/3.7.16 (Linux-5.19.0-42-generic-x86_64-with-debian-10.13)'
+No body was attached to the request
+[2023-05-29T08:37:15.175+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:15.174+0000] {_universal.py:549} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Content-Location': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-max-media-storage-usage-mb': 'REDACTED'
+    'x-ms-media-storage-usage-mb': 'REDACTED'
+    'x-ms-databaseaccount-consumed-mb': 'REDACTED'
+    'x-ms-databaseaccount-reserved-mb': 'REDACTED'
+    'x-ms-databaseaccount-provisioned-mb': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Mon, 29 May 2023 08:37:15 GMT'
+[2023-05-29T08:37:15.180+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:15.177+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/azure_cosmos_with_provider.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/azure_cosmos_with_provider.py", line 29, in <module>
+    container_proxy = client.get_container_client(container_link)
+AttributeError: 'CosmosClient' object has no attribute 'get_container_client'
+[2023-05-29T08:37:15.181+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:37:15.231+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/azure_cosmos_with_provider.py took 1.018 seconds
+[2023-05-29T08:37:45.762+0000] {processor.py:156} INFO - Started process (PID=3608) to work on /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:37:45.766+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/azure_cosmos_with_provider.py for tasks to queue
+[2023-05-29T08:37:45.769+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:45.768+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:37:46.158+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:46.157+0000] {base.py:71} INFO - Using connection ID 'azure_cosmos_default' for task execution.
+[2023-05-29T08:37:46.179+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:46.178+0000] {_universal.py:513} INFO - Request URL: 'https://tranvietcuonghust.documents.azure.com:443/'
+Request method: 'GET'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '0'
+    'User-Agent': 'azsdk-python-cosmos/4.3.1 Python/3.7.16 (Linux-5.19.0-42-generic-x86_64-with-debian-10.13)'
+No body was attached to the request
+[2023-05-29T08:37:46.778+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:46.749+0000] {_universal.py:549} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Content-Location': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-max-media-storage-usage-mb': 'REDACTED'
+    'x-ms-media-storage-usage-mb': 'REDACTED'
+    'x-ms-databaseaccount-consumed-mb': 'REDACTED'
+    'x-ms-databaseaccount-reserved-mb': 'REDACTED'
+    'x-ms-databaseaccount-provisioned-mb': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Mon, 29 May 2023 08:37:47 GMT'
+[2023-05-29T08:37:46.836+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:46.832+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/azure_cosmos_with_provider.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/azure_cosmos_with_provider.py", line 29, in <module>
+    container_proxy = client.get_container_client(container_link)
+AttributeError: 'CosmosClient' object has no attribute 'get_container_client'
+[2023-05-29T08:37:46.839+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:37:46.933+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/azure_cosmos_with_provider.py took 1.185 seconds
+[2023-05-29T08:38:17.042+0000] {processor.py:156} INFO - Started process (PID=3632) to work on /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:38:17.053+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/azure_cosmos_with_provider.py for tasks to queue
+[2023-05-29T08:38:17.057+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:17.056+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:38:17.399+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:17.398+0000] {base.py:71} INFO - Using connection ID 'azure_cosmos_default' for task execution.
+[2023-05-29T08:38:17.419+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:17.419+0000] {_universal.py:513} INFO - Request URL: 'https://tranvietcuonghust.documents.azure.com:443/'
+Request method: 'GET'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '0'
+    'User-Agent': 'azsdk-python-cosmos/4.3.1 Python/3.7.16 (Linux-5.19.0-42-generic-x86_64-with-debian-10.13)'
+No body was attached to the request
+[2023-05-29T08:38:17.997+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:17.996+0000] {_universal.py:549} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Content-Location': 'REDACTED'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'x-ms-max-media-storage-usage-mb': 'REDACTED'
+    'x-ms-media-storage-usage-mb': 'REDACTED'
+    'x-ms-databaseaccount-consumed-mb': 'REDACTED'
+    'x-ms-databaseaccount-reserved-mb': 'REDACTED'
+    'x-ms-databaseaccount-provisioned-mb': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Mon, 29 May 2023 08:38:18 GMT'
+[2023-05-29T08:38:18.002+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:17.999+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/azure_cosmos_with_provider.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/azure_cosmos_with_provider.py", line 29, in <module>
+    container_proxy = client.get_container_client(container_link)
+AttributeError: 'CosmosClient' object has no attribute 'get_container_client'
+[2023-05-29T08:38:18.004+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/azure_cosmos_with_provider.py
+[2023-05-29T08:38:18.064+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/azure_cosmos_with_provider.py took 1.037 seconds

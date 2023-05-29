@@ -15,7 +15,7 @@ sqlContext = SQLContext(spark)
 
 schema = StructType([ \
     StructField("Battery", StringType(), True), \
-    StructField("Brand,", StringType(), True), \
+    StructField("Brand", StringType(), True), \
     StructField("CPU", StringType(), True), \
     StructField("Color", StringType(), True), \
     StructField("Display", StringType(), True), \

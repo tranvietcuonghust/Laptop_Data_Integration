@@ -1020,3 +1020,45 @@
 [2023-05-29T08:35:22.495+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:22.494+0000] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-05-29T08:35:22.604+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:22.604+0000] {dag.py:3328} INFO - Setting next_dagrun for postgresSQL to 2023-01-31T17:00:00+00:00, run_after=2023-01-31T17:00:00+00:00
 [2023-05-29T08:35:22.681+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/processSQL.py took 0.450 seconds
+[2023-05-29T08:35:52.766+0000] {processor.py:156} INFO - Started process (PID=3511) to work on /opt/airflow/dags/processSQL.py
+[2023-05-29T08:35:52.769+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/processSQL.py for tasks to queue
+[2023-05-29T08:35:52.771+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:52.770+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:35:52.863+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgresSQL']) retrieved from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:35:52.989+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:52.988+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:35:53.080+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:53.079+0000] {dag.py:3328} INFO - Setting next_dagrun for postgresSQL to 2023-01-31T17:00:00+00:00, run_after=2023-01-31T17:00:00+00:00
+[2023-05-29T08:35:53.156+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/processSQL.py took 0.402 seconds
+[2023-05-29T08:36:23.384+0000] {processor.py:156} INFO - Started process (PID=3536) to work on /opt/airflow/dags/processSQL.py
+[2023-05-29T08:36:23.394+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/processSQL.py for tasks to queue
+[2023-05-29T08:36:23.398+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:23.398+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:36:23.497+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgresSQL']) retrieved from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:36:23.626+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:23.626+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:36:23.729+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:23.729+0000] {dag.py:3328} INFO - Setting next_dagrun for postgresSQL to 2023-01-31T17:00:00+00:00, run_after=2023-01-31T17:00:00+00:00
+[2023-05-29T08:36:23.803+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/processSQL.py took 0.432 seconds
+[2023-05-29T08:36:54.060+0000] {processor.py:156} INFO - Started process (PID=3561) to work on /opt/airflow/dags/processSQL.py
+[2023-05-29T08:36:54.063+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/processSQL.py for tasks to queue
+[2023-05-29T08:36:54.066+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:54.065+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:36:54.178+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgresSQL']) retrieved from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:36:54.331+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:54.330+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:36:54.479+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:54.478+0000] {dag.py:3328} INFO - Setting next_dagrun for postgresSQL to 2023-01-31T17:00:00+00:00, run_after=2023-01-31T17:00:00+00:00
+[2023-05-29T08:36:54.578+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/processSQL.py took 0.535 seconds
+[2023-05-29T08:37:25.386+0000] {processor.py:156} INFO - Started process (PID=3586) to work on /opt/airflow/dags/processSQL.py
+[2023-05-29T08:37:25.389+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/processSQL.py for tasks to queue
+[2023-05-29T08:37:25.392+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:25.391+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:37:25.551+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgresSQL']) retrieved from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:37:25.748+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:25.747+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:37:25.904+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:25.903+0000] {dag.py:3328} INFO - Setting next_dagrun for postgresSQL to 2023-01-31T17:00:00+00:00, run_after=2023-01-31T17:00:00+00:00
+[2023-05-29T08:37:26.058+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/processSQL.py took 0.687 seconds
+[2023-05-29T08:37:57.028+0000] {processor.py:156} INFO - Started process (PID=3610) to work on /opt/airflow/dags/processSQL.py
+[2023-05-29T08:37:57.031+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/processSQL.py for tasks to queue
+[2023-05-29T08:37:57.035+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:57.034+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:37:57.217+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgresSQL']) retrieved from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:37:57.483+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:57.482+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:37:57.819+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:57.818+0000] {dag.py:3328} INFO - Setting next_dagrun for postgresSQL to 2023-01-31T17:00:00+00:00, run_after=2023-01-31T17:00:00+00:00
+[2023-05-29T08:37:58.013+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/processSQL.py took 1.003 seconds
+[2023-05-29T08:38:28.251+0000] {processor.py:156} INFO - Started process (PID=3633) to work on /opt/airflow/dags/processSQL.py
+[2023-05-29T08:38:28.254+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/processSQL.py for tasks to queue
+[2023-05-29T08:38:28.256+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:28.255+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:38:28.399+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgresSQL']) retrieved from /opt/airflow/dags/processSQL.py
+[2023-05-29T08:38:28.690+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:28.689+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:38:28.861+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:28.861+0000] {dag.py:3328} INFO - Setting next_dagrun for postgresSQL to 2023-01-31T17:00:00+00:00, run_after=2023-01-31T17:00:00+00:00
+[2023-05-29T08:38:28.963+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/processSQL.py took 0.725 seconds

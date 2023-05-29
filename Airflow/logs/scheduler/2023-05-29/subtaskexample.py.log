@@ -1428,3 +1428,63 @@
 [2023-05-29T08:35:07.389+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:07.389+0000] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-05-29T08:35:07.411+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:07.411+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
 [2023-05-29T08:35:07.461+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/subtaskexample.py took 1.116 seconds
+[2023-05-29T08:35:37.884+0000] {processor.py:156} INFO - Started process (PID=3497) to work on /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:35:37.895+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/subtaskexample.py for tasks to queue
+[2023-05-29T08:35:37.898+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:37.897+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:35:38.022+0000] {processor.py:768} INFO - DAG(s) dict_keys(['CHIQUANGDAG.subdag', 'CHIQUANGDAG']) retrieved from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:35:38.912+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:38.911+0000] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-05-29T08:35:39.070+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:39.069+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG to 2023-01-31T17:00:00+00:00, run_after=2023-02-01T17:00:00+00:00
+[2023-05-29T08:35:39.088+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:39.087+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:35:39.117+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:39.116+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:35:39.139+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:35:39.138+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:35:39.186+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/subtaskexample.py took 1.317 seconds
+[2023-05-29T08:36:09.446+0000] {processor.py:156} INFO - Started process (PID=3523) to work on /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:36:09.454+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/subtaskexample.py for tasks to queue
+[2023-05-29T08:36:09.459+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:09.458+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:36:09.648+0000] {processor.py:768} INFO - DAG(s) dict_keys(['CHIQUANGDAG.subdag', 'CHIQUANGDAG']) retrieved from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:36:10.293+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:10.293+0000] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-05-29T08:36:10.419+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:10.418+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG to 2023-01-31T17:00:00+00:00, run_after=2023-02-01T17:00:00+00:00
+[2023-05-29T08:36:10.430+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:10.430+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:36:10.448+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:10.448+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:36:10.464+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:10.464+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:36:10.495+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/subtaskexample.py took 1.069 seconds
+[2023-05-29T08:36:41.014+0000] {processor.py:156} INFO - Started process (PID=3548) to work on /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:36:41.016+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/subtaskexample.py for tasks to queue
+[2023-05-29T08:36:41.019+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:41.018+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:36:41.132+0000] {processor.py:768} INFO - DAG(s) dict_keys(['CHIQUANGDAG.subdag', 'CHIQUANGDAG']) retrieved from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:36:41.782+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:41.782+0000] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-05-29T08:36:41.939+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:41.938+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG to 2023-01-31T17:00:00+00:00, run_after=2023-02-01T17:00:00+00:00
+[2023-05-29T08:36:41.958+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:41.957+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:36:41.989+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:41.989+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:36:42.023+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:36:42.022+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:36:42.086+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/subtaskexample.py took 1.083 seconds
+[2023-05-29T08:37:12.546+0000] {processor.py:156} INFO - Started process (PID=3576) to work on /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:37:12.555+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/subtaskexample.py for tasks to queue
+[2023-05-29T08:37:12.560+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:12.559+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:37:12.726+0000] {processor.py:768} INFO - DAG(s) dict_keys(['CHIQUANGDAG.subdag', 'CHIQUANGDAG']) retrieved from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:37:13.829+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:13.828+0000] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-05-29T08:37:13.983+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:13.982+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG to 2023-01-31T17:00:00+00:00, run_after=2023-02-01T17:00:00+00:00
+[2023-05-29T08:37:14.001+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:14.000+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:37:14.034+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:14.033+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:37:14.064+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:14.063+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:37:14.128+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/subtaskexample.py took 1.608 seconds
+[2023-05-29T08:37:44.412+0000] {processor.py:156} INFO - Started process (PID=3607) to work on /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:37:44.415+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/subtaskexample.py for tasks to queue
+[2023-05-29T08:37:44.418+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:44.417+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:37:44.563+0000] {processor.py:768} INFO - DAG(s) dict_keys(['CHIQUANGDAG.subdag', 'CHIQUANGDAG']) retrieved from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:37:45.438+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:45.438+0000] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-05-29T08:37:45.551+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:45.551+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG to 2023-01-31T17:00:00+00:00, run_after=2023-02-01T17:00:00+00:00
+[2023-05-29T08:37:45.571+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:45.570+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:37:45.601+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:45.600+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:37:45.626+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:37:45.626+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:37:45.681+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/subtaskexample.py took 1.283 seconds
+[2023-05-29T08:38:16.009+0000] {processor.py:156} INFO - Started process (PID=3631) to work on /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:38:16.011+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/subtaskexample.py for tasks to queue
+[2023-05-29T08:38:16.013+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:16.012+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:38:16.133+0000] {processor.py:768} INFO - DAG(s) dict_keys(['CHIQUANGDAG.subdag', 'CHIQUANGDAG']) retrieved from /opt/airflow/dags/subtaskexample.py
+[2023-05-29T08:38:16.994+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:16.993+0000] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-05-29T08:38:17.156+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:17.156+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG to 2023-01-31T17:00:00+00:00, run_after=2023-02-01T17:00:00+00:00
+[2023-05-29T08:38:17.175+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:17.175+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:38:17.207+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:17.206+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-29T08:38:17.237+0000] {logging_mixin.py:117} INFO - [2023-05-29T08:38:17.236+0000] {dag.py:3328} INFO - Setting next_dagrun for CHIQUANGDAG.subdag to None, run_after=None
+[2023-05-29T08:38:17.299+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/subtaskexample.py took 1.300 seconds
