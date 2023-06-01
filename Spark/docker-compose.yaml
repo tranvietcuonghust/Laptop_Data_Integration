@@ -37,26 +37,26 @@ services:
       - ./resources:/opt/spark/resources
     networks:
       - tichhopdulieu
-  # spark-worker-b:
-  #   image: tranvietcuonghust/tichhopdulieu_spark
-  #   ports:
-  #     - "9092:8080"
-  #     - "7001:7000"
-  #   depends_on:
-  #     - spark-master
-  #   environment:
-  #     - SPARK_MASTER=spark://spark-master:7077
-  #     - SPARK_WORKER_CORES=1
-  #     - SPARK_WORKER_MEMORY=1G
-  #     - SPARK_DRIVER_MEMORY=1G
-  #     - SPARK_EXECUTOR_MEMORY=1G
-  #     - SPARK_WORKLOAD=worker
-  #     - SPARK_LOCAL_IP=spark-worker-b
-  #   volumes:
-  #       - ./app:/opt/spark/app
-  #       - ./resources:/opt/spark/resources
-  #   networks:
-  #     - tichhopdulieu
+  spark-worker-b:
+    image: tranvietcuonghust/tichhopdulieu_spark
+    ports:
+      - "9092:8080"
+      - "7001:7000"
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_DRIVER_MEMORY=1G
+      - SPARK_EXECUTOR_MEMORY=1G
+      - SPARK_WORKLOAD=worker
+      - SPARK_LOCAL_IP=spark-worker-b
+    volumes:
+        - ./app:/opt/spark/app
+        - ./resources:/opt/spark/resources
+    networks:
+      - tichhopdulieu
 networks:
   tichhopdulieu:
     external: true

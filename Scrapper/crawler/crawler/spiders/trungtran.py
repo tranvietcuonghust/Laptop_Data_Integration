@@ -13,7 +13,7 @@ import uuid
 aa=1
 
 class CrawlerSpider(Spider):
-    name = "crawler"
+    name = "trungtran"
     allowed_domains = ["trungtran.vn"]
     start_urls = [
         "https://trungtran.vn/laptop/filter/tinh-trang=like-new-used,like-new-used/",
