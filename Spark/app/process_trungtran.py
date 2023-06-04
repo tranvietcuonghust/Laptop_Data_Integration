@@ -1,5 +1,5 @@
 from pyspark.sql.functions import col, when
-from pyspark.sql.functions import trim, regexp_replace
+from pyspark.sql.functions import trim, regexp_replace,translate,regexp_extract
 
 import pyspark
 from pyspark.sql import *
@@ -45,12 +45,32 @@ df = spark.read.option("delimiter", ",") \
 # df = df.filter(~(col("Price").like("%Liên hệ%")))
 # df = df.filter(df["Price"] != "Liên hệ")
 df = df.filter(col("Price").isNotNull() & ~(col("Price").contains("Liên hệ")))
-for column in df.columns:
-    df = df.withColumn(column, when(df[column].isNull(), df[column]).otherwise(regexp_replace(df[column], "^\n", ""))) 
-    df=df.withColumn(column, when(df[column].isNull(), df[column]).otherwise(trim(df[column])))
+
+df = df.select(col("Name"), col("Price"), col("URL"),col("CPU"),col("Ram"),col("Storage"),col("Graphics"),col("Display"),col("Battery"),col("Wireless"),\
+               col("Weight"),col("Size"),col("Color"),col("OS"),col("Brand"),col("MFG_year"))
+df = df.withColumn("CPU", translate("CPU", "®™", "")) \
+        .withColumn("Graphics", regexp_replace("Graphics", "(Đồ họa | cho Bộ xử lý Intel)", "")) \
+        .withColumn("Price", translate("Price", ".đ", "")) \
+        .withColumn("Ram", regexp_replace("Ram", " GB", "GB")) \
+        .withColumn("Storage", regexp_replace("Storage", " GB", "GB")) \
+        .withColumn("Size", regexp_replace("Size", "cm", "")) \
+        .withColumn("Weight", regexp_replace("Weight", "(kg|KG)", "")) \
+        .withColumn("Battery", when(regexp_extract("Battery", "\d+", 0) == "", None).otherwise("Battery")) \
+        .withColumn("Display", regexp_replace("Display", "(\"|″|”)", " inch"))
+
+for col_name in df.columns:
+    df = df.withColumn(col_name, when(df[col_name].isNull(), df[col_name]).otherwise(regexp_replace(df[col_name], "(^\n|\")", ""))) 
+    df = df.withColumn(col_name, when(df[col_name].isNull(), df[col_name]).otherwise(translate(df[col_name], "®™", ""))) 
+    df=df.withColumn(col_name, when(df[col_name].isNull(), df[col_name]).otherwise(trim(df[col_name])))
+    mode_value = df.select(col_name).groupBy(col_name).count().orderBy('count', ascending=False).first()[0]
+    df = df.withColumn(col_name, when(col(col_name).isNull(), mode_value).otherwise(col(col_name)))
+
+
 df.show()
+
 df1pd = df.toPandas()
 # df1.write.format("csv").mode('append').options(header='True', delimiter=',',escape ='\"') \
 #  .save('../spark/resources/data/cleaned_house_price_data.csv')
+df1pd.to_csv("../spark/resources/data/cleaned_laptop_trungtran.csv", index=False, header=True)
 spark.stop()
 
