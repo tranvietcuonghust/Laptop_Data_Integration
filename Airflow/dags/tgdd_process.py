@@ -36,12 +36,11 @@ default_args = {
 }
 
 dag = DAG(
-        dag_id="techcare_process_data_7", 
+        dag_id="tgdd_process_data_7", 
         description="This DAG runs a Pyspark app",
         default_args=default_args, 
         schedule_interval=timedelta(1)
     )
-
 
 def load_to_postgres():
     # Create a connection to your Azure Cosmos DB account
@@ -53,33 +52,32 @@ def load_to_postgres():
     conn_string = "host={0} user={1} dbname={2} password={3} sslmode={4}".format(host, user, dbname, password, sslmode)
     conn = psycopg2.connect(conn_string)
     # Create a new container in your database   
-    table_name = "TechCare"
+    table_name = "TGDD"
     cur = conn.cursor()
-    cur.execute("CREATE TABLE IF NOT EXISTS {0} (Product varchar(255), Price Varchar(255), Image varchar(255), Link varchar(255), CPU varchar(255), Ram varchar(255), Storage varchar(255), Graphics varchar(255), Screen varchar(255), Status varchar(255), Weight varchar(255), Battery varchar(255), Brand varchar(255),PRIMARY KEY (Product, CPU, Ram, Storage));".format(table_name))
+    cur.execute("CREATE TABLE IF NOT EXISTS {0} (Product varchar(255) , Price varchar(255), Image varchar(255), Link varchar(255), CPU varchar(255), RAM varchar(255), Storage varchar(255), Graphics varchar(255), Screen varchar(255), Status varchar(255), OS varchar(255), Size varchar(255), Connector varchar(255), Brand varchar(255), Weight varchar(255), PRIMARY KEY (Product, CPU, RAM, Storage));".format(table_name))
     conn.commit()
 
 # Open the CSV file and read its contents
-    csv_file = "../spark/resources/data/cleaned_laptop_techcare.csv"
+    csv_file = "../spark/resources/data/cleaned_laptop_tgdd.csv"
     with open(csv_file, "r") as file:
         reader = csv.DictReader(file)
         for row in reader:
             # Insert the row into the container
-            cur.execute("INSERT INTO {0} (Product, Price, Image, Link, CPU, Ram, Storage, Graphics, Screen, Status, Weight, Battery, Brand) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) ON CONFLICT (Product, CPU, Ram, Storage) DO UPDATE SET Price = EXCLUDED.Price, Image = EXCLUDED.Image, Link = EXCLUDED.Link, Graphics = EXCLUDED.Graphics, Screen = EXCLUDED.Screen, Status = EXCLUDED.Status, Battery = EXCLUDED.Battery, Weight = EXCLUDED.Weight, Brand = EXCLUDED.Brand;".format(table_name), (row["Product"], row["Price"], row["Image"], row["Link"], row["CPU"], row["Ram"], row["Storage"], row["Graphics"], row["Screen"], row["Status"], row["Weight"], row["Battery"], row["Brand"]))
+            cur.execute("INSERT INTO {0} (Product, Price, Image, Link, CPU, RAM, Storage, Graphics, Screen, Status, OS, Size, Connector, Brand, Weight) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) ON CONFLICT (Product, CPU, RAM, Storage) DO UPDATE SET Price = EXCLUDED.Price, Image = EXCLUDED.Image, Link = EXCLUDED.Link, Graphics = EXCLUDED.Graphics, Screen = EXCLUDED.Screen, Status = EXCLUDED.Status, OS = EXCLUDED.OS, Size = EXCLUDED.Size, Connector = EXCLUDED.Connector, Brand = EXCLUDED.Brand, Weight = EXCLUDED.Weight;".format(table_name), (row["Product"], row["Price"], row["Image"], row["Link"], row["CPU"], row["RAM"], row["Storage"], row["Graphics"], row["Screen"], row["Status"], row["OS"], row["Size"], row["Connector"], row["Brand"], row["Weight"]))
             conn.commit()
-
-
 
 start = DummyOperator(task_id="start", dag=dag)
 
 spark_job = SparkSubmitOperator(
-    task_id="techcare_clean_data_11",
-    application="/opt/spark/app/process_techcare.py", # Spark application path created in airflow and spark cluster
-    name="techcare_clean_data",
+    task_id="tgdd_clean_data_11",
+    application="/opt/spark/app/process_tgdd.py", # Spark application path created in airflow and spark cluster
+    name="tgdd_clean_data",
     conn_id="other_spark_local",
     verbose=1,
     conf={"spark.master":other_spark_master},
     # application_args=[csv_file],
     dag=dag)
+
 load_to_postgres_task = PythonOperator(
     task_id='load_to_postgres',
     python_callable=load_to_postgres,
@@ -92,4 +90,4 @@ load_to_postgres_task = PythonOperator(
 )
 end = DummyOperator(task_id="end", dag=dag)
 
-start >> spark_job>> load_to_postgres_task >> end
+start >> spark_job>> load_to_postgres_task>> end

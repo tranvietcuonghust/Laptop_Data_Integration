@@ -16,32 +16,34 @@ class CrawlerSpider(Spider):
     name = "trungtran"
     allowed_domains = ["trungtran.vn"]
     start_urls = [
-        "https://trungtran.vn/laptop/filter/tinh-trang=like-new-used,like-new-used/",
+        "https://trungtran.vn/laptop/",
     ]
     
     def parse(self, response):
         print(response.url)
         i=1
-        links= Selector(response).xpath('//*[@id="box_product"]/div[contains(@class,"col-sm-5ths")]/div/div/a[2]/@href')
-        for link in links:
+        products= Selector(response).xpath('//*[@id="box_product"]/div[contains(@class,"col-sm-5ths")]')
+        for product in products:
             print(i)
             i=i+1
-            yield Request(url=link.get(), callback=self.parse_laptop)
+            link = product.xpath('.//div/div/a[2]/@href')
+            ImgURL= product.xpath('.//div/div/a[1]/div/picture/img/@data-src').get()
+            yield Request(url=link.get(), callback=self.parse_laptop,cb_kwargs=dict(ImgURL=ImgURL))
         
-           
-        next_page =  Selector(response).xpath(' //*[@id="main_container"]/div[contains(@class,"product_cat")]/div[contains(@class,"pagination")]/a[contains(@class,"next-page")]/@href').extract_first()
+
+        next_page =  Selector(response).xpath(' //*[@id="main_container"]/div[contains(@class,"product_cat")]/div[contains(@class,"col-md-9")]/div[contains(@class,"pagination")]/a[contains(@class,"next-page")]/@href').extract_first()
         print("*********")
-        print(len(links))
+        print(len(products))
         print(next_page)
         print("************")
         if  next_page is not None:
             next_page = "https://trungtran.vn"+ next_page
             print(next_page)
-            yield Request(next_page, callback=self.parse)
+            yield Request(next_page, callback=self.parse)s
         # yield Request(url="https://trungtran.vn/lenovo-thinkpad-x1-carbon-gen7-i5-nhieu-cau-hinh/?product=,542", callback=self.parse_laptop)
 
 
-    def parse_laptop(self, response):
+    def parse_laptop(self, response, ImgURL):
         print("**************crawling "+response.url+"***********")
         # print(response.url)
         # HOST="https://tranvietcuonghust.documents.azure.com:443/"
@@ -53,7 +55,7 @@ class CrawlerSpider(Spider):
         # print(response.xpath('//*[@id="charactestic_detail"]/div[contains(@class,"modal-dialog")]/div/div[2]/table/tr[2]/td[2]/text()').get())
         # CPU=response.xpath('//*[@id="charactestic_detail"]/div[2]/div/div[2]/table/tr[2]/td[2]/text()').get()
         URL      = response.url
-        Name     = response.xpath('//*[@id="picture"]/div/div[1]/h1/text()').get()
+        Name     = response.xpath('/html/body/div[1]/div[6]/div/div[3]/section/div[1]/div/div[2]/div[1]/div[1]/h2[1]/strong/text()').get()
         Price    = response.xpath('//*[@id="main_container"]/section/aside[2]/div[1]/div[1]/p/span[1]/text()').get()
         CPU      = response.xpath('//*[@id="thongso"]/div[contains(@class,"_characteristic")]/table[contains(@class,"charactestic_table")]/tr[1]/td[contains(@class,"content_charactestic")]/text()').get()
         Ram      = response.xpath('//*[@id="thongso"]/div[contains(@class,"_characteristic")]/table[contains(@class,"charactestic_table")]/tr[2]/td[contains(@class,"content_charactestic")]/text()').get()
@@ -68,6 +70,7 @@ class CrawlerSpider(Spider):
         Color    = response.xpath('//*[@id="charactestic_detail"]/div[contains(@class,"modal-dialog")]/div/div[2]/table/tr[contains(td/text(), "Màu sắc")]/td[2]/text()').get()
         MFG_year = response.xpath('//*[@id="charactestic_detail"]/div[contains(@class,"modal-dialog")]/div/div[2]/table/tr[contains(td/text(), "Năm sản xuất")]/td[2]/text()').get()
         Brand    = response.xpath('//*[@id="charactestic_detail"]/div[contains(@class,"modal-dialog")]/div/div[2]/table/tr[contains(td/text(), "Hãng sản xuất")]/td[2]/text()').get()
+        Status   = response.xpath('//*[@id="charactestic_detail"]/div[contains(@class,"modal-dialog")]/div/div[2]/table/tr[contains(td/text(), "Tình trạng sản phẩm")]/td[2]/text()').get()
         # # ImgURL = response.xpath('//*[@id="noibat"]/div[contains(@class,"owl-stage-outer")]/div[contains(@class,"owl-stage")]/div[contains(@class,"owl-item")]/div[contains(@class,"item_image")]/a[contains(@class,"show_popup")]/img/@src').get()
         # ImgURL = response.xpath('//*[@id="noibat"]/div[1]/div/div[1]/div/a/img/@src').get()
         # count = Selector(response).xpath('//div[@class="list_same"]/count(a)').extract_first()
@@ -94,6 +97,8 @@ class CrawlerSpider(Spider):
                 item['Color'] = Color
                 item['MFG_year'] = MFG_year
                 item['Brand'] = Brand
+                item['Status'] =Status
+                item['ImgURL'] = ImgURL
                 # aa=aa+1
                 # print("#################")
                 # print(aa)
@@ -118,6 +123,8 @@ class CrawlerSpider(Spider):
             item['Color'] = Color
             item['MFG_year'] = MFG_year
             item['Brand'] = Brand
+            item['Status'] = Status
+            item['ImgURL'] = ImgURL
 
             yield item
 

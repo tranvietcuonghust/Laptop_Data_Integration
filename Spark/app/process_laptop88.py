@@ -1,5 +1,5 @@
 from pyspark.sql.functions import col, when
-from pyspark.sql.functions import trim, regexp_replace, translate
+from pyspark.sql.functions import trim, regexp_replace, translate, split
 
 import pyspark
 from pyspark.sql import *
@@ -17,9 +17,11 @@ schema = StructType([ \
     StructField("CPU", StringType(), True), \
     StructField("Display", StringType(), True), \
     StructField("Graphics", StringType(), True), \
+    StructField("ImgURL", StringType(), True), \
     StructField("Name", StringType(), True), \
     StructField("Price", StringType(), True), \
     StructField("Ram", StringType(), True), \
+    StructField("Status", StringType(), True), \
     StructField("Storage", StringType(), True), \
     StructField("URL", StringType(), True) \
   ])
@@ -30,7 +32,7 @@ df = spark.read.option("delimiter", ",") \
       .format("csv") \
       .option("header", True) \
       .schema(schema) \
-      .load("../spark/resources/data/laptop88.csv")
+      .load("../spark/resources/data/laptops_laptop88.csv")
 # # for col in df.columns:
 # df = df.withColumn("Battery", regexp_replace(col('Battery'), "^\n", "")).withColumn("Battery", trim(col('Battery')))
 # for column in ["Battery","Brand","CPU","Color","Display","Graphics","MFG_year","Name","OS","Price","Ram","Size","Storage","URL","Weight","Wireless"]:
@@ -42,10 +44,13 @@ df = df.filter(col("Price").isNotNull() & ~(col("Price").contains("Liên Hệ"))
 #     df=df.withColumn(column, when(df[column].isNull(), df[column]).otherwise(trim(df[column])))
 
 
-df = df.select(col("Name"), col("Price"), col("URL"),col("CPU"),col("Ram"),col("Storage"),col("Graphics"),col("Display"))
+df = df.select(col("Name"), col("Price"), col("URL"),col("ImgURL"),col("CPU"),col("Ram"),col("Storage"),col("Graphics"),col("Display"),col("Status"))
 df= df.withColumn("Price", translate("Price", ".đ", "")) \
     .withColumn("Display", regexp_replace("Display", '""|\'\'', " inch")) \
-    .withColumn("Display", regexp_replace("Display", "I", "i"))
+    .withColumn("Display", regexp_replace("Display", "I", "i")) \
+    .withColumn("Name", regexp_replace("Name", "\[.*?\]", "")) \
+    .withColumn("Name", split(col("Name"), "\|")[0]) \
+    .withColumn("Name", split(col("Name"), "-")[0])
   # .withColumn("Display", regexp_replace("Display", '^"|"$', '')) \
   
 

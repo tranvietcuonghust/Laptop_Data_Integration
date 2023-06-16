@@ -17,6 +17,7 @@ class CrawlerSpider(Spider):
     allowed_domains = ["laptop88.vn"]
     start_urls = [
         "https://laptop88.vn/laptop-cu.html",
+        "https://laptop88.vn/laptop-moi.html    "
     ]
     
     def parse(self, response):
@@ -37,6 +38,10 @@ class CrawlerSpider(Spider):
         for item in items:
 
             URL = item.xpath('.//div[contains(@class,"product-info")]/div[contains(@class,"product-title")]/a/@href').get()
+        
+            ImgURL = item.xpath('.//div[contains(@class,"product-img")]/a/img/@src').get()
+            URL = "https://laptop88.vn" + URL
+            ImgURL = "https://laptop88.vn" + ImgURL
             Name = item.xpath('.//div[contains(@class,"product-info")]/div[contains(@class,"product-title")]/a/text()').get()
             Price = item.xpath('.//div[contains(@class,"product-info")]/div[contains(@class,"product-price")]/div[contains(@class,"price-bottom")]/span[contains(@class,"item-price")]/text()').get()
 
@@ -44,22 +49,26 @@ class CrawlerSpider(Spider):
             Ram=item.xpath('.//div[contains(@class,"product-info")]/div[contains(@class,"product-promotion")]/table/tbody/tr[2]/td[2]').xpath('string()').extract()
             Storage=item.xpath('.//div[contains(@class,"product-info")]/div[contains(@class,"product-promotion")]/table/tbody/tr[3]/td[2]').xpath('string()').extract()
             Display=item.xpath('.//div[contains(@class,"product-info")]/div[contains(@class,"product-promotion")]/table/tbody/tr[5]/td[2]').xpath('string()').extract()
-            Graphics=item.xpath('.//div[contains(@class,"product-info")]/div[contains(@class,"product-promotion")]/table/tbody/tr[4]/td[2]').xpath('string()').extract()
-            
-            item = Laptop88Item()
-            item['URL'] = "https://laptop88.vn" + URL
-            item['Name'] = Name
-            item['Price'] = Price
-            item['CPU'] = CPU
-            item['Ram'] = Ram
-            item['Storage'] =  Storage
-            item['Display'] = Display
-            item['Graphics'] = Graphics
+            Graphics=item.xpath('.//div[contains(@class,"product-info")]/div[contains(@class,"product-promotion")]/table/tbody/tr[4]/td[2]').xpath('string()').extract()   
 
-            yield item
+            yield Request(URL, callback=self.parse_status,meta={'Name': Name, 'Price': Price, 'URL': URL,'CPU': CPU,'Ram': Ram,'Storage': Storage,'Display': Display,'Graphics': Graphics,'ImgURL': ImgURL })
+    def parse_status (self, response):
+        
+        print(response.url)
+        status = Selector(response).xpath('/html/body/main/div[2]/div/div[1]/div[2]/div[3]/div/a[1]/text()').get()
 
-            
-
+        item = Laptop88Item()
+        item['URL'] = response.url
+        item['Name'] = response.meta['Name']
+        item['Price'] = response.meta['Price']
+        item['CPU'] = response.meta['CPU']
+        item['Ram'] = response.meta['Ram']
+        item['Storage'] =  response.meta['Storage']
+        item['Display'] = response.meta['Display']
+        item['Graphics'] = response.meta['Graphics']
+        item['Status'] = status
+        item['ImgURL'] =response.meta['ImgURL']
+        yield item
 
 
  
@@ -67,6 +76,7 @@ class CrawlerSpider(Spider):
         # # ImgURL = response.xpath('//*[@id="noibat"]/div[contains(@class,"owl-stage-outer")]/div[contains(@class,"owl-stage")]/div[contains(@class,"owl-item")]/div[contains(@class,"item_image")]/a[contains(@class,"show_popup")]/img/@src').get()
         # ImgURL = response.xpath('//*[@id="noibat"]/div[1]/div/div[1]/div/a/img/@src').get()
         # count = Selector(response).xpath('//div[@class="list_same"]/count(a)').extract_first()
+
     
      
 

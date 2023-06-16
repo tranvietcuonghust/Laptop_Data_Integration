@@ -1,122 +1,598 @@
-Name,Price,URL,CPU,Ram,Storage,Graphics,Display
-Laptop Cũ HP Probook 440 G5 - Intel Core i5 8250U | 14 inch Full HD,7990000,https://laptop88.vn/laptop-cu-hp-probook-440-g5-intel-core-i5-8250u-14-inch-full-hd.html,i5 - 8250U,8GB DDR4,SSD 256GB,Intel UHD 620,14 Full HD
-Laptop Cũ Dell Latitude 7390 - Intel Core i5,7990000,https://laptop88.vn/laptop-cu-dell-latitude-7390-intel-core-i5.html,i5 - 8250U,8GB DDR4,SSD 256GB,Intel HD 620,13.3 inch Full HD
-Laptop Cũ Dell Latitude 3400 - Intel Core i7,9490000,https://laptop88.vn/laptop-cu-dell-latitude-3400-intel-core-i7.html,i7-8565U,8GB DDR4,SSD 240GB,Card rời MX130,14 Full HD
-Laptop Cũ Dell Precision 3530 - Intel Core i7,12990000,https://laptop88.vn/laptop-cu-dell-precision-3530-intel-core-i7/p6069.html,i7 - 8750H,16GB DDR4,SSD 512GB,Nvidia P600,15.6 Full HD
-Laptop cũ Dell Latitude 7480 - Intel Core i5,6890000,https://laptop88.vn/laptop-cu-dell-latitude-e7480-intel-core-i5.html,i5 - 7200U,8GB DDR4,SSD 240GB,Intel HD Graphics,14 HD | Full HD
-Laptop Cũ Dell Latitude 5420 - Intel Core i5-1135G7 | 14 inch Full HD,12490000,https://laptop88.vn/laptop-cu-dell-latitude-5420-intel-core-i5-1145g7-14-inch-full-hd.html,"i5-1135G7
+Name,Price,URL,ImgURL,CPU,Ram,Storage,Graphics,Display,Status
+Laptop Cũ Dell Latitude 5420,12490000,https://laptop88.vn/laptop-cu-dell-latitude-5420-intel-core-i5-1145g7-14-inch-full-hd.html,https://laptop88.vn/media/product/7646_ac___laptop_c___dell_latitude_5420___intel_core_i5_1145g7__3_.jpg,"i5-1135G7
 ",8GB DDR4,SSD 256GB NVMe,"Intel Iris Xe Graphics
-",14 Full HD
-Laptop cũ Dell Latitude E6540  - Intel Core i7,6990000,https://laptop88.vn/dell-latitude-e6540.html,i7 - 4800MQ,8GB DDR3L,SSD 256GB,AMD HD 8790M,15.6 inch Full HD
-Laptop Cũ Dell Precision M4800 - Intel Core i7 MQ,7990000,https://laptop88.vn/laptop-cu-dell-precision-m4800-core-i7-4800mq-ram-8gb-ssd-256gb-vga-2gb-nvidia-quadro-k1100m-156-inch-fullhd-bh-1-nam.html,i7 - 4800MQ,8GB DDR4,SSD 256GB,Quadro K1100M,15.6 Full HD | 4K
-Laptop Cũ Dell Latitude 5410 - Intel Core i5 | 14 inch Full HD,10690000,https://laptop88.vn/laptop-cu-dell-latitude-5410-intel-core-i5-14-inch-full-hd.html,i5 - 10310U,8GB DDR4,SSD 256GB,UHD Graphics 620,14 inch Full HD
-Laptop Cũ Dell Precision 7520 - Intel Core i7,10190000,https://laptop88.vn/laptop-workstation-cu-dell-precision-7520-intel-core-i7.html,i7 - 6820HQ,8GB DDR4,SSD 256GB,Quadro M1200,15.6 inch Full HD
-Laptop Cũ HP Spectre Pro X360 G2 - Intel Core i5,8690000,https://laptop88.vn/laptop-cu-hp-spectre-pro-x360-g2-intel-core-i5.html,i5 - 6300U,8GB DDR4,SSD 256GB,Intel HD Graphics,13.3 Full HD
-Laptop Dell Latitude E7470 - Intel Core i5,6090000,https://laptop88.vn/laptop-dell-latitude-e7470-intel-core-i5.html,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD 520,14 inch Full HD
-Laptop cũ Dell Latitude E7270 - Intel Core i5,4790000,https://laptop88.vn/laptop-dell-latitude-e7270-core-i5-6300u-ram-8gb-ssd-250gb-hd-graphics-520-fhd-keyboard-led-125-inch-bao-hanh-1-nam.html,i5 - 6200U,8GB ,SSD 120GB,Intel HD 520,12.5 inch HD
-Laptop Cũ HP Probook 445 G7 - AMD Ryzen 5 | 14 inch Full HD,10490000,https://laptop88.vn/laptop-cu-hp-probook-445g7-amd-ryzen-5.html,R5 -4500U,8GB DDR4,SSD 256GB,AMD Radeon Graphics,14 Full HD
-Laptop Cũ Dell Precision 5530 - Intel Core i7 / Xeon,16990000,https://laptop88.vn/laptop-cu-dell-precision-5530-intel-core-i7.html,i7 - 8850H,16GB DDR4,SSD 512GB,Quadro P1000,15.6 Full HD
-Laptop Cũ Dell Latitude E5480 - Intel Core i5,6090000,https://laptop88.vn/laptop-cu-dell-latitude-5480-intel-core-i5.html,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD Graphics,14 inch Full HD
-Laptop Cũ Dell Latitude 7390 - Intel Core i7,9290000,https://laptop88.vn/laptop-cu-dell-latitude-7390-intel-core-i7/p4932.html,i7 - 8560U,8GB DDR4,SSD 256GB,Intel HD 620,13.3 Full HD
-Laptop Cũ Dell XPS 13 9380 - Intel Core i5,13990000,https://laptop88.vn/laptop-cu-dell-xps-13-9380-intel-core-i5.html,i5 - 8265U,8/16GB ,SSD 256GB,Intel UHD Graphics,13.3 Full HD
-Laptop cũ Dell Precision M4800 - Intel Core i5-4200M | AMD M5100,5990000,https://laptop88.vn/laptop-cu-dell-precision-m4800-intel-core-i5.html,i5 - 4200M,8GB DDR3,SSD 256GB,AMD M5100,15.6 HD / Full HD
-Laptop Cũ HP Notebook 14s-cr1006tu - Intel Core i5,8390000,https://laptop88.vn/laptop-cu-hp-notebook-14s-cr1006tu-intel-core-i5.html,i5 - 8265U,8GB DDR4,SSD 256GB,Intel UHD Graphics,14 inch Full HD
-Laptop cũ HP Elitebook 840 G3 - Intel Core i5,5990000,https://laptop88.vn/laptop-cu-hp-elitebook-840-g3-core-i5.html,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD 520,14 Full HD
-Laptop Cũ HP Probook 645 G3 - AMD A10,3990000,https://laptop88.vn/laptop-cu-hp-probook-645-g3-amd-a10.html,AMD A10,8GB DDR4,SSD 128GB,"AMD Radeon Vega
-",14 HD
-Laptop Cũ Dell Precision M6800 Intel Core i7 MQ,10990000,https://laptop88.vn/laptop-cu-dell-precision-m6800-core-i7.html,i7 - 4800MQ,16GB DDR3L,SSD 256GB,Quadro K3100M,17.3 inch Full HD
-Laptop Cũ HP Elitebook 840 G5 - Intel Core i5,8690000,https://laptop88.vn/laptop-cu-hp-elitebook-840-g5-intel-core-i5.html,i5 - 8350U,8GB DDR4,SSD 256GB,Intel UHD 620,14 Full HD
-[New Outlet] Dell XPS 13 9315 - i5-1230U | 13.4 Full HD+,19990000,https://laptop88.vn/laptop-cu-dell-xps-9300-intel-core-i5.html,Intel Core i5-1230U,8GB LPDDR5,SSD 512GB,Intel Iris xe Graphics,13.4 inch Full HD+
-Laptop Cũ Dell Latitude E5580 - Intel Core i5,6990000,https://laptop88.vn/laptop-cu-dell-latitude-5580-intel-core-i5/p4570.html,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD 620,15.6 inch Full HD
-Laptop cũ Dell Latitude 7480 - Intel Core i7,8490000,https://laptop88.vn/laptop-cu-dell-latitude-e7480-intel-core-i7.html,i7 - 7600U,8GB DDR4,SSD 240GB,Intel HD 520,"14 inch Full HD
-"
-[New Outlet] Dell XPS Plus 9320 - Intel Core i7-1260P | RAM 16GB | 13.3 Inch Full HD+,28190000,https://laptop88.vn/laptop-dell-xps-plus-9320-intel-core-i7-1260p-ram-16gb-13.3-inch-3.5k-100-dci-p3.html,i7 - 1260P,16GB DDR5,SSD 512GB,Intel Xe Graphics,13.3 inch Full HD+
-Laptop Cũ Dell Latitude 7490 - Intel Core i5,7990000,https://laptop88.vn/laptop-cu-dell-latitude-7490-intel-core-i5.html,i5 - 8250U,8GB DDR4,SSD 240GB,Intel UHD 620,14 inch Full HD
-Laptop Cũ Dell Latitude 5490 - Intel Core i5,6790000,https://laptop88.vn/laptop-cu-dell-latitude-5490-intel-core-i5.html,i5 - 8250U,8GB DDR4,SSD 240GB,Intel HD 620,14 Full HD
-Laptop Cũ Dell Precision 7510 - Intel Core i7 / Xeon,9990000,https://laptop88.vn/laptop-cu-dell-precision-7510-intel-core-i7.html,i7 - 6820HQ,8GB DDR4,SSD 256GB,Quadro M1000,15.6 Full HD | 4K
-Laptop Cũ Dell Latitude 7400 - Intel Core i5,8990000,https://laptop88.vn/laptop-cu-dell-latitude-7400-intel-core-i5/p6081.html,i5 - 8265U,8GB DDR4,SSD 240GB,Intel UHD 620,14 Full HD
-Laptop Gaming cũ Dell Inspiron 7559 - Intel Core i5,9790000,https://laptop88.vn/laptop-gaming-dell-7559-cu-core-i5-6300hq-ram-8gb-hdd-500gb-nvidia-geforce-gtx-960m-full-hd-15.6-inch.html,i5 - 6300HQ,8GB DDR3,SSD 240GB,Nvidia GTX 960M,15.6 inch Full HD
-Laptop Cũ Dell Precision 5550 - Intel Core i7-10750H | T1000 | 32GB | 15 inch Full HD+,25990000,https://laptop88.vn/laptop-cu-dell-precision-5550-intel-core-i7.html,"Core i7 10750H
-",32GB DDR4,SSD 1TB NVMe,"Nvidia Quadro T1000
-",15.6 inch Full HD+
-Laptop Cũ Dell Latitude 3490 - Intel Core i3,4990000,https://laptop88.vn/laptop-cu-dell-latitude-3490-intel-core-i3.html,i3-6010U,4GB DDR4,SSD 128GB,Intel HD 520,14 inch HD
-Laptop Cũ Dell Latitude E7440 - Intel Core i3,3690000,https://laptop88.vn/laptop-cu-dell-latitude-e7440-intel-core-i3.html,i5 - 6200U,8GB DDR4,SSD 256GB,Intel HD 520,14 Full HD
-Laptop Cũ Lenovo Thinkpad L570 - Intel Core i5,6490000,https://laptop88.vn/laptop-cu-lenovo-thinkpad-l570-intel-core-i5/p5701.html,i5 - 7200U,8GB DDR4,SSD 256GB,Intel UHD Graphics,15.6 inch HD
-Laptop Cũ Dell Latitude 7380 - Intel Core i7,7390000,https://laptop88.vn/laptop-cu-dell-latitude-7380-intel-core-i7/p5695.html,i7 - 6600U,8GB DDR4,SSD 240GB,Intel HD 520,13.3 inch Full HD
-Laptop Cũ Dell Inspiron Gaming G3 3590 - Intel Core i5-9300H | GTX 1650,14490000,https://laptop88.vn/laptop-cu-dell-gaming-g3-3590-intel-core-i5/p5587.html,i5 - 9300H,16GB DDR4,SSD 512GB,Nvidia GTX 1650,15.6 Full HD
-Laptop Cũ Lenovo Thinkpad T480s - Intel Core i7,11690000,https://laptop88.vn/laptop-cu-lenovo-thinkpad-t480s-intel-core-i7-8650u/p5181.html,i7 - 8650U,8GB DDR4,SSD 240GB,Intel HD 620,14 Full HD
-Laptop Cũ Dell Latitude 7390 2 in 1 - Intel Core i5,8990000,https://laptop88.vn/laptop-cu-dell-latitude-7390-2-in-1-intel-core-i7/p5099.html,i5 - 8250u,8GB LPDDR4,SSD 256GB,Intel UHD 620,13.3 inch Full HD
-Laptop Cũ HP Folio Elitebook 1040 G3 - Intel Core i5,6700000,https://laptop88.vn/laptop-cu-hp-elitebook-1040-g3-intel-core-i5.html,i5 - 6200U,16GB Onmain,SSD 240GB,Intel HD 520,14 Full HD
-Laptop cũ HP Elitebook 840 G5 - Intel Core i7,9690000,https://laptop88.vn/laptop-cu-hp-elitebook-840-g5-intel-core-i7.html,i7 - 8650U,8GB DDR4,SSD 256GB,Intel HD 620,14 Full HD
-Laptop Cũ Dell Latitude E5480 - Intel Core i7,7190000,https://laptop88.vn/laptop-cu-dell-latitude-e5480-intel-core-i7/p4675.html,i7-7820HQ,8GB DDR4,SSD 256GB,Nvidia GT 930M,14 inch Full HD
-Laptop Gaming Cũ Dell Inspiron G3 3579 - Intel Core i5,12390000,https://laptop88.vn/laptop-gaming-cu-dell-g3-3579-intel-core-i5.html,i5 - 8300H,8GB DDR4,SSD 256GB,Nvidia GTX 1050,15.6 inch Full HD
-Laptop Cũ Dell Latitude E7280 i7 6600U,6390000,https://laptop88.vn/laptop-latitude-e7280-core-i7-6600u-ram/p4189.html,i7 - 6600u,8GB ,SSD 256GB,Intel HD 520,12.5 inch Full HD
-Laptop cũ Dell XPS 13 9350 - Intel Core i7,10990000,https://laptop88.vn/laptop-dell-xps-13-9350-intel-core-i7.html,i7-6500U,16GB LPDDR3,SSD 256GB,Intel HD 520,13.3 inch 3K
-Laptop Cũ Dell Latitude E5470 - Intel Core i5,5290000,https://laptop88.vn/laptop-dell-latitude-e5470.html,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD 520,14 inch Full HD
-Laptop Cũ Dell Inspiron 15 5570 - Intel Core i5-8250U | 15.6 inch Full HD,9990000,https://laptop88.vn/laptop-dell-inspiron-5570-intel-core-i5-8250uram-8gbhdd-1tbintel-uhd-graphics-620156-inch-fullhd-cam-ungkeyled/p3924.html,i5 - 8250U,8GB DDR4,SSD 256GB,Card rời AMD,15.6 inch Full HD
-Laptop cũ HP Probook 6570b - Intel Core i5,4190000,https://laptop88.vn/laptop-cu-hp-probook-6570b-core-i5-3320m-ram-4gb-hdd-250gb-vga-intel-hd-graphics-4000-156-inch-bao-hanh-1-nam/p2421.html,i5 - 6200U,8GB DDR4,SSD 256GB,Intel HD 520,14 Full HD
-Laptop Cũ Dell Latitude 3500 - Intel Core i5,8490000,https://laptop88.vn/laptop-cu-dell-latitude-3500-intel-core-i5.html,i5 - 8250U,8GB DDR4,SSD 256GB,Intel HD 620,15.6 inch Full HD
-Laptop Cũ HP Probook 640 G2 - Intel Core i5,4790000,https://laptop88.vn/laptop-cu-hp-probook-640-g2-intel-core-i5/p5073.html,i5 - 6200U,8GB DDR4,SSD 256GB,Intel HD 520,14 inch HD
-Laptop cũ Dell Precision M4700 - Intel Core i7,6990000,https://laptop88.vn/laptop-cu-dell-precision-m4700-core-i7-3720qm-3820qm-3840qm-ram-8gb-hdd-500gb-vga-2gb-nvidia-quadro-K1000m-K2000m-156-inch-fullhd-bh-1-nam.html,i7 - 3740QM,8GB DDR3,SSD 240GB,Quadro K1000M,15.6 Full HD
-Laptop Cũ Dell Latitude 5400 - Intel Core i7,9290000,https://laptop88.vn/laptop-cu-dell-latitude-5400-intel-core-i7.html,i7-8650U,8GB DDR4,SSD 240GB,Intel HD 620,14 inch Full HD
-Laptop Cũ Dell Precision 5550 - Intel Core i9-10885H | T1000 | 32GB | 15 inch Full HD+,29990000,https://laptop88.vn/laptop-cu-dell-precision-5550-intel-core-i7-10750h-t1000.html,"Core i9-10885H
-",32GB DDR4,SSD 1TB NVMe,"Nvidia Quadro T1000
-",15.6 inch Full HD+
-Laptop Cũ Dell Inspiron 5502 MFK29 - Intel Core i5 - 1135G7 | 15.6 Inch Full HD,12990000,https://laptop88.vn/new-outlet-laptop-dell-inspiron-5502-mfk29-intel-core-i5-1135g7-15.6-inch-full-hd.html,i5 - 1135G7,12GB DDR4,SSD 256GB NMVe,Intel Iris Xe Graphics,15.6 inch Full HD
-Laptop cũ HP Elitebook x360 1040 G5 - Intel Core i7 | 14 inch Full HD,14990000,https://laptop88.vn/laptop-cu-hp-elitebook-x360-1040-g5-intel-core-i7-14-inch-full-hd.html,"i5 - 8560u
-",8GB LPDDR4,SSD 256GB ,UHD 620,14 inch Full HD
-Laptop Cũ Dell Precision 7530 - Intel Core i7 / Xeon,16990000,https://laptop88.vn/laptop-cu-dell-precision-7530-intel-core-i7.html,i7 - 8750H,16GB DDR4,SSD 512GB,Quadro P1000M,15.6 Full HD
-Laptop Cũ Dell Precision 7710 - Intel Core i7 / Xeon,15990000,https://laptop88.vn/laptop-cu-dell-precision-7710-intel-core-i7.html,i7 - 6820HQ,8GB DDR4,SSD 256GB,Quadro M3000M,17.3 inch Full HD
-Laptop Cũ Dell Precision 7720 - Intel Core i7 / Xeon,14990000,https://laptop88.vn/laptop-cu-dell-precision-7720-intel-core-i7/p5087.html,i7 - 6820HQ,8GB ,SSD 256GB,Quadro P3000M,17.3 Full HD
-Laptop Cũ Lenovo Thinkpad T480s - Intel Core i5,10690000,https://laptop88.vn/laptop-cu-lenovo-thinkpad-t480s-intel-core-i5.html,i5 - 8265u,8GB DDR4,SSD 256GB,Intel HD Graphics,14 inch Full HD
-Laptop Cũ Dell Precision 3520 - Intel Core i7 / Xeon,9590000,https://laptop88.vn/laptop-cu-dell-precision-3520-intel-core-i7.html,i7 - 6820HQ,16GB DDR4,SSD 240GB,Quadro M620,15.6 inch Full HD
-Laptop Dell Latitude E7470 - Intel Core i7,6990000,https://laptop88.vn/laptop-dell-latitude-e7470-intel-core-i7.html,i7 - 6600U,8GB DDR4,SSD 240GB,Intel HD 520,14 inch Full HD
-Laptop cũ Dell Precision 5520 - Intel Core i7 / Xeon E3,15490000,https://laptop88.vn/laptop-cu-dell-precision-m5520-intel-core-i7.html,i7 - 7820HQ / Xeon,16GB DDR4,SSD 512GB,Quadro M1200,15.6 inch Full HD
-Laptop Cũ Workstation Dell Precision 5540 - Intel Core i9,24990000,https://laptop88.vn/moi-99-no-box-laptop-workstation-dell-precision-5540-intel-core-i9/p5609.html,Core i9-9880H,32GB DDR4,SSD 512GB,Quadro T2000,15.6 Full HD
-Laptop Workstation Cũ Dell Precision 5540 - Intel Core i7,19990000,https://laptop88.vn/laptop-workstation-cu-dell-precision-5540-intel-core-i7/p5325.html,Core i7-9850H,16GB DDR4,SSD 512GB,Quadro T1000,15.6 Full HD
-Laptop Cũ Dell Latitude 7400 - Intel Core i7,9990000,https://laptop88.vn/laptop-cu-dell-latitude-7400-intel-core-i7.html,i7 - 8560U,8GB / 16GB,SSD 240GB,"Intel UHD 620
-",14 Full HD
-Laptop cũ Dell Latitude E7270 - Intel Core i7,5290000,https://laptop88.vn/laptop-dell-latitude-e7270-core-i7.html,i7 - 6600U,8GB DDR4,SSD 256GB,Intel HD 520,12.5 inch Full HD
-[New Outlet] Laptop Dell Inspiron 15 3505 4MM0H - AMD Ryzen 5 - 3500U | 15.6 Inch Full HD,9990000,https://laptop88.vn/new-outlet-laptop-dell-inspiron-15-3505-4mm0h-amd-ryzen-5-3500u-15.6-inch-full-hd.html,R5 - 3500U,8GB DDR4,SSD 256GB,AMD Radeon Graphics,15.6 inch Full HD
-[New Outlet] Laptop Dell Inspiron 16 5625-R1505S - AMD Ryzen 5 - 5625U | 16 Inch Full HD+,14790000,https://laptop88.vn/moi-99-full-box-laptop-dell-inspiron-16-5625-r1505s-amd-ryzen-5-5625u-16-inch-full-hd.html,"R5 - 5625U
-",8GB DDR4 ,SSD 512GB NVMe,"AMD Radeon Graphics
-",16 Full HD+
-Laptop Cũ Dell Inspiron 14 5425 | AMD Ryzen 7-5825U | 14 Inch Full HD+,16490000,https://laptop88.vn/laptop-cu-dell-inspiron-14-5425-amd-ryzen-7-5825u-14-inch-full-hd.html,"AMD R7-5825U
-",8GB DDR4 ,SSD 512GB NVMe,"AMD Radeon Vega
-",14.0 Full HD+
-Laptop Cũ Dell Precision 5560 - Intel Core i7 - 11850H | Quadro T1200M | 15.6 Inch Full HD+,29990000,https://laptop88.vn/moi-100-full-box-laptop-dell-precision-5560-intel-core-i7-11850h-rtx-t1200m.html,"i7 - 11850H
+",14 Full HD,Used
+Laptop Lenovo Legion 5 Pro Y9000P 16IAH7H 82RF00R3CD,34590000,https://laptop88.vn/moi-100-full-box-laptop-lenovo-legion-5-pro-16iah7h-82rf0043vn-intel-core-i7-12700h-rtx-3060-16-inch-wqxga.html,https://laptop88.vn/media/product/pro_poster_7590.jpg,i9-12900H,16GB DDR5,SSD 512GB NVMe,Nvidia RTX 3060,16 WQXGA 165Hz,New 100%
+Laptop Cũ HP Probook 440 G5,7690000,https://laptop88.vn/laptop-cu-hp-probook-440-g5-intel-core-i5-8250u-14-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7848.jpg,i5 - 8250U,8GB DDR4,SSD 256GB,Intel UHD 620,14 Full HD,Used
+Laptop Acer Nitro 5 Tiger AN515,34990000,https://laptop88.vn/new-100-laptop-acer-nitro-5-an515-58-50d2-intel-core-i5-12500h-rtx-3060-4gb-15.6-inch-full-hd-165hz.html,https://laptop88.vn/media/product/8119_acer_nitro_5_tiger.png,"i5 - 12500H
+",8GB DDR4,SSD 512GB NVMe,Nvidia RTX 3060 4GB,15.6 165Hz 100%sRGB,New 100%
+Laptop ASUS TUF Dash F15 FX517ZM,26990000,https://laptop88.vn/moi-100-full-box-laptop-asus-tuf-dash-f15-fx517zm-hn480w-intel-core-i7-12650h-rtx-3060-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7596.jpg,i7 - 12650H,8GB DDR5,SSD 512GB NVMe,Nvidia RTX 3060,15.6 Full HD 144Hz,New 100%
+Laptop Dell XPS 13 9305,19990000,https://laptop88.vn/moi-laptop-dell-xps-13-9305-intel-core.html,https://laptop88.vnhttps://laptop88.vn/media/product/6807_anb_dell_xps_13_9305.jpg,i5 - 1135G7,8GB DDR4,SSD 256GB,Iris Xe Graphics,13.3 Full HD,New 100%
+Laptop Lenovo Thinkpad X1 Nano Gen 1 20UN00FSUS,21990000,https://laptop88.vn/moi-99-refurbished-laptop-lenovo-thinkpad-x1-nano-intel-core-i5-1130g7-13-inch-2k.html,https://laptop88.vn/media/product/pro_poster_7409.jpg,Intel Core i7-1160G7,16GB LPDDR4,SSD 512GB NVMe,Intel Iris Xe Graphics,13 2K 100% sRGB,New 100%
+Laptop cũ Dell Latitude E6540,6990000,https://laptop88.vn/dell-latitude-e6540.html,https://laptop88.vn/media/product/pro_poster_2456.jpg,i7 - 4800MQ,8GB DDR3L,SSD 256GB,AMD HD 8790M,15.6 inch Full HD,Used
+Laptop Asus TUF Gaming F15 2022 FX507ZE,26990000,https://laptop88.vn/moi-100-full-box-laptop-asus-tuf-gaming-f15-2022-fx507ze-hn093w-intel-core-i7-12700h-rtx-3050ti-15.6-inch-full-hd-144hz.html,https://laptop88.vn/media/product/pro_poster_7404.jpg,i7 - 12700H,8GB DDR5,SSD 512GB,Nvidia RTX 3050Ti,15.6 Full HD 144Hz,New 100%
+Laptop Dell G16 7620,30990000,https://laptop88.vn/new-outlet-laptop-dell-g16-7620-intel-core-i7-12700h-rtx-3060-16-inch-qhd.html,https://laptop88.vn/media/product/pro_poster_8058.jpg,"i7 - 12700H
+",16GB DDR5,SSD 1TB NVMe,"Nvidia RTX 3060
+",16 165Hz 2560x1600,New Outlet
+Laptop Cũ Asus Zenbook Q408UG,11990000,https://laptop88.vn/laptop-cu-asus-zenbook-q408ug-amd-ryzen-5-5500u-14-inch-full-hd.html,https://laptop88.vn/media/product/7668_7512_22__1_.jpg,R5 - 5500U,8GB DDR4,SSD 256GB,Radeon Graphics,14 Full HD,Used
+Laptop Gaming cũ Dell Inspiron 7559,9790000,https://laptop88.vn/laptop-gaming-dell-7559-cu-core-i5-6300hq-ram-8gb-hdd-500gb-nvidia-geforce-gtx-960m-full-hd-15.6-inch.html,https://laptop88.vn/media/product/pro_poster_2447.jpg,i5 - 6300HQ,8GB DDR3,SSD 240GB,Nvidia GTX 960M,15.6 inch Full HD,Used
+Laptop Acer Nitro 5 Tiger 2022 AN515,26990000,https://laptop88.vn/moi-100-full-box-laptop-acer-nitro-5-tiger-2022-an515-58-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_6927.jpg,"Core i7-12700H
+",8GB DDR5,SSD 512GB NVMe,Nvidia RTX 3060,15.6 100% sRGB 165Hz,New 100%
+Laptop Cũ HP Probook 640 G2,5290000,https://laptop88.vn/laptop-cu-hp-probook-640-g2-intel-core-i7.html,https://laptop88.vn/media/product/7031_5073_hp_probook_640_g2__2_.png,i7 - 6600U,8GB DDR4,SSD 128GB,Intel HD 520,14 inch HD,Used
+Laptop Cũ Dell Latitude 3410,9690000,https://laptop88.vn/laptop-cu-dell-latitude-3410-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_7049.jpg,i5 - 10210U,8GB DDR4,SSD 256GB,Intel UHD 620,14 Full HD,Used
+Laptop ASUS TUF Gaming F15 FX507VV4,39490000,https://laptop88.vn/new-100-laptop-asus-tuf-gaming-f15-fx507vv4-lp382w-intel-core-i9-13900h-rtx-4060-8gb-15.6-inch-full-hd-144hz.html,https://laptop88.vn/media/product/7955_t___i_xu___ng.jpg,i9 - 13900H,16GB DDR4,SSD 512GB NMVe,Nvidia RTX 4060 8GB,15.6 Full HD 144Hz,New 100%
+Laptop Cũ Dell Vostro 15 3500,11990000,https://laptop88.vn/moi-100-full-box-laptop-dell-vostro-15-3500-7g3981-intel-core-i5.html,https://laptop88.vn/media/product/6262_7345_dell_vostro_3500_v5i3001w_1.jpg,"Core i5-1135G7
+",8GB DDR4,SSD 256GB NVMe,"Intel Iris Xe Graphics
+",15.6 Full HD,Used
+Laptop Cũ Dell Latitude 5500,8990000,https://laptop88.vn/laptop-cu-dell-latitude-5500-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_7212.jpg,i5 - 8350U,8GB DDR4,SSD 256GB,Intel UHD 620,15.6 Full HD,Used
+Laptop MSI Creator Z17 HX Studio A13VGT 068VN,75990000,https://laptop88.vn/new-100-laptop-msi-creator-z17-hx-studio-a13vgt-068vn-intel-core-i7-13700hx-rtx4070-8gb-17-inch-qhd-165hz.html,https://laptop88.vn/media/product/8031_untitled_1.jpg,"i7-13700HX
+",32GB DDR5,SSD 2TB NVMe,RTX4070 8GB,17.0 QHD+ 165Hz,New 100%
+Laptop Cũ Dell Vostro 15 3500,12690000,https://laptop88.vn/moi-100-full-box-laptop-dell-vostro-15-3500-7g3982-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_6263.jpg,"Core i7-1165G7
+",8GB DDR4,SSD 256GB,"Intel Iris Xe Graphics
+",15.6 Full HD,Used
+Laptop HP Pavilion 14,14990000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-14-dv051-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6683.jpg,i5 - 1235U,8GB DDR4,SSD 256GB NMVe,"Intel UHD Graphics
+",14 Full HD,New 100%
+Laptop Dell Inspiron 16 5630,18990000,https://laptop88.vn/new-100-laptop-dell-inspiron-16-5630-r1605s-intel-core-i5-1340p-16-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_8072.jpg,"i5 - 1340P
+",16GB LPDDR5,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",16.0 Full HD+ ,New 100%
+Laptop Asus ROG Strix G15 G513IE,21590000,https://laptop88.vn/moi-100-full-box-laptop-asus-rog-strix-g15-g513ie-hn246w-amd-ryzen-7-4800h-rtx-3050ti-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7532.jpg,"R7 - 4800H
+",8GB DDR4,SSD 512GB NVMe,"Nvidia RTX 3050 Ti
+",15.6 Full HD 144Hz,New Outlet
+Laptop Dell Vostro 15 3510,14590000,https://laptop88.vn/moi-100-full-box-laptop-dell-vostro-15-3510-7t2yc1-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6720.jpg,"Core i5-1135G7
+",8GB DDR4,SSD 512GB NVMe,"Nvidia MX350
+",15.6 Full HD,New 100%
+Laptop Cũ Asus Vivobook 17 X712JA,13690000,https://laptop88.vn/moi-100-full-box-laptop-asus-vivobook-17-x712ja-211-intel-core-i7-1065g7-17-inch-hd.html,https://laptop88.vn/media/product/pro_poster_7649.jpg,"i7 - 1065G7
+",16GB DDR4,SSD 1TB NVMe,"Intel Iris Plus Graphics
+",17 HD+,Used
+Laptop LG Gram 2022 16ZD90Q,28590000,https://laptop88.vn/moi-100-full-box-laptop-lg-gram-lg-gram-2022-16zd90q-g.ax72a5-intel-core-i7-gen-12th-16-inch-2k-99-dci-p3.html,https://laptop88.vn/media/product/pro_poster_7322.jpg,"12th Gen Intel Core i7
+",16GB LPDDR5,SSD 256GB NVMe,"Intel Iris Xe Graphics
+",16.0 WQXGA ,New 100%
+Laptop LG Gram 2022 17ZD90Q,25990000,https://laptop88.vn/moi-100-full-box-laptop-lg-gram-2022-17zd90q-g.ax73a5-intel-core-i7-gen-12th-17-inch-2k-99-dci-p3.html,https://laptop88.vn/media/product/pro_poster_7329.jpg,"12th Gen Intel Core i7
+",16GB LPDDR5,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",17.0 WQXGA,New 100%
+Laptop LG Gram 2022 14ZD90Q,22990000,https://laptop88.vn/moi-100-full-box-laptop-lg-gram-2022-14zd90q-g.ax56a5-intel-core-i5-gen-12th-14-inch-99-dci-p3.html,https://laptop88.vn/media/product/pro_poster_7336.jpg,12th Gen Intel Core i5,16GB LPDDR5,SSD 256GB NVMe,"Intel Iris Xe Graphics
+",14.0 WUXGA ,New 100%
+Laptop Asus Vivobook 15 X1502ZA,15290000,https://laptop88.vn/moi-100-full-box-laptop-asus-vivobook-15-x1502za-bq127w-intel-core-i5-1240p.html,https://laptop88.vn/media/product/pro_poster_7277.jpg,"Core i5-1240P
+",8GB DDR4,SSD 512GB NVMe,"Intel Iris Xᵉ Graphics
+","15.6 Full HD iPS
+",New 100%
+Laptop Asus Vivobook 14X A1403ZA,16490000,https://laptop88.vn/moi-100-full-box-laptop-asus-vivobook-a14-a1403za-km067w-intel-core-i5-12500h.html,https://laptop88.vn/media/product/pro_poster_7411.jpg,Intel Core i5-12500H,8GB DDR4,SSD 256GB NVMe,Intel Iris Xe Graphics,14 2K 100%DCi-P3,New 100%
+Laptop Asus FL8850UA 90NB0U12,13290000,https://laptop88.vn/moi-99-full-box-laptop-asus-fl8850ua-90nb0u12-m01790-amd-ryzen-7.html,https://laptop88.vn/media/product/7523_6703__m___i_100__full_box__laptop_asus_fl8850ua_90nb0u12_m01790___amd_ryzen_7.png,R7-5700U 8 nhân,8GB DDR4,SSD 512GB,AMD Vega 8,15.6 Full HD,Used
+Laptop Asus VivoBook X1402ZA,14790000,https://laptop88.vn/moi-100-full-box-laptop-asus-vivobook-x1402za-ek084w-intel-core-i5-1240p.html,https://laptop88.vn/media/product/pro_poster_7378.jpg,"Core i5-1240P
+",8GB DDR4,SSD 256GB,"Intel Iris Xe Graphics
+",14.0 Full HD,New 100%
+Laptop Asus Vivobook 14X OLED A1403ZA,16490000,https://laptop88.vn/moi-100-full-box-laptop-asus-vivobook-14-a1403za-km161w-intel-i5-12500h.html,https://laptop88.vn/media/product/pro_poster_7319.jpg,"Core i5-12500H
+",8GB DDR4,SSD 256GB NVMe,"Intel Iris Xe Graphics
+",14.0 WQXGA ,New 100%
+Laptop Acer Nitro 5 AN515,19990000,https://laptop88.vn/moi-100-full-box-laptop-acer-nitro-5-2021-an515-56-56s5-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6386.jpg,"i5 - 11400H
+",8GB DDR4,SSD 512GB NVMe,Nvidia RTX 3050 4GB,15.6 Full HD 144Hz,New 100%
+Laptop Asus Vivobook 14 OLED A1405VA,18990000,https://laptop88.vn/new-100-laptop-asus-vivobook-14-oled-a1405va-km095w-intel-core-i5-13500h-14-inch-2.8k-oled.html,https://laptop88.vn/media/product/pro_poster_8066.jpg," i5-13500H
+",16GB DDR4,SSD 512GB M.2 NVMe,Intel Iris Xe Graphics,14  2.8K OLED,New 100%
+Laptop Asus Vivobook 14X A1403ZA,13490000,https://laptop88.vn/new-100-laptop-asus-vivobook-14x-a1403za-ly153w-intel-core-i3-1220p-14-inch-wuxga-2022.html,https://laptop88.vn/media/product/7950_ac_m___i_100__full_box_laptop_asus_vivobook_14x_a1403za_ly072w_i3.jpg,Intel Core i3-1220p,8GB DDR4,SSD 512GB NVMe,Intel UHD Graphics,14 inch Full HD+,New 100%
+Laptop Asus Vivobook M1503QA,16190000,https://laptop88.vn/moi-100-full-box-laptop-asus-vivobook-asus-m1503qa-l1044w-amd-ryzen-7-5800h-15.6-inch-full-hd-oled.html,https://laptop88.vn/media/product/pro_poster_7533.jpg,"R7 - 5800H
+",8GB DDR4,SSD 512GB NVMe,"AMD Radeon Graphics
+",15.6 OLED 100%DCi-P3,New 100%
+Laptop  Asus Vivobook S 14 Flip TP3402VA,20390000,https://laptop88.vn/new-100-laptop-asus-vivobook-s-14-flip-tp3402va-lz031w-intel-core-i5-13500h-14-inch-wuxga.html,https://laptop88.vn/media/product/pro_poster_8062.jpg,"i5-13500H
+",16GB DDR4,SSD 512GB M.2 NVMe,Intel UHD Graphics,14  WUXGA (1920 x 1200),New 100%
+Laptop LG Gram 2022 16ZD90Q,25990000,https://laptop88.vn/moi-100-full-box-laptop-lg-gram-2022-16zd90q-g.ax51a5-intel-core-i5-16-inch-2k-99-dci-p3.html,https://laptop88.vn/media/product/pro_poster_7357.jpg,12th Gen Intel Core i5,8GB LPDDR5,SSD 256GB,"Intel Iris Xe Graphics
+",16.0 WQXGA,New 100%
+Laptop LG Gram 2022 16ZD90Q,24590000,https://laptop88.vn/moi-100-full-box-laptop-lg-gram-2022-16zd90q-g.ax55a5-intel-core-i5-gen-12th-16-inch-2k-99-dci-p3.html,https://laptop88.vn/media/product/7326_444.jpg,"12th Gen Intel Core i5
+",16GB LPDDR5,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",16.0 WQXGA,New 100%
+Laptop HP Pavilion 15 EG2058TU 6K788PA / EG2084TU 7C0Q6PA  / EG2085TU 7C0Q7PA,14790000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-15-eg2058tu-6k788pa-intel-core-i5-1240p-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7392.jpg,i5 - 1240p,8GB DDR4,SSD 256GB,Intel Iris Xe,15.6 Full HD iPS,New 100%
+Laptop  HP Pavilion 15,17690000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-15-eg2065tx-intel-core-i5-1235u-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7843.jpg,i5 - 1235U,8GB DDR4,SSD 256GB,2G_MX550,15.6 Full HD ,New 100%
+Asus Vivobook 15 K513EA,15990000,https://laptop88.vn/new-outlet-asus-vivobook-15-k513e-intel-core-i7-1165g7-16gb-1tb-15.6-inch-full-hd-oled.html,https://laptop88.vn/media/product/pro_poster_8185.jpg,i7-1165G7,16GB DDR4,SSD 1TB NVMe,Intel Iris Xe,15  FHD OLED,New Outlet
+Laptop HP Pavilion 14,12890000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-14-dv2069tu-7c0p1pa-intel-core-i3-1215u-14-inch-full-hd.html,https://laptop88.vn/media/product/7767_ac_hp_pavilion_14_dv2069tu.jpg,i3 - 1215U,8GB DDR4,SSD 256GB,"Intel UHD Graphics
+",14 Full HD,New 100%
+Laptop HP Pavilion 15,15990000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-15-eg2083tu-7c0w9pa-intel-core-i5-1240p-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7839.jpg,i5 - 1240P,8GB DDR4,SSD 512GB,Intel Iris Xe,15.6 Full HD ,New 100%
+Laptop HP Pavilion 15,12890000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-15-eg2086tu-intel-core-i3-1215u-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7837.jpg,i3 - 1215U,8GB DDR4,SSD 256GB,Intel UHD Graphics,15.6 Full HD ,New 100%
+Laptop Asus TUF Dash 2022 F15 FX517ZC,20790000,https://laptop88.vn/moi-100-full-box-laptop-asus-tuf-dash-2022-f15-intel-core-i5-12450h-rtx-3050-white.html,https://laptop88.vn/media/product/pro_poster_7007.jpg,"Core i5-12450H
+",8GB DDR5,SSD 512GB NVMe,Nvidia RTX 3050,15.6 Full HD 144Hz,New 100%
+Laptop HP Pavilion 14,15990000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-14-dv2074tu-intel-core-i5-1235u-14-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7769.jpg,i5 - 1235U,8GB DDR4,SSD 512GB NMVe,"Intel UHD Graphics
+",14 Full HD,New 100%
+Laptop HP Pavilion 14,14990000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-14-dv2077tu-intel-core-i5-1235u-14-icnh-full-hd.html,https://laptop88.vn/media/product/pro_poster_7772.jpg,i5 - 1235U,8GB DDR4,SSD 256GB NMVe,"Intel UHD Graphics
+",14 Full HD,New 100%
+Laptop Dell Inspiron 5310,16390000,https://laptop88.vn/moi-99-refurbished-laptop-dell-inspiron-5310-w9t21-intel-core-i5-11320h.html,https://laptop88.vn/media/product/pro_poster_7375.jpg,"Core i5 11320H
+",16GB DDR4,SSD 512GB,"Intel Iris Xe Graphics
+",13.3 2K,New 100%
+Laptop Samsung Galaxy Book Pro 15 950XDB,15990000,https://laptop88.vn/moi-100-full-box-laptop-samsung-galaxy-book-pro-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6975.jpg,"Core i5-1135G7
+",8GB LPDDR4,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",15.6 Full HD AMOLED,New Outlet
+Laptop HP Pavilion 14,15990000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-14-dv2075tu-intel-core-i5-1235u-14-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7770.jpg,i5 - 1235U,8GB DDR4,SSD 512GB NMVe,"Intel UHD Graphics
+",14 Full HD,New 100%
+Laptop HP Envy X360 2 in 1 14,15990000,https://laptop88.vn/moi-100-full-box-laptop-hp-envy-x360-13-i5.html,https://laptop88.vn/media/product/pro_poster_5117.jpg,i5-1335U,8GB DDR4,SSD 512GB NVMe,Intel Iris Xe,14 Full HD Touch,New 100%
+Laptop HP Pavilion 14,12890000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-14-dv2070tu-intel-core-i3-1215u-14-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7768.jpg,i3 - 1215U,8GB DDR4,SSD 256GB,"Intel UHD Graphics
+",14 Full HD,New 100%
+Laptop Lenovo IdeaPad Gaming 3 15IAH7 82S900V3VN,19690000,https://laptop88.vn/moi-100-full-box-laptop-lenovo-ideapad-gaming-3-15iah7-82s900v3vn-intel-core-i5-12500h-rtx-3050-4gb-15.6-inch-full-hd-120hz.html,https://laptop88.vn/media/product/pro_poster_7627.jpg,i5 - 12500H,16GB DDR4,SSD 512GB NMVe,Nvidia RTX 3050,15.6 Full HD 120Hz,New 100%
+Laptop ASUS TUF Gaming 2021 FX506HCB,19490000,https://laptop88.vn/moi-100-full-box-laptop-laptop-asus-tuf-gaming-2021-fa506qr-az003t-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6646.jpg,"Core i5-11400H
+",8GB DDR4,SSD 512GB NVMe,"Nvidia RTX 3050
+",15.6 Full HD 144Hz,New 100%
+Laptop Lenovo Legion 5 15IAH7H 82RB0048VN 2022,27990000,https://laptop88.vn/moi-100-full-box-laptop-lenovo-legion-5-15iah7h-82rb0048vn-intel-core-i5-12500h-rtx-3050ti-15.6-inch-wqhd.html,https://laptop88.vn/media/product/pro_poster_7489.jpg,i5 - 12500H,16GB DDR5,SSD 512GB NVMe,Nvidia RTX 3060,"15.6 WQHD, 165Hz",New 100%
+Asus ROG Strix 2022 G15 G513RC HN038W,24690000,https://laptop88.vn/moi-100-full-box-asus-rog-strix-2022-g15-g513rc-hn038w-amd-ryzen-7-6800h-rtx-3050-4gb.html,https://laptop88.vn/media/product/pro_poster_7017.jpg,"AMD R7-6800H
+",8GB DDR5,SSD 512GB NVMe,"Nvidia RTX 3050
+",15.6 Full HD 144Hz,New 100%
+Laptop Asus TUF Gaming F15 FX506LHB,15490000,https://laptop88.vn/moi-100-full-box-laptop-asus-tuf-gaming-f15-fx506lh-hn188w-intel-core-i5.html,https://laptop88.vn/media/product/6925__m___i_100__full_box__laptop_asus_tuf_gaming_f15_fx506lh_hn188w___intel_core_i5.png,"Core i5-10300H
+",8GB DDR4 ,SSD 512GB NVMe,Geforce GTX 1650,15.6 Full HD 144Hz,New 100%
+Laptop Cũ Dell Inspiron 16 5625,16690000,https://laptop88.vn/moi-100-full-box-laptop-dell-inspiron-16-5625-amd-ryzen-5-5625u-16-inch-full-hd-2022.html,https://laptop88.vn/media/product/7382_ac___laptop_dell_inspiron_16_5625___amd_ryzen_5_5625u.jpg,"R7 - 5825U
+",16GB DDR4,SSD 512GB NVMe,"AMD Radeon Graphics
+",16 inch Full HD+,Used
+Laptop HP 250 G8 2R9H2EA,8990000,https://laptop88.vn/moi-100-full-box-laptop-hp-250-g8-intel-core-i3.html,https://laptop88.vn/media/product/6719_6518_hp_250_g8_389x8pa_1.jpg,i3 - 1005G1,4GB DDR4,SSD 256GB NVMe,Intel UHD Grapchis,15.6 inch HD,New 100%
+Laptop Acer Swift 3 SF314,13290000,https://laptop88.vn/moi-100-full-box-laptop-acer-swift-3-sf314-512-52mz-intel-core-i5-1240p-14-inch-full-hd-ips.html,https://laptop88.vn/media/product/pro_poster_7831.jpg,i5 - 1240P,16GB LPDDR4X,SSD 512GB,Intel Iris Xe Graphics,14 FHD iPS 100% sRGB,New Outlet
+Laptop Asus Vivobook S 14 Flip TN3402YA,17890000,https://laptop88.vn/new-100-laptop-asus-vivobook-s-14-flip-tn3402ya-lz026w-amd-ryzen-5-7530u-14-inch-wuxga.html,https://laptop88.vn/media/product/8041_12533_asus_vivobook_s_14_flip_tn3402ya_7.jpg,"R5-7530U
+",16GB DDR4,SSD 512GB NVMe,"AMD Radeon Graphics
+",14.0 inch WUXGA ,New 100%
+Laptop Asus Zenbook 14 OLED UX3402VA,29990000,https://laptop88.vn/new-100-laptop-asus-zenbook-14-oled-ux3402va-km068w-intel-core-i7-1360p-14-inch-2.8k-oled.html,https://laptop88.vn/media/product/8042_12532_asus_zenbook_14_oled_ux3402va__5.jpg," i7-1360P
+",16GB LPDDR5,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",14.0 2.8K OLED,New 100%
+Laptop Dell Latitude 7320,16990000,https://laptop88.vn/moi-99-refurbished-laptop-dell-latitude-7320-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_7042.jpg,i5-1145G7,16GB DDR4,SSD 256GB,Iris Xe Graphics,13.3 Full HD,New Outlet
+Laptop Asus Zenbook 14 OLED UX3402VA,25990000,https://laptop88.vn/new-100-laptop-asus-zenbook-14-oled-ux3402va-km085w-intel-core-i5-1340p-14-inch-oled-wqxga.html,https://laptop88.vn/media/product/8038_untitled_1.jpg,"i5-1340P
+",8GB DDR4,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",14.0 inch OLED WQXGA+,New 100%
+Laptop  Asus Zenbook 14 Flip OLED UP3404VA,27490000,https://laptop88.vn/new-100-laptop-asus-zenbook-14-flip-oled-up3404va-kn038w-intel-core-i5-1340p-14-inch-2.8k-oled.html,https://laptop88.vn/media/product/8044_12529_asus_zenbook_14_flip_oled_up3404_7.jpg,"  i5-1340P
+",16GB LPDDR5,SSD 512GB NVMe,"Intel Iris Xe Plus Graphics
+",14.0 2.8K OLED,New 100%
+Laptop MSI Creator Z16 HX Studio B13VFTO 063VN,64990000,https://laptop88.vn/new-100-laptop-msi-creator-z16-hx-studio-b13vfto-062vn-intel-core-i7-13700hx-rtx-4060-8gb-16-inch-qhd-120hz.html,https://laptop88.vn/media/product/8032_nb123b0q4_2.png,"i7-13700HX
+",32GB DDR5,SSD 2TB NVMe,Nvidia RTX 4060 8GB,16.0 QHD+ 120Hz,New 100%
+Laptop  ASUS VivoBook Pro 14 OLED K3405VC,27690000,https://laptop88.vn/new-100-laptop-asus-vivobook-pro-14-oled-k3405vc-km006w-intel-core-i5-13500h-14.5-inch-oled-wqxga.html,https://laptop88.vn/media/product/8045_8020_2.jpg,"  I5-13500H
+",16GB LPDDR5,SSD 512GB NVMe,"RTX 3050 4GB GDDR6
+",14” WQXGA+ OLED,New 100%
+Laptop Cũ Asus TUF Dash 2022 F15 FX517ZC,21690000,https://laptop88.vn/new-outlet-laptop-asus-tuf-dash-2022-f15-fx517zc-intel-core-i5-12450h-rtx-3050.html,https://laptop88.vn/media/product/8057_7008_dsc08938__1_.jpg,"Intel Core i5-12450H
+",8GB DDR5 ,SSD 512GB NVMe,Geforce RTX 3050,15.6 Full HD 144Hz,Used
+Laptop Asus Zenbook 14 Flip OLED UP3404VA,31490000,https://laptop88.vn/new-100-laptop-asus-zenbook-14-flip-oled-up3404va-kn039w-intel-core-i7-1360p-14-inch-2.8k-oled.html,https://laptop88.vn/media/product/8043_12531_asus_zenbook_14_flip_oled_up3404_silver__7.jpg," i7-1360P
+",16GB LPDDR5,SSD 512GB NVMe,"Intel Iris Xe Plus Graphics
+",14.0 2.8K OLED,New 100%
+Laptop Asus ROG Flow Z13 GZ301VU MU301W,53990000,https://laptop88.vn/new-100-laptop-asus-rog-flow-z13-gz301vu-mu301w-intel-core-i9-13900h-rtx-4050-6gb-13.4-inch-qhd-ips.html,https://laptop88.vn/media/product/8061_44733_laptop_asus_rog_flow_z13_gz301vu_mu301w__5.jpg,"i9-13900H
+",16GB LPDDR5 ,SSD 1TB NVMe,GeForce RTX 4050 6GB,13.4 QHD+ 165Hz,New 100%
+Laptop Asus Vivobook S 14 Flip TP3402VA,24990000,https://laptop88.vn/new-100-laptop-asus-vivobook-s-14-flip-tp3402va-lz118w-intel-core-i9-13900h-14-inch-wuxga.html,https://laptop88.vn/media/product/8063_,"i9-13900H
+",16GB DDR4,SSD 512GB M.2 NVMe,Intel UHD Graphics,14  WUXGA (1920 x 1200),New 100%
+Laptop MSI Creator M16 B13VE 830VN,37990000,https://laptop88.vn/new-100-laptop-msi-creator-m16-b13ve-830vn-intel-core-i7-13700h-rtx4050-6gb-16-inch-full-hd-144hz.html,https://laptop88.vn/media/product/8034_12387_msi_creator_m16_b13v_2.jpg,"i7-13700H
+",16GB DDR5,SSD 512GB NVMe,"NVIDIA  RTX 4050 6GB
+",16 Full HD+ 144Hz,New 100%
+Laptop Asus Zenbook 14 OLED UX3402VA,26490000,https://laptop88.vn/new-100-laptop-asus-zenbook-14-oled-ux3402va-km203w-intel-core-i5-1340p-14-inch-oled-wqxga.html,https://laptop88.vn/media/product/8064_44620_laptop_asus_zenbook_14_oled_ux3402va_km203w_90nb10g6_m00970__6_.jpg,"i5-1340P
+",16GB LPDDR5,SSD 512GB M.2 NVMe,Intel Iris Xe Graphics,14  OLED WQXGA+,New 100%
+Laptop Asus Vivobook 15 X1504VA,17690000,https://laptop88.vn/new-100-laptop-asus-vivobook-15-x1504va-nj070w-intel-core-i5-1335u-15.6-inch-fhd.html,https://laptop88.vn/media/product/8065_44632_laptop_asus_vivobook_15_x1504va_nj070w.jpg,"i5-1335U 
+",16GB DDR4,SSD 512GB M.2 NVMe,Intel Iris Xe Graphics,"15.6  Full HD
+",New 100%
+Laptop Lenovo IdeaPad Slim 5 Light 14ABR8 82XS0007VN,18290000,https://laptop88.vn/new-100-laptop-lenovo-ideapad-slim-5-light-14abr8-82xs0007vn-amd-ryzen-7-7730u-14-inch-full-hd-100-srgb.html,https://laptop88.vn/media/product/8068_ideapad_slim_5_light_14abr8_ct2_04__1_.jpg,R7 - 7730U,8GB LPDDR4,SSD 512GB NVMe,AMD Radeon Graphics,14 FHD 100% sRGB,New 100%
+Laptop Lenovo IdeaPad Slim 5 Light 14ABR8 82XS0006VN,16490000,https://laptop88.vn/new-100-laptop-lenovo-ideapad-slim-5-light-14abr8-82xs0006vn-amd-ryzen-5-5730u-14-inch-full-hd-100-srgb.html,https://laptop88.vn/media/product/8069_ideapad_slim_5_light_14abr8_ct2_03__1_.jpg,R5-5730U,8GB LPDDR4,SSD 512GB NVMe,AMD Radeon Graphics,14 FHD 100% sRGB,New 100%
+Laptop Asus Zenbook Pro 14 Duo OLED UX8402VU P1028W,65990000,https://laptop88.vn/new-100-laptop-asus-zenbook-pro-14-duo-oled-ux8402vu-p1028w-intel-core-i9-13900h-rtx-4050-14.5-inch-wq-oled.html,https://laptop88.vn/media/product/8037____nh_1.jpg,"i9-13900H
+",32GB LPDDR5,SSD 1TB NVMe,"Nvidia RTX 4050 
+",14.5 WQ + OLED,New 100%
+Laptop Gaming MSI GF63 Thin 11SC 664VN,14490000,https://laptop88.vn/new-outlet-laptop-msi-gf63-thin-11sc-664vn-intel-core-i5-11400h-gtx-1650-144hz.html,https://laptop88.vn/media/product/8083_5809_anb_msi_gf63_thin_11sc_664vn.jpg,"Intel Core i5-11400H
+",8GB DDR4,SSD 512GB NVMe,"Nvidia GTX 1650
+",15.6 Full HD 144Hz,New Outlet
+Laptop Acer Predator Helios Neo PHN16,34990000,https://laptop88.vn/new-100-laptop-acer-predator-helios-neo-phn16-71-54cd-intel-core-i5-13500hx-rtx4050-6gb-16-inch-2k.html,https://laptop88.vn/media/product/8106_45073_4.jpg,"i5-13500HX
+",8GB DDR5,SSD 512GB NMVe,Nvidia RTX 4050 6GB,"16 2K+, 165Hz 100% sRGB",New 100%
+Laptop Dell Inspiron 14 5430 R1605S,17990000,https://laptop88.vn/new-100-laptop-dell-inspiron-14-5430-r1605s-intel-core-i5-1340p-14-inch-full-hd.html,https://laptop88.vn/media/product/8073_,"i5 - 1340P
+",16GB DDR5,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",14.0 Full HD+ ,New 100%
+Laptop Dell Gaming G16 7630 R1948W,47990000,https://laptop88.vn/new-100-laptop-dell-gaming-g16-7630-r1948w-intel-core-i9-13900h-rtx-4060-16-inch-2k-240hz-100-dci-p3.html,https://laptop88.vn/media/product/pro_poster_8080.jpg,i9-13900HX,16GB DDR5,SSD 1TB NVMe,NVIDIA RTX 4060,16 2K 240Hz 100% DCi-P3,New 100%
+Laptop Lenovo IdeaPad Slim 5 Light 14ABR8 82XS002JVN,17990000,https://laptop88.vn/new-100-laptop-lenovo-ideapad-slim-5-light-14abr8-82xs002jvn-amd-ryzen-7-7730u-16gb-ram-14-inch-full-hd-100-srgb.html,https://laptop88.vn/media/product/pro_poster_8067.jpg,R7 - 7730U,16GB LPDDR4,SSD 512GB NVMe,AMD Radeon Graphics,14 FHD 100% sRGB,New 100%
+Laptop MSI Modern 14 C11M,11490000,https://laptop88.vn/new-100-laptop-msi-modern-14-c11m-011vn-intel-core-i3-1115g4-14-inch-full-hd.html,https://laptop88.vn/media/product/8071_8028_12391_msi_modern_15_b12m_3.jpg,"i3-1115G4
+",8GB DDR4,SSD 512GB NVMe,Intel UHD Graphics,14 FHD ,New Outlet
+Laptop Acer Aspire 5 A514,12690000,https://laptop88.vn/new-100-laptop-acer-aspire-5-a514-56p-35x7-nx.khrs001-i3-1315u-8gb-512gb.html,https://laptop88.vn/media/product/8109_aspire_5_1.png,"i3 - 1315u
+",8GB ,SSD 512GB,"Iris Xe Graphics
+",14 FHD+ iPS,New 100%
+Laptop Acer Predator Helios Neo PHN16,37990000,https://laptop88.vn/new-100-laptop-acer-predator-helios-neo-phn16-71-7460-intel-core-i7-13700hx-rtx4050-6gb-16-inch-2k-165hz.html,https://laptop88.vn/media/product/8110_45073_4.jpg,"i7-13700HX
+",8GB DDR5 ,SSD 512GB NMVe,Nvidia RTX 4050 6GB,16 2K+ 165Hz 100% sRGB,New 100%
+Laptop ASUS X515EA,11490000,https://laptop88.vn/new-100-laptop-asus-x515ea-ej3633w-intel-core-i3-1115g4-15.6-inch-full-hd.html,https://laptop88.vn/media/product/8040_12308_asus_x515ma_2__1_.jpg,"i3-1115G4
+",8GB DDR4,SSD 512GB NVMe,"Intel UHD Graphics
+",15.6 Full HD ,New 100%
+Laptop Acer Predator Helios Neo PHN16,38990000,https://laptop88.vn/new-100-laptop-acer-predator-helios-neo-phn16-71-59tn-intel-core-i5-13500hx-rtx4060-8gb-16-inch-2k-165hz.html,https://laptop88.vn/media/product/8111_45073_4.jpg,"i5-13500HX/
+",2x8GB DDR5 ,SSD 512GB NMVe,Nvidia RTX4060 8GB,16 2K+ 165Hz 100% sRGB,New 100%
+Laptop Acer Predator Helios Neo PHN16,41990000,https://laptop88.vn/new-100-laptop-acer-predator-helios-npredator-helios-neo-phn16-71-74ba-intel-core-i7-13700hx-rtx4060-8gb-16-icnh-2k-165hz.html,https://laptop88.vn/media/product/8112_45073_4.jpg,"i7-13700HX
+",16GB DDR5 ,SSD 512GB NMVe,Nvidia RTX 4060 8GB,16 2K+ 165Hz 100% DCi-P3,New 100%
+Laptop MSI Cyborg 15 A12UCX,18990000,https://laptop88.vn/new-100-laptop-msi-cyborg-15-a12ucx-281vn-intel-core-i5-12450h-rtx-2050-15.6-inch-fhd.html,https://laptop88.vn/media/product/pro_poster_8113.jpg,"i5-12450H
+",8GB DDR5,SSD 512GB NMVe,"Nvidia RTX 2050 4GB
+",15.6 Full HD 144Hz,New 100%
+Laptop Lenovo IdeaPad Slim 5 14ABR8 82XS002KVN,19990000,https://laptop88.vn/new-100-laptop-lenovo-ideapad-slim-5-14abr8-82xs002kvn-intel-core-i5-13500h-14-inch-wuxga-16-icnh-2.5k.html,https://laptop88.vn/media/product/8117_lenovo_ideapad_slim_5_light_14abr8_r5_82xs002kvn_abc_glr_2.jpg,"i5-13500H
+",16GB LPDDR5,SSD 512GB NMVe,"Intel Iris Xe Graphics
+",14 WUXGA 100% sRGB,New 100%
+Laptop Gaming MSI Cyborg 15 A12VF,28590000,https://laptop88.vn/new-100-laptop-gaming-msi-cyborg-15-a12vf-267vn-intel-core-i7-12650h-rtx-4060-15.6-inch-fhd.html,https://laptop88.vn/media/product/8114_44961_laptop_msi_cyborg_15_a12ucx_281vn__7_.jpg,"i7-12650H 
+",8GB DDR5,SSD 512GB NMVe," NVIDIA GeForce RTX 4060
+",15.6 Full HD 144Hz,New 100%
+Laptop ASUS TUF Gaming F15 FX507ZU4,31290000,https://laptop88.vn/moi-100-full-box-laptop-asus-tuf-gaming-f15-fx507zu4-lp520w-intel-core-i7-12700h-rtx-4050-6gb-15.6-inch-full-hd-144hz.html,https://laptop88.vn/media/product/pro_poster_7957.jpg,"i7-12700H
+",8GB DDR4,SSD 512GB NVMe,Nvidia RTX 4050 6GB,15.6 Full HD 144Hz,New 100%
+Laptop Acer Aspire 3 A314,11490000,https://laptop88.vn/new-100-laptop-acer-aspire-3-a314-36m-391a-nx.kdmsv.002.html,https://laptop88.vn/media/product/8107_a314_36m_34xh_1a_nx_kdmsm_002.jpg,"Core i3-N305
+",8GB ,SSD 512GB,"Intel UHD Graphics
+",14 Full HD iPS,New 100%
+Laptop ASUS TUF Gaming A15 FA507XI,45990000,https://laptop88.vn/moi-100-full-box-laptop-asus-tuf-gaming-a15-fa507xi-lp420w-amd-ryzen-9-7940hs-rtx-4070-8gb-15.6-inch-full-hd-144hz.html,https://laptop88.vn/media/product/7958_techzones_asus_tuf_gaming_a15_fa507rm_hn018w_r7_6800h_8gb_512gb_4.jpg,"R9 - 7940HS
+",8GB DDR5,SSD 512GB NVMe,Nvidia  RTX 4070 8GB,15.6 Full HD 144Hz,New 100%
+Laptop Acer Aspire 3 A314,12990000,https://laptop88.vn/new-100-laptop-acer-aspire-3-a314-23m-r4tx-r5-7250-2023.html,https://laptop88.vn/media/product/8108_,"R7 - 7520u
+",8GB ,SSD 512GB,"AMD Radeon
+",14 Full HD iPS,New 100%
+Laptop ASUS TUF Gaming F15 FX507ZV4,34690000,https://laptop88.vn/new-100-laptop-asus-tuf-gaming-f15-fx507zv4-lp041w-intel-core-i7-12700h-rtx4060-8gb-15.6-inch-full-hd-144hz.html,https://laptop88.vn/media/product/7956_t___i_xu___ng.jpg,"i7-12700H
+",8GB DDR4,SSD 512GB NVMe,Nvidia RTX 4060 8GB,15.6 Full HD 144Hz,New 100%
+Laptop ASUS TUF Gaming A15 FA507NV,32990000,https://laptop88.vn/moi-100-full-box-laptop-asus-tuf-gaming-a15-fa507nv-lp046w-amd-ryzen-7-7735hs-rtx-4060-8gb-15.6-inch-full-hd-144hz.html,https://laptop88.vn/media/product/7959_techzones_asus_tuf_gaming_a15_fa507rm_hn018w_r7_6800h_8gb_512gb_4.jpg,"R7-7735HS
+",8GB DDR5,SSD 512GB NVMe,Nvidia RTX 4060 8GB,15.6 Full HD 144Hz,New 100%
+Lenovo Legion 5 15IAH7 82RC0036VN,28990000,https://laptop88.vn/new-100-lenovo-legion-5-15iah7-82rc0036vn-intel-core-i7-12700h-8gb-ram-ssd-512gb-rtx-3050ti-15.6-inch-full-hd-100-srgb-165hz.html,https://laptop88.vn/media/product/8105_laptop_lenovo_legion_5_15iah7_intel.png, i7-12700H,8GB DDR5,SSD 512GB NVMe,Nvidia RTX 3050Ti,"15.6 FHD, 165Hz, 100% sRGB",New 100%
+Laptop ASUS ROG Strix G16 G614JU,36190000,https://laptop88.vn/moi-100-full-box-laptop-asus-rog-strix-g16-g614ju-n3135w-intel-core-i5-13450hx-rtx-4050-6gb-16-inch-wuxga-165hz.html,https://laptop88.vn/media/product/7961_015w_1.jpeg,"i5-13450HX
+",8GB DDR5,SSD 512GB NVMe,Nvidia RTX 4050 6GB,16 WUXGA 165Hz,New 100%
+Laptop ASUS ROG Strix G16 G614JV,47990000,https://laptop88.vn/moi-100-full-box-laptop-asus-rog-strix-g16-g614jv-n4455w-intel-core-i7-13650hx-rtx-4060-8gb-16-inch-wqxga-240hz.html,https://laptop88.vn/media/product/7963_015w_1.jpeg,"i7-13650HX
+",16GB DDR5,SSD 512GB NVMe,Nvidia RTX 4060 8GB,16 WQXGA 240Hz,New 100%
+Laptop ASUS ROG Strix G16 G614JU,39990000,https://laptop88.vn/moi-100-full-box-laptop-asus-rog-strix-g16-g614ju-n3777w-intel-core-i7-13650hx-rtx-4050-6gb-16-inch-wuxga-165hz.html,https://laptop88.vn/media/product/7962_015w_1.jpeg,"i7-13650HX
+",16GB DDR5,SSD 512GB NVMe,Nvidia RTX 4050 6GB,15.6 WUXGA 165Hz,New 100%
+Laptop  Asus ROG Zephyrus G16 GU603VU N3898W,41790000,https://laptop88.vn/moi-100-full-box-laptop-asus-rog-zephyrus-g16-gu603vu-n3898w-intel-core-i7-13620h-rtx4050-16-inch-full-hd-165hz.html,https://laptop88.vn/media/product/7964_rog_zephyrus_g16.png,"i7-13620H
+",16GB DDR4,SSD 512GB NVMe,Nvidia RTX 4050 ,16 Full HD 165Hz,New 100%
+Laptop Acer Aspire 5 Aspire 5 A515,12990000,https://laptop88.vn/new-100-laptop-acer-aspire-5-a514-58p-34rj-nx.khrjsv-i3-1315u-8gb-512gb.html,https://laptop88.vn/media/product/8116_aspire_5_15.png,"i3 - 1315u
+",8GB ,SSD 512GB,"Iris Xe Graphics
+",15 FHD iPS,New 100%
+Laptop MSI Raider GE78HX 13VH,118900000,https://laptop88.vn/new-100-laptop-msi-raider-ge78hx-13vh-076vn-intel-core-i9-13950hx-rtx-4080-17-inch-qhd-240hz-1.html,https://laptop88.vn/media/product/7973_1024__2_.png,i9-13950HX,64GB DDR5,SSD 4TB NVMe,Nvidia RTX 4080,17 Full HD 240Hz,New 100%
+Laptop MSI Titan GT77HX 13VI,148990000,https://laptop88.vn/new-100-laptop-msi-titan-gt77hx-13vi-077vn-intel-core-i9-13980hx-rtx-4090-17.3-inch-uhd-144hz.html,https://laptop88.vn/media/product/7972_pc_portable_msi_titan_gt77hx_13vh_029fr_17_3_intel_core_i9_13980hx_64_go_ram_2_to_d_noir.jpg,i9-13980HX,64GB DDR5,SSD 4TB NVMe,Nvidia  RTX 4090,17.3 UHD 144Hz,New 100%
+Laptop MSI Modern 15 B13M 297VN,19490000,https://laptop88.vn/new-100-laptop-msi-modern-15-b13m-297vn-intel-core-i7-1355u-15.6-inch-full-hd.html,https://laptop88.vn/media/product/7967_7511_11.png,"i7 - 1355U
+",16GB DDR4,SSD 512GB,"Intel Iris Xe Graphics
+","15.6 Full HD, iPS",New 100%
+Laptop MSI Katana 15 B13VFK 676VN,34990000,https://laptop88.vn/new-100-laptop-msi-katana-15-b13vfk-676vn-intel-core-i7-13620h-rtx-4060-15.6-inch-full-hd-144hz.html,https://laptop88.vn/media/product/7970_katana_15_b13vx_1.png,i7-13620H,16GB DDR5,SSD 1TB NVMe,Nvidia RTX 4060,15.6 Full HD 144Hz,New 100%
+Laptop Asus ROG Strix G18 G814JI,66990000,https://laptop88.vn/new-100-laptop-asus-rog-strix-g18-g814ji-n6063w-intel-core-i9-13980hx-rtx-4070-8gb-18-inch-qhd-240hz.html,https://laptop88.vn/media/product/7976_laptop_asus_rog_strix_g153_g513ie_hn246w_ryzen_7_4800h__8gb__512gb__rtx_3050ti_4gb__15.jpg,i9-13980HX,32GB DDR5,SSD 1TB NVMe,Nvidia RTX 4070 8GB,18 QHD+ 240Hz ,New 100%
+Laptop Asus ROG Strix G16 G614JI,55990000,https://laptop88.vn/new-100-laptop-asus-rog-strix-g16-g614ji-n4084w-intel-core-i7-13650hx-rtx-4070-8gb-16-inch-qhd-240hz.html,https://laptop88.vn/media/product/7977_,i7-13650HX,16GB DDR5,SSD 1TB NVMe,Nvidia RTX 4070 8GB,16 QHD+ 240Hz ,New 100%
+Laptop ASUS ROG Strix SCAR 17 G733PZ LL980W,83690000,https://laptop88.vn/new-100-laptop-asus-rog-strix-scar-17-g733pz-ll980w-amd-ryzen-9-7945hx-rtx4080-17.3-inch-wqhd-240hz.html,https://laptop88.vn/media/product/7979_scar_17_6.jpg,"R9-7945HX
+",32GB DDR5,SSD 1TB NVMe,"Nvidia RTX 4080
+",17.3  WQHD 240Hz,New 100%
+Laptop ASUS ROG Flow X16 GV601VV NL016W,60690000,https://laptop88.vn/new-100-laptop-asus-rog-flow-x16-gv601vv-nl016w-intel-core-i9-13900h-rtx4060-16-inch-qhd-240hz.html,https://laptop88.vn/media/product/7978_4d158520_6c42_4f8b_8f4f_6f236fb50a44.png,"i9-13900H
+",16GB DDR5,SSD 1TB NVMe,"Nvidia RTX4060
+",16 QHD 240Hz,New 100%
+Laptop Asus ROG Zephyrus M16 GU604VI,75990000,https://laptop88.vn/new-100-laptop-asus-rog-zephyrus-m16-gu604vi-nm779w-intel-core-i9-13900h-rtx4070-16-inch-qhd-240hz.html,https://laptop88.vn/media/product/7981_gu603zx_k8025w_5_600x600.jpg,"i9-13900H
+",32GB DDR5,SSD 1TB NVMe,"Nvidia RTX4070
+",16 QHD 240Hz,New 100%
+Laptop Dell Inspiron 15 3511 R1605S,14590000,https://laptop88.vn/new-outlet-laptop-dell-inspiron-15-3511-r1605s-intel-core-i5-1135g7-15.6-inch-full-hd.html,https://laptop88.vn/media/product/8017_7896_7716_7015_6904_dell_inspiron_15_3511_70270650_1.jpg,i5-1135G7,16GB DDR4,SSD 512GB,Intel Iris Xe Grapchis,15.6 Full HD,New 100%
+Laptop ASUS VivoBook Pro 16X OLED N7600ZE L2010W,36490000,https://laptop88.vn/new-100-laptop-asus-vivobook-pro-16x-oled-n7600ze-l2010w-intel-core-i7-12700h-rtx-3050ti-16-inch-4k.html,https://laptop88.vn/media/product/8020_,"i7-12700H
+",16GB LPDDR5,SSD 1TB NVMe,"RTX 3050Ti 4GB GDDR6
+","16 4K 
+",New 100%
+Laptop Dell Alienware X14 R1,34990000,https://laptop88.vn/moi-99-full-box-laptop-dell-alienware-x14-r1-intel-core-i7-12700h-rtx-3050ti-4gb-14-inch-full-hd-144hz.html,https://laptop88.vn/media/product/8021_x14_7.jpg,"i7 - 12700H
+",16GB LPDDR5,SSD 512GB NVMe,"RTX 3050Ti 4GB
+","14 Full HD iPS 144Hz
+",New 100%
+Laptop  MSI Creator Z16P B12UGST 044VN,56990000,https://laptop88.vn/new-100-laptop-msi-creator-z16p-b12ugst-044vn-intel-core-i7-12700h-rtx3070ti-max-q-8gb-16-inch-qhd.html,https://laptop88.vn/media/product/8025____nh_1.jpg,"i7-12700H
+",32GB DDR5,SSD 2TB NVMe,RTX3070Ti Max-Q 8GB,16.0 QHD+,New 100%
+Laptop  MSI Modern 15 B7M 098VN,15990000,https://laptop88.vn/new-100-laptop-msi-modern-15-b7m-098vn-amd-ryzen-7-7730u-15.6-inch-fhd-ips.html,https://laptop88.vn/media/product/8026_untitled_1.jpg,"R7 - 7730U
+",8GB DDR4,SSD 512GB NVMe,AMD Radeon Graphics,15.6 FHD iPS,New 100%
+Laptop Acer Aspire 7 A715,20690000,https://laptop88.vn/new-100-laptop-acer-aspire-7-a715-76g-5132-intel-core-i5-12450h-gtx-1650-4gb-15.6-inch-fhd-144hz.html,https://laptop88.vn/media/product/8118_acer_aspire_7_2022_man.jpg,"i5-12450H 
+",8GB DDR4,SSD 512GB,"INVIDIA  GTX 1650
+",15 FHD 144Hz,New 100%
+Laptop MSI Modern 15 B7M 099VN,13990000,https://laptop88.vn/new-100-laptop-msi-modern-15-b7m-099vn-amd-ryzen-5-7530u-15.6-inch-fhd-ips.html,https://laptop88.vn/media/product/8027_,"R5 - 7530U
+",8GB DDR4,SSD 512GB NVMe,AMD Radeon Graphics,15.6 FHD iPS,New 100%
+Laptop Asus Vivobook Pro 14X OLED N7401ZE,31990000,https://laptop88.vn/new-100-laptop-asus-vivobook-pro-14x-oled-n7401ze-m9028w-intel-core-i7-12700h-rtx-3050-ti-4gb-14.5-inch-2.8k-oled.html,https://laptop88.vn/media/product/8019_2.jpg,"i7-12700H
+",16GB LPDDR5,SSD 512GB NVMe,"RTX 3050Ti 4GB GDDR6
+","14.5 2.8K OLED
+",New 100%
+Laptop MSI Creator Z16 HX Studio B13VGTO 062VN,81990000,https://laptop88.vn/new-100-laptop-msi-creator-z16-hx-studio-b13vgto-062vn-intel-core-i9-13950hx-rtx4070-8gb-16-inch-qhd-ips.html,https://laptop88.vn/media/product/8030_untitled_1.jpg,"i9-13950HX
+",64GB DDR5,SSD 2TB NVMe,Nvidia RTX4070 8GB,16.0 QHD+ 120Hz,New 100%
+Laptop Gaming MSI Alpha 15 B5EEK,20990000,https://laptop88.vn/new-100-laptop-gaming-msi-alpha-15-b5eek-203vn-amd-ryxen-5-6600h-rx-6600m.html,https://laptop88.vn/media/product/7988_alpha_1.jpeg,"R5-6600H
+",8GB DDR4,SSD 512GB NMVe,"Nvidia RX6600M
+",15.6 144Hz,New 100%
+Laptop Acer Nitro 5 Tiger AN515,38990000,https://laptop88.vn/new-100-laptop-acer-nitro-5-an515-58-957r-intel-core-i9-12900h-rtx-3060-4gb-15.6-inch-full-hd-165hz.html,https://laptop88.vn/media/product/8120_,"i9 - 12900H
+",16GB DDR4,SSD 512GB NVMe,Nvidia RTX 3060 4GB,15.6 165Hz 100%sRGB,New 100%
+Laptop Asus Vivobook 14 X1404VA,16390000,https://laptop88.vn/new-100-laptop-asus-vivobook-14-x1404va-nk125w-i5-1335u-8gb-256gb-14-inch-full-hd.html,https://laptop88.vn/media/product/8122_asus_vivobook_14_4_jpg.png," i5-1335U
+",8GB DDR4,SSD 256GB ,Intel Iris Xe Graphics,14  Full HD,New 100%
+Laptop MSI Modern 14 C7M 083VN,13690000,https://laptop88.vn/new-100-laptop-msi-modern-14-c7m-083vn-amd-ryzen-5-7530u-14-inch-fhd-ips.html,https://laptop88.vn/media/product/8028_,"R5 - 7530U
+",8GB DDR4,SSD 512GB NVMe,AMD Radeon Graphics,14 FHD iPS,New 100%
+Laptop Gaming ASUS ROG Zephyrus Duo 16 GX650PZ,118990000,https://laptop88.vn/new-100-laptop-gaming-asus-rog-zephyrus-duo-16-gx650pz-nm031w-amd-ryzen-9-7945hx-rtx4080-16-inch-qhd.html,https://laptop88.vn/media/product/8123_untitled_5.jpg,"R9 - 7945HX
+",32GB DDR5 ,SSD 1TB NVMe,Geforce RTX 4080 12GB,16 QHD+ 240Hz 100% DCi-P3,New 100%
+Laptop MSI Stealth 14 Studio A13VF 051VN,51990000,https://laptop88.vn/new-100-laptop-msi-stealth-14-studio-a13vf-051vn-2023-intel-core-i7-13700h-rtx-4060-14-inch-240hz-100-dci-p3.html,https://laptop88.vn/media/product/7969_1024.png,"i7-13700H
+",16GB DDR4,SSD 1TB NVMe,Nvidia RTX 4060 8GB,114” QHD+ 240Hz,New 100%
+Laptop MSI Raider GE77 HX 12UGS 230VN,61490000,https://laptop88.vn/new-100-laptop-msi-raider-ge77-hx-12ugs-230vn-intel-core-i9-12900hx-rtx3070ti-gddr6-17.3-inch-qhd-240hz.html,https://laptop88.vn/media/product/8023_,"i9-12900HX
+",32GB DDR5,SSD 2TB NVMe,Nvidia RTX 3070Ti,17.3 QHD 240Hz,New 100%
+Laptop LG gram 2023 14ZD90R,24990000,https://laptop88.vn/new-100-laptop-lg-gram-2023-14zd90r-g.ax52a5-intel-core-i5-1340p-14-inch-wuxga-dos.html,https://laptop88.vn/media/product/pro_poster_8128.jpg,"i5-1340P
+",8GB LPDDR5,SSD 256GB NVMe,"Intel Iris Xe Graphics
+",14 inch 2K 100% sRGB,New 100%
+Laptop Acer Predator Helios 16 PH16,54990000,https://laptop88.vn/new-100-laptop-acer-predator-helios-ph16-71-72bv-intel-core-i7-13700hx-rtx4070-16gb-16-icnh-2k-240hz.html,https://laptop88.vn/media/product/8121_helios_16.jpg,"i7-13700HX
+",16GB DDR5 ,SSD 512GB NMVe,Nvidia RTX4070 8GB,16 2K+ 240Hz,New 100%
+Laptop LG Gram 2023 16ZD90R,38290000,https://laptop88.vn/new-100-laptop-lg-gram-2023-16zd90r-g.ax55a5-intel-core-i5-1340p-16-inch-wuxga.html,https://laptop88.vn/media/product/pro_poster_8130.jpg,"i5-1340P
+",16GB LPDDR5,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",16 inch WQXGA,New 100%
+Laptop MSI Prestige 14Evo B13M 401VN,25990000,https://laptop88.vn/new-100-laptop-msi-prestige-14evo-b13m-401vn-intel-core-i5-13500h-14-inch-full-hd-ips.html,https://laptop88.vn/media/product/8029_12390_msi_prestige_14evo_b13m__3__1_.jpg,"i5-13500H
+",16GB LPDDR5,SSD 512GB NVMe,Intel Iris Xe Graphics,14 FHD+ iPS,New 100%
+Laptop LG Gram  2023 16Z90R,44990000,https://laptop88.vn/new-100-laptop-lg-gram-2023-16z90r-g.ah76a5-intel-core-i7-1360p-16-inch-wqxga-2560-x-1600.html,https://laptop88.vn/media/product/8133_2.jpg,"i7-1360P
+",16GB LPDDR5,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",16 inch 2K 100% sRGB,New 100%
+Laptop LG Gram 2023 16Z90R,47990000,https://laptop88.vn/new-100-laptop-lg-gram-2023-16z90r-e.ah75a5-intel-core-i7-1360p-16-inch-wqxga-2560-x-1600.html,https://laptop88.vn/media/product/pro_poster_8136.jpg,"i7-1360P
+",16GB LPDDR5,SSD 512GB NVMe,RTX 3050,16 inch  WQXGA,New 100%
+Laptop LG Gram  2023 17ZD90R,40990000,https://laptop88.vn/new-100-laptop-lg-gram-2023-17zd90r-g.ax73a5-intel-core-i7-1360p-17-inch-wqxga-2560-x-1600.html,https://laptop88.vn/media/product/pro_poster_8134.jpg,"i7-1360P
+",16GB LPDDR5,SSD 256GB NVMe,"Intel Iris Xe Graphics
+",17 inch  2K 100% sRGB,New 100%
+Laptop Lenovo IdeaPad Slim 5 16IRL8 82XF002UVN,20490000,https://laptop88.vn/new-100-laptop-lenovo-ideapad-slim-5-16irl8-82xf002uvn-intel-core-i5-13500h-16-inch-2.5k-100-dci-p3.html,https://laptop88.vn/media/product/8137_8117_lenovo_ideapad_slim_5_light_14abr8_r5_82xs002kvn_abc_glr_1.jpg,"i5-13500H
+",16GB LPDDR5,SSD 512GB NMVe,"Intel Iris Xe Graphics
+",16 2.5K 100% sRGB,New 100%
+Laptop LG Gram 15 2023 15Z90RT,40990000,https://laptop88.vn/new-100-laptop-lg-gram-style-15-2023.html,https://laptop88.vn/media/product/pro_poster_8138.jpg," i5-1340P
+",16GB LPDDR5,SSD 512GB,Intel Iris Xe Graphics,15.6 FHD 100%DCi-P3 90Hz,New 100%
+Laptop Asus Vivobook 14 OLED A1405VA,18990000,https://laptop88.vn/new-100-laptop-asus-vivobook-14-oled-a1405va-km059w-intel-core-i5-13500h-14-inch-2.8k-oled.html,https://laptop88.vn/media/product/8146_12971_asus_vivobook_pro_14_oled_a1405va___en__4.jpg," i5-13500H
+",8GB DDR4,SSD 512GB M.2 NVMe,Intel Iris Xe Graphics,14  2.8K OLED,New 100%
+Laptop LG Gram 2 in 1 2023 14T90R,36290000,https://laptop88.vn/new-100-laptop-lg-gram-2-in-1-2023-14t90r-g.ah55a5-i5-1340p-16gb-512gb-14-inch-wuxga.html,https://laptop88.vn/media/product/pro_poster_8139.jpg,i5 - 1340P,16GB ,SSD 512GB NVMe,Iris Xe Graphics,14 inch WUXGA,New 100%
+Laptop LG Gram 2023 17Z90R,48990000,https://laptop88.vn/new-100-laptop-lg-gram-2023-17z90r-g.ah78a5-intel-core-i7-1360p-17-inch-wqxga-2560-x-1600.html,https://laptop88.vn/media/product/pro_poster_8135.jpg,"i7-1360P
+",16GB LPDDR5,SSD 1TB NVMe,"Intel Iris Xe Graphics
+",17 inch 2K 100% sRGB,New 100%
+Laptop Dell Gaming G15 5530 i7H165W11GR4050,38990000,https://laptop88.vn/new-100-laptop-dell-gaming-g15-5530-i7h165w11gr4050-intel-core-i7-13650hx-rtx-4050-15.6-inch-full-hd.html,https://laptop88.vn/media/product/8150____nh_1.jpg,i7-13650HX,16GB DDR5,SSD 512GB NVMe,NVIDIA  RTX 4050 6GB,15.6 Full HD 165Hz,New 100%
+Laptop Asus Vivobook 15 X1504VA,13190000,https://laptop88.vn/new-100-laptop-asus-vivobook-15-x1504va-nj069w-i3-1315u-8gb-512gb-15-inch-full-hd.html,https://laptop88.vn/media/product/8125_asus_vivobook_15_.jpg," i3-1315U
+",8GB DDR4,SSD 512GB ,Intel Iris Xe Graphics,15.6  Full HD,New 100%
+Laptop MSI Raider GE67 HX 12UGS 097VN Intel Core i9,56990000,https://laptop88.vn/new-100-laptop-msi-raider-ge67-hx-12ugs-097vn-intel-core-i9-12900hx-rtx3070ti-gddr6-15.6-inch-oled-qhd.html,https://laptop88.vn/media/product/8022_untitled_1.jpg,"i9-12900HX
+",32GB DDR5,SSD 1TB NVMe,Nvidia RTX 3070Ti,15.6 QHD OLED,New 100%
+Laptop HP Envy X360 2 in 1 14,15490000,https://laptop88.vn/new-outlet-laptop-hp-envy-x360-2-in-1-14-es0013dx-7h9y4ua-intel-core-i5-1335u-14-inch-full-hd-touch.html,https://laptop88.vn/media/product/8177_pro_poster_5117.jpg,i5-1335U,8GB DDR4,SSD 512GB NVMe,Intel Iris Xe,14 Full HD Touch,New Outlet
+Laptop LG Gram 2023 14Z90R,30990000,https://laptop88.vn/new-100-laptop-lg-gram-2023-14z90r-g.ah53a5-intel-core-i5-1340p-14-inch-wuxga.html,https://laptop88.vn/media/product/pro_poster_8129.jpg,"i5-1340P
+",16GB LPDDR5,SSD 256GB NVMe,"Intel Iris Xe Graphics
+",14 inch 2K 100% sRGB,New 100%
+Laptop Dell Inspiron 14 7425 RG6WW  2 in 1,14990000,https://laptop88.vn/new-outlet-laptop-dell-inspiron-14-7425-rg6ww-2-in-1-amd-ryzen-5-5625u-14-inch-full-hd-2022.html,https://laptop88.vn/media/product/8176_7381_dell_inspiron_14_7425_rg6ww_2_in_1.jpg,"AMD R5-5625U
+",8GB DDR4,SSD 512GB,"Integrated AMD Vega
+",14.0 Full HD+ Touch,New 100%
+Laptop LG Gram 2023 14Z90R,37390000,https://laptop88.vn/new-100-laptop-lg-gram-2023-14z90r-g.ah75a5-intel-core-i7-1360p-14-inch-wuxga.html,https://laptop88.vn/media/product/pro_poster_8131.jpg,"i7-1360P
+",16GB LPDDR5,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",14 inch 2K 100% sRGB,New 100%
+Laptop ASUS ROG Zephyrus G14 GA402NJ,39990000,https://laptop88.vn/new-100-laptop-asus-rog-zephyrus-g14-ga402nj-l4056w-amd-ryzen-7-7735hs-16gb-ddr5-rtx-3050-14-inch-wuxga.html,https://laptop88.vn/media/product/8178_05_ga402_black_lb.png,"AMD R7-7735HS
+",16GB DDR5,SSD 512GB NVMe,Nvidia RTX 3050,14 100% sRGB 144Hz,New 100%
+Laptop Lenovo IdeaPad Flex 5 16IAU7,16990000,https://laptop88.vn/new-outlet-laptop-lenovo-ideapad-flex-5-16iau7-82r80002us-i7-1255u-16gb-512gb-16-inch-wqxga.html,https://laptop88.vn/media/product/8182_1073998780.jpg,i7-1255U,16GB ,SSD 512GB NVMe,Intel Iris Xe Graphics,16 WQXGA,New Outlet
+Laptop Lenovo Ideapad Slim 9 14ITL5 82D2000BUS,18990000,https://laptop88.vn/new-outlet-laptop-lenovo-ideapad-slim-9-14itl5-82d2000bus-intel-core-i7-1165g7-ram-16gb-14-inch-4k-100-dci-p3.html,https://laptop88.vn/media/product/8198_db531b5e_f934_4075_931c_f813e7dcc591.jpg,i7-1165G7,16GB LPDDR4x,SSD 512GB NVMe,Intel Iris Xe,14 4K 100% sRGB,New Outlet
+Laptop Dell Gaming G15 5530 i7H165W11GR4060,40990000,https://laptop88.vn/new-100-laptop-dell-gaming-g15-5530-i7h165w11gr4060-intel-core-i7-13650hx-rtx-4060-15.6-inch-full-hd.html,https://laptop88.vn/media/product/8153_8150____nh_1__2_.jpg,i7-13650HX,16GB DDR5,SSD 512GB NVMe,NVIDIA  RTX 4060 6GB,15.6 Full HD 165Hz,New 100%
+Laptop Lenovo Legion 5 Pro Y9000P IRX8 82WK007NCD,41990000,https://laptop88.vn/new-100-laptop-lenovo-legion-5-pro-y9000p-irx8-82wk007ncd-intel-core-i9-13900h-16gb-rtx-4060-16-inch-wqxga.html,https://laptop88.vn/media/product/8156_picture_61682068620.jpg,i9-13900HX,16GB DDR5,SSD 512GB NVMe,Nvidia RTX 4060 8GB,16 240Hz 100%sRGB,New 100%
+Lenovo Yoga 7 2 in 1 16IRL8 82YN0001US,18690000,https://laptop88.vn/new-100-lenovo-yoga-7-2-in-1-16irl8-82yn0001us-intel-core-i5-1355u-16-inch-wuxga.html,https://laptop88.vn/media/product/pro_poster_8200.jpg,i5 - 1335U,8GB DDR5,SSD 512GB,Intel Iris Xe,16 WUXGA,New 100%
+Laptop Cũ Dell Gaming G3 3500,15990000,https://laptop88.vn/moi-100-full-box-laptop-dell-g3-15-3500-p89f002-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6055.jpg,i5 - 10300H,16GB ,SSD 512GB,Nvidia GTX 1650,17.3 Full HD,Used
+Laptop Lenovo IdeaPad Gaming 3 15ARH7 82SB00K9US,27990000,https://laptop88.vn/new-100-laptop-lenovo-ideapad-gaming-3-15arh7-82sb00k9us-ryzen-7-7735hs-16gb-512gb-rtx-4050.html,https://laptop88.vnhttps://laptop88.vn/media/product/8195_ac___lenovo_ideapad_gaming_3_15arh7_82sb00k9us__2_.jpg,R7 - 7735HS,16GB DDR5,SSD 512GB NMVe,Nvidia RTX 4050,15.6 Full HD ,New 100%
+Laptop Lenovo Slim 7 16IAH7 82VB0000US,21990000,https://laptop88.vn/new-outlet-laptop-lenovo-slim-7-16iah7-82vb0000us-i7-12700h-intel-arc-a370m-32gb-1tb-16-inch-wqxga.html,https://laptop88.vn/media/product/8183_61gwo44ugsl__ac_sx679_.jpg,i7-12700H,32GB LPDDR5,SSD 1TB NVMe,Intel ARC A370M,16 WQXGA,New Outlet
+Laptop Lenovo LOQ 15IRH8 82XV000PVN,29990000,https://laptop88.vn/new-100-laptop-lenovo-loq-15irh8-82xv000pvn-intel-core-i5-13420h-rtx-4050-15.6-inch-144hz.html,https://laptop88.vn/media/product/8199_13166_lenovo_loq_15irh8_82xv000pvn_1.jpg,i5 - 13420H,8GB DDR5,SSD 512GB,RTX 4050,15.6 FHD 144Hz,New 100%
+Laptop cũ Dell XPS 13 9305,16690000,https://laptop88.vn/moi-99-refurbished-laptop-dell-xps-13-9305-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_7029.jpg,i5 - 1135G7,8GB LPDDR3,SSD 256GB,Intel Iris Plus Graphics,13.3 inch Full HD,New 100%
+Laptop Cũ Lenovo K21,3990000,https://laptop88.vn/laptop-cu-lenovo-k21-intel-core-i3.html,https://laptop88.vn/media/product/pro_poster_5931.jpg,i3 - 6100U,4GB DDR3L,SSD 120GB,Intel HD 520,12.5 inch HD,Used
+Laptop Lenovo ThinkBook 15 G4 IAP 21DJ000VUS,15990000,https://laptop88.vn/new-outlet-lenovo-thinkbook-15-g4-iap-21dj000vus-i7-1255u-16gb-512gb.html,https://laptop88.vn/media/product/pro_poster_8184.jpg,i7-1255U,16GB DDR4,SSD 512GB NVMe,Intel Iris Xe,15 inch FHD,New Outlet
+Laptop Cũ Dell XPS 13 9360,15990000,https://laptop88.vn/laptop-dell-xps-9360-intel-core-i7-7500u-ram-8gb-ssd-nvme-256gb-intel-iris-plus-graphic-640-13.3-inch-fullhd/p4133.html,https://laptop88.vn/media/product/pro_poster_4133.jpg,i7-7500U,8GB LPDDR3,SSD 256GB,Intel HD 620,13.3 inch Full HD,Used
+Laptop Cũ Dell Precision M6700 Intel Core i7,10990000,https://laptop88.vn/laptop-cu-dell-precision-m6700.html,https://laptop88.vn/media/product/pro_poster_3915.jpg,i7 - 3720 QM,8GB DDR3,SSD 256GB,Quadro K5000M,17.3 Full HD,Used
+Laptop Cũ Dell Latitude 5580,8990000,https://laptop88.vn/laptop-cu-dell-latitude-5580-intel-core-i-7.html,https://laptop88.vn/media/product/pro_poster_4575.jpg,i7 - 7820HQ,8GB DDR4,SSD 256GB,Intel HD Graphics,15.6 Full HD,Used
+Mac Mini Late 2014 Cũ A1347 EMC 2840,6800000,https://laptop88.vn/mac-mini-late-2014-cu-a1347-emc-2840-intel-core-i5-2.6ghz.html,https://laptop88.vn/media/product/6445_mgem2_1_3xlp_7o.jpg,i5 - 6200U,8GB DDR4,SSD 256GB,"Intel Iris Xe Graphics
+",15.6 Full HD 144Hz,New 100%
+Laptop Cũ Dell Latitude 5590,8490000,https://laptop88.vn/laptop-cu-dell-latitude-5590-intel-core-i5/p4571.html,https://laptop88.vn/media/product/4571_artboard_2.png,i5 - 8250U,8GB DDR4,SSD 256GB,Intel UHD Graphics,15.6 inch Full HD,Used
+Laptop Cũ LG Gram 14ZD90N,16990000,https://laptop88.vn/moi-100-full-box-laptop-lg-gram-2020-14zd90n-v.ax53a5-hang-chinh-hang.html,https://laptop88.vn/media/product/5122_14zd90n_v_ax53a5.png,"Intel Core i5-1035G7
+",8GB DDR4,SSD 256GB,"Intel Iris Plus
+",14 inch Full HD,Used
+Laptop Cũ Dell Precision 7540,19990000,https://laptop88.vn/laptop-cu-dell-precision-7540-intel-core-i7.html,https://laptop88.vn/media/product/7214_7032_workstations_precision_7540_html5_static_image_set_www_laptopvip_vn_1623474661__1_.png,i7 - 9850H,16GB DDR4,SSD 512GB,Quadro T2000M,15.6 Full HD,Used
+Laptop Cũ Dell Latitude 7420,13490000,https://laptop88.vn/laptop-cu-dell-latitude-7420-intel-core-i5-1145g7-14-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7648.jpg,"i5-1145G7
+",8GB DDR4,SSD 256GB NVMe,"Intel Iris Xe Graphics
+",14 Full HD,Used
+Macbook Air 13 Late 2020 MGN63SA / MGN93SA / MGND3SA,25990000,https://laptop88.vn/moi-100-full-box-macbook-air-13-late-2020-mgn63sa/mgn93sa/mgnd3sa-chip-m1-8-core-ssd-256gb-chinh-hang.html,https://laptop88.vn/media/product/pro_poster_5911.jpg,"M1 (8-Core CPU)
+",8GB ,SSD 256GB,"7-Core GPU
+",13.3 Retina,New 100%
+Laptop Cũ Dell Latitude 7300,9290000,https://laptop88.vn/laptop-cu-dell-latitude-7300-intel-core-i7.html,https://laptop88.vn/media/product/7899_7210_5401.png,"i7 - 8560U
+",8GB DDR4,SSD 256GB,Intel UHD 620,13.3 Full HD,Used
+Laptop Cũ Dell Precision 5560,29990000,https://laptop88.vn/moi-100-full-box-laptop-dell-precision-5560-intel-core-i7-11850h-rtx-t1200m.html,https://laptop88.vn/media/product/7907_dell_precision_5560_1.png,"i7 - 11850H
 ",32GB DDR4,SSD 512GB NVMe,"Quadro T1200M
-",15 Full HD+
-Laptop Cũ Dell Latitude 7300 - Intel Core i7,9290000,https://laptop88.vn/laptop-cu-dell-latitude-7300-intel-core-i7.html,"i7 - 8560U
-",8GB DDR4,SSD 256GB,Intel UHD 620,13.3 Full HD
-Laptop Cũ Dell Latitude 7420 - Intel Core i5-1145G7 | 14 inch Full HD,13490000,https://laptop88.vn/laptop-cu-dell-latitude-7420-intel-core-i5-1145g7-14-inch-full-hd.html,"i5-1145G7
-",8GB DDR4,SSD 256GB NVMe,"Intel Iris Xe Graphics
-",14 Full HD
-Laptop Cũ Dell Precision 7540 - Intel Core i7,21990000,https://laptop88.vn/laptop-cu-dell-precision-7540-intel-core-i7.html,i7 - 9850H,16GB DDR4,SSD 512GB,Quadro T2000M,15.6 Full HD
-Mac Mini Late 2014 Cũ A1347 EMC 2840 - Intel Core i5 2.6GHz,6800000,https://laptop88.vn/mac-mini-late-2014-cu-a1347-emc-2840-intel-core-i5-2.6ghz.html,i5 - 6200U,8GB DDR4,SSD 256GB,Intel HD 520,14 Full HD
-Laptop Cũ Dell Latitude 5590 - Intel Core i5,8490000,https://laptop88.vn/laptop-cu-dell-latitude-5590-intel-core-i5/p4571.html,i5 - 8250U,8GB DDR4,SSD 256GB,Intel UHD Graphics,15.6 inch Full HD
-Laptop Cũ Dell Latitude 5580 - Intel Core i7,9390000,https://laptop88.vn/laptop-cu-dell-latitude-5580-intel-core-i-7.html,i7 - 7820HQ,8GB DDR4,SSD 256GB,Intel HD Graphics,15.6 Full HD
-Laptop cũ HP Elitebook x360 1040 G5 - Intel Core i5 | 14 inch Full HD,11990000,https://laptop88.vn/moi-100-full-box-laptop-hp-elitebook-x360-1040-g5-5xd03pa-intel-core-i5.html,"i5 - 8250u
-",8GB LPDDR4,SSD 256GB ,UHD 620,14 inch FHD
-Laptop Cũ Dell XPS 13 9360 - Intel Core i7,15990000,https://laptop88.vn/laptop-dell-xps-9360-intel-core-i7-7500u-ram-8gb-ssd-nvme-256gb-intel-iris-plus-graphic-640-13.3-inch-fullhd/p4133.html,i7-7500U,8GB LPDDR3,SSD 256GB,Intel HD 620,13.3 inch Full HD
-Laptop Cũ Dell Precision M6700 Intel Core i7,10990000,https://laptop88.vn/laptop-cu-dell-precision-m6700.html,i7 - 3720 QM,8GB DDR3,SSD 256GB,Quadro K5000M,17.3 Full HD
-Laptop Cũ Lenovo K21-80 - Intel Core i3,3990000,https://laptop88.vn/laptop-cu-lenovo-k21-intel-core-i3.html,i3 - 6100U,4GB DDR3L,SSD 120GB,Intel HD 520,12.5 inch HD
-Laptop Workstation Cũ ThinkPad P50 - Intel Core i7 / Xeon,12990000,https://laptop88.vn/laptop-workstation-cu-thinkpad-p50-intel-core-i7.html,i7 - 6700HQ,8GB DDR4,SSD 240GB,Quadro M1000M,15.6 Full HD
-Laptop Cũ Dell Latitude 7300 - Intel Core i5,8190000,https://laptop88.vn/laptop-cu-dell-latitude-7300-intel-core-i5.html,i5 - 8265U,8GB DDR4,SSD 256GB,Intel UHD 620,13.3 Full HD
-Laptop Cũ Dell Latitude 5591 - Intel Core i7,10690000,https://laptop88.vn/laptop-cu-dell-latitude-5591-intel-core-i7.html,i7 - 8850H,8GB or 16GB DDR4,SSD 256GB,Intel UHD Graphics,15.6 inch Full HD
-Laptop cũ Dell Latitude E5450 - Intel Core i5,4990000,https://laptop88.vn/laptop-dell-latitude-e5450-intel-core-i5-5300uram-4gbssd-120gbintel-hd-graphics-550014-inch-hd.html,i5 - 5200U,4GB DDR3,SSD 120GB,Intel HD 5500,14 inch HD
-Laptop Cũ Dell Vostro 3400 - Intel Core i3-1115G4,7990000,https://laptop88.vn/moi-100-full-box-laptop-dell-vostro-3400-intel-core-i3.html,"Intel Core i3 1115G4
+",15 Full HD+,Used
+Laptop Lenovo Yoga 9 2 in 1 14IAP7 82LU004CUS,19990000,https://laptop88.vn/new-outlet-laptop-lenovo-yoga-9-2-in-1-14iap7-82lu004cus-intel-core-i7-1260p-16gb-14-inch-wuxga-100-srgb.html,https://laptop88.vn/media/product/8179_laptoplenovoyogaslim9_1.jpg,i7-1260P,16GB LPDDR5,SSD 512GB NVMe,Intel Iris Xe Graphics,14 Full HD+ 100% sRGB,New Outlet
+Laptop cũ Dell Latitude E7270,5290000,https://laptop88.vn/laptop-dell-latitude-e7270-core-i7.html,https://laptop88.vn/media/product/pro_poster_3964.jpg,i7 - 6600U,8GB DDR4,SSD 256GB,Intel HD 520,12.5 inch Full HD,Used
+Laptop Workstation Cũ Dell Precision 5540,19990000,https://laptop88.vn/laptop-workstation-cu-dell-precision-5540-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_5325.jpg,Core i7-9850H,16GB DDR4,SSD 512GB,Quadro T1000,15.6 Full HD,Used
+Laptop Dell Inspiron 16 5625,14790000,https://laptop88.vn/moi-99-full-box-laptop-dell-inspiron-16-5625-r1505s-amd-ryzen-5-5625u-16-inch-full-hd.html,https://laptop88.vn/media/product/7954_7413_7642_5625_moi.jpg,"R5 - 5625U
+",8GB DDR4 ,SSD 512GB NVMe,"AMD Radeon Graphics
+",16 Full HD+,New 100%
+Laptop Cũ Dell Inspiron 14 5425,15690000,https://laptop88.vn/laptop-cu-dell-inspiron-14-5425-amd-ryzen-7-5825u-14-inch-full-hd.html,https://laptop88.vn/media/product/7937_7765_picture_01664770540.jpg,"AMD R7-5825U
+",8GB DDR4 ,SSD 512GB NVMe,"AMD Radeon Vega
+",14.0 Full HD+,Used
+Laptop cũ Dell Precision 5520,15490000,https://laptop88.vn/laptop-cu-dell-precision-m5520-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_4700.jpg,i7 - 7820HQ / Xeon,16GB DDR4,SSD 512GB,Quadro M1200,15.6 inch Full HD,Used
+Laptop Cũ Workstation Dell Precision 5540,24990000,https://laptop88.vn/moi-99-no-box-laptop-workstation-dell-precision-5540-intel-core-i9.html,https://laptop88.vn/media/product/5609_5325_dell_precision_5540_1.jpg,Core i9-9880H,32GB DDR4,SSD 512GB,Quadro T2000,15.6 Full HD,Used
+Laptop cũ HP Elitebook x360 1040 G5,11990000,https://laptop88.vn/moi-100-full-box-laptop-hp-elitebook-x360-1040-g5-5xd03pa-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_4526.jpg,"i5 - 8250u
+",8GB LPDDR4,SSD 256GB ,UHD 620,14 inch FHD,Used
+Laptop Cũ Dell Latitude 7400,9490000,https://laptop88.vn/laptop-cu-dell-latitude-7400-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_6082.jpg,i7 - 8560U,8GB / 16GB,SSD 240GB,"Intel UHD 620
+",14 Full HD,Used
+Laptop Dell Latitude E7470,6990000,https://laptop88.vn/laptop-dell-latitude-e7470-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_3840.jpg,i7 - 6600U,8GB DDR4,SSD 240GB,Intel HD 520,14 inch Full HD,Used
+Laptop Cũ Dell Precision 7720,13990000,https://laptop88.vn/laptop-cu-dell-precision-7720-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_5087.jpg,Intel core i7,8GB ,SSD 256GB,Quadro P3000M,17.3 Full HD,Used
+Laptop Cũ Dell Precision 7530,16990000,https://laptop88.vn/laptop-cu-dell-precision-7530-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_6379.jpg,i7 - 8750H,16GB DDR4,SSD 512GB,Quadro P1000M,15.6 Full HD,Used
+Laptop Cũ Dell Precision 7710,14990000,https://laptop88.vn/laptop-cu-dell-precision-7710-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_4782.jpg,i7 - 6820HQ,8GB DDR4,SSD 256GB,Quadro M3000M,17.3 inch Full HD,Used
+Laptop Cũ Lenovo Thinkpad T480s,10690000,https://laptop88.vn/laptop-cu-lenovo-thinkpad-t480s-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_4915.jpg,i5 - 8265u,8GB DDR4,SSD 256GB,Intel HD Graphics,14 inch Full HD,New 100%
+Laptop Gaming ASUS TUF Gaming A15 FA506ICB,17590000,https://laptop88.vn/moi-100-full-box-laptop-gaming-asus-tuf-gaming-a15-fa506icb-hn355w-amd-ryzen-5-4600h-rtx-3050-4gb-15.6-inch-full-hd-144hz.html,https://laptop88.vn/media/product/pro_poster_7671.jpg,"R5 - 4600H
+",8GB DDR4,SSD 512GB NVMe,"Nvidia RTX 3050 4GB
+",15.6 Full HD 144Hz,New 100%
+Laptop Microsoft Surface Pro 7 Plus,17990000,https://laptop88.vn/moi-100-full-box-laptop-microsoft-surface-pro-7-plus-intel-core-i5-1135g7-12.3-inch-qhd.html,https://laptop88.vn/media/product/pro_poster_7984.jpg,i5-1135G7,8GB LPDDR4X,SSD 128GB,Kèm phím,12.3 QHD Touch,New 100%
+Laptop Gaming MSI Katana 15 B13VEK 252VN,29990000,https://laptop88.vn/new-100-laptop-gaming-msi-katana-15-b13vek-252vn-intel-core-i7-13620h-rtx-4050-6gb-144hz.html,https://laptop88.vn/media/product/pro_poster_7986.jpg,"i7-13620H
+",8GB DDR5,SSD 512GB NMVe,"Nvidia RTX 4050
+",15.6 Full HD 144Hz,New 100%
+Laptop Gaming Asus TUF 2022 F15 FX507ZC,24690000,https://laptop88.vn/moi-100-full-box-laptop-gaming-asus-tuf-f15-intel-core-i7-12700h.html,https://laptop88.vn/media/product/pro_poster_7002.jpg,"Core i7-12700H
+",8GB DDR5 ,SSD 512GB NVMe,NVIDIA RTX 3050,15.6 Full HD 144Hz,New 100%
+Laptop Cũ Dell Precision 3520,9590000,https://laptop88.vn/laptop-cu-dell-precision-3520-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_4725.jpg,i7 - 6820HQ,16GB DDR4,SSD 240GB,Quadro M620,15.6 inch Full HD,Used
+Laptop MSI Modern 14 C13M 458VN,15490000,https://laptop88.vn/new-100-laptop-msi-modern-14-c13m-458vn-intel-core-i5-1335u-14-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7966.jpg,"i5 - 1335U
+",8GB DDR4,SSD 512GB,"Intel Iris Xe Graphics
+",14 Full HD,New 100%
+Laptop Dell Gaming G15 5520,18990000,https://laptop88.vn/moi-100-full-box-laptop-dell-g15-5520-1d62j-intel-core-i5-12500h-rtx3050-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7698.jpg,"i5 - 12500H
+",8GB DDR5,SSD 256GB NVMe,Nvidia RTX 3050,15.6 FHD 120Hz,New Outlet
+Laptop Samsung Galaxy Book Pro 15 NP950XDB KC5US,17990000,https://laptop88.vn/moi-laptop-samsung-galaxy-book-pro-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_6976.jpg,"Core  i7-1165G7
+",16GB LPDDR4,SSD 1TB NVMe,"Intel Iris Xe Graphics
+",15.6 FHD 100% sRGB,New Outlet
+Laptop Dell G16 7620,28490000,https://laptop88.vn/new-outlet-laptop-dell-g16-7620-intel-core-i7-12700h-rtx-3050ti-16-inch-qhd.html,https://laptop88.vn/media/product/pro_poster_8052.jpg,"i7 - 12700H
+",16GB DDR5,SSD 512GB NVMe,"Nvidia RTX3050Ti
+",16inch 165Hz  100% sRGB,New Outlet
+Laptop HP Pavilion x360 14,11690000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-x360-14-ek0013dx-intel-core-i3-1215u-14-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7719.jpg,i3 - 1215U,8GB DDR4,SSD 256GB NMVe,Intel UHD Graphics,14 Full HD iPS,New 100%
+Laptop LG Gram 14 Lightweight 14ZB90Q,21990000,https://laptop88.vn/new-outlet-laptop-lg-gram-2-in-1-16t90q-k.aac7u1-intel-core-i7-1260p-16-inch-2k-wqxga.html,https://laptop88.vn/media/product/pro_poster_7987.jpg,"i7-1260P
+",16GB LPDDR5,SSD 512GB NMVe,Intel Iris Xe Graphics,14  WUXGA ,New Outlet
+Laptop Lenovo Ideapad Gaming 3 2022 15IAH7 82S90086VN,19990000,https://laptop88.vn/moi-100-full-box-laptop-lenovo-ideapad-gaming-3-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6937.jpg,Intel Core i5-12500H,16GB DDR4,SSD 512GB NVMe,Nvidia RTX 3050Ti,15.6 Full HD 120Hz,New 100%
+Laptop Dell Inspiron 16 Plus 7620,22990000,https://laptop88.vn/new-outlet-laptop-dell-inspiron-16-plus-7620-intel-core-i7-12700h-ram-40gb-ssd-1tb-16-inch-qhd.html,https://laptop88.vn/media/product/pro_poster_8070.jpg,i7-12700H,40GB DDR5,SSD 1TB NVMe,Intel Iris Xe Graphics ,16 inch QHD+ ,New Outlet
+Laptop Dell Inspiron 3520 N5I5122W1,15690000,https://laptop88.vn/moi-100-full-box-laptop-dell-inspiron-3520-n5i5122w1-intel-core-i5-1235u-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7603.jpg,i5 - 1235U,8GB DDR4,SSD 256GB NVMe,Intel Iris Xe Graphics,15.6 Full HD 120Hz,New 100%
+Laptop Dell Inspiron 15 3511 R1605S,14390000,https://laptop88.vn/moi-100-full-box-laptop-dell-inspiron-15-3511-r1605s-intel-core-i5-1135g7-16gb-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7896.jpg,i5-1135G7,16GB DDR4,SSD 512GB,Intel Iris Xe Grapchis,15.6 Full HD,New 100%
+Laptop Gaming Acer Predator Helios 300 PH315,28590000,https://laptop88.vn/new-outlet-laptop-gaming-acer-predator-helios-300-ph315-55-70zv-intel-core-i7-12700h-rtx-3060-15.6-quot-full-hd-165hz.html,https://laptop88.vn/media/product/pro_poster_8079.jpg,"i7-12700H
+",16GB DDR5,SSD 512GB,RTX 3060,"15.6 Full HD, 165Hz",New 100%
+Laptop HP Pavilion x360 2 in 1 14,14590000,https://laptop88.vn/moi-100-full-box-laptop-hp-pavilion-x360-14-dy0077tu-46l95pa-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6958.jpg,i5 - 1235U,8GB DDR4,SSD 512GB NMVe,Intel Iris Xe Graphics,14 Full HD ,New 100%
+Laptop MSI Gaming Bravo 15 B5DD,16490000,https://laptop88.vn/moi-100-full-box-laptop-msi-bravo-15-amd-ryzen-5.html,https://laptop88.vn/media/product/pro_poster_5212.jpg,"AMD R7-5800H
+",8GB DDR4,SSD 512GB NMVe,RX5500M 4GB GDDR6,15.6 Full HD 60Hz,New 100%
+Laptop HP Elitebook 840 G7,12990000,https://laptop88.vn/new-outlet-laptop-elitebook-840-g7-intel-core-i5-10310u-16gb-256gb.html,https://laptop88.vn/media/product/pro_poster_8036.jpg,"i5 - 10310u
+",16GB,SSD 256GB ,UHD Graphics,14 FHD ,New Outlet
+Laptop Gaming Gigabyte G5 KF,25290000,https://laptop88.vn/new-100-laptop-gaming-gigabyte-g5-kf-e3vn333sh-intel-core-i5-12500h-rtx-4060-8gb-15.6-inch-fhd-144hz.html,https://laptop88.vn/media/product/pro_poster_8127.jpg,"i5 - 12500H
+",8GB DDR4,SSD 512GB NVMe,Nvidia RTX 4060 ,15.6 Full HD 144Hz,New 100%
+Laptop MSI Cyborg 15 A12VE 240VN,24990000,https://laptop88.vn/new-100-laptop-msi-cyborg-15-a12ve-240vn-intel-core-i7-12650h-rtx-4050-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7968.jpg,"i7 - 12650H
+",8GB DDR5,SSD 512GB,"Nvidia RTX 4050
+",15.6 Full HD 144Hz,New 100%
+Laptop Lenovo Yoga 7 16IAP7,17990000,https://laptop88.vn/new-100-laptop-lenovo-yoga-7-16iap7-82qg0001us-intel-core-i5-1240p-16-inch-wqxga.html,https://laptop88.vn/media/product/pro_poster_8033.jpg,"i5-1240P
+",8GB LPDDR5,SSD 256GB NVMe,"Intel Iris Xe Graphics
+",16  2K 100% sRGB,New 100%
+Laptop Gaming Acer Nitro 5 AN517,18290000,https://laptop88.vn/moi-100-full-box-laptop-acer-nitro-5-an517-55-5354-intel-core-i5-12500h-rtx-3050-4gb-17.3-inch-full-hd-144hz.html,https://laptop88.vn/media/product/pro_poster_7830.jpg,i5 - 12500H,8GB DDR4,SSD 512GB NVMe,Nvidia RTX 3050 4GB,17.3 Full HD 144Hz,New Outlet
+Laptop MSI Gaming Katana GF66 12UC 699VN,20990000,https://laptop88.vn/moi-100-full-box-laptop-msi-gaming-katana-gf66-12uc-699vn-intel-core-i5-12450h-rtx-3050.html,https://laptop88.vnhttps://laptop88.vn/media/product/7631_anb______ng_h____msi_gaming_katana_gf66_12uc_699vn.jpg,"i5 - 12450H
+",8GB DDR4,SSD 512GB NVMe,Nvidia RTX 3050,15.6 Full HD ,New 100%
+Laptop Gaming GIGABYTE G5 GD 51VN123SO,17990000,https://laptop88.vn/moi-100-full-box-laptop-gaming-gigabyte-g5-gd-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6817.jpg,i5 - 11400H,16GB DDR4,SSD 512GB NMVe,Nvidia RTX 3050,15.6 Full HD 144Hz,New 100%
+Laptop Gaming MSI GF63 Thin 11SC 664VN,14990000,https://laptop88.vn/moi-100-full-box-laptop-msi-gf63-thin-10scs-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_5809.jpg,"Intel Core i5-11400H
+",8GB DDR4,SSD 512GB NVMe,"Nvidia GTX 1650
+",15.6 Full HD 144Hz,New 100%
+Dell XPS 13 9315,22990000,https://laptop88.vn/moi-100-full-box-laptop-dell-xps-13-9315-f4gh8-intel-core-i5-1230u-13.4-inch-full-hd.html,https://laptop88.vnhttps://laptop88.vn/media/product/7827_anb______ng_h____dell_xps_13_9315_f4gh8_m___i___i5_1230u.jpg,i5 - 1230U,8GB LPDDR5,SSD 512GB NMVe,Intel Iris Xe Graphics,13.4 Full HD+,New 100%
+Laptop Gaming Acer Nitro 5 Eagle AN515,17990000,https://laptop88.vn/moi-100-full-box-laptop-gaming-acer-nitro-5-an515-57-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_4766.jpg,i5 - 11400H,8GB DDR4,SSD 512GB,Nvidia GTX 1650,15.6 Full HD 144Hz,New 100%
+Laptop Dell Gaming G15 5525 691KP,18990000,https://laptop88.vn/moi-100-full-box-laptop-dell-gaming-g15-5515-2021-amd-ryzen-5.html,https://laptop88.vn/media/product/pro_poster_6695.jpg,R5 - 6600H,8GB DDR5,SSD 512GB NVMe,NVIDIA  RTX 3050,15.6 Full HD 120Hz,New 100%
+Laptop Gaming Gigabyte G5 MF E2VN333SH,23290000,https://laptop88.vn/new-100-laptop-gaming-gigabyte-g5-mf-e2vn333sh-intel-core-i5-12500h-rtx-4050-15.6-inch-fhd-144hz.html,https://laptop88.vn/media/product/pro_poster_8126.jpg,"i5 - 12500H
+",8GB DDR4,SSD 512GB NVMe,Nvidia RTX 4050 ,15.6 Full HD 144Hz,New 100%
+Laptop HP VICTUS 16,18990000,https://laptop88.vn/moi-100-full-box-laptop-hp-victus-16-e0175ax-4r0u8pa-amd-ryzen-5.html,https://laptop88.vn/media/product/pro_poster_6659.jpg,R5 - 6600H,16GB DDR5,SSD 512GB NMVe,"Nvidia RTX 3050
+",16.1 Full HD 144Hz,New 100%
+Laptop Asus Zenbook Q409ZA,14590000,https://laptop88.vn/moi-100-full-box-laptop-asus-zenbook-q409-intel-core-i5-doi-moi-nhat-deal-ngon.html,https://laptop88.vn/media/product/pro_poster_7318.jpg,"Core i5-1240P
+",8GB LPDDR5,SSD 256GB NVMe,"Intel Iris Xe Graphics
+",14.0 OLED 2.8K,New 100%
+Laptop Lenovo IdeaPad 3 14ITL6 82H701G0US,13590000,https://laptop88.vn/new-100-laptop-lenovo-ideapad-3-14itl6-82h701g0us-intel-core-i7-1165g7-14-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_8076.jpg,"i7-1165G7
+",8GB DDR4,SSD 256GB NVMe,Intel Iris Xe Graphics,14 Full HD,New 100%
+Laptop Lenovo IdeaPad 3 15ABA7 82RN0070VN,10990000,https://laptop88.vn/moi-100-full-box-laptop-lenovo-ideapad-3-15aba7-82rn0070vn-amd-ryzen-5-5625u-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7699.jpg,"R5 - 5625U
+",8GB DDR4,SSD 512GB NVMe,AMD Radeon Graphics,15.6 FHD ,New 100%
+Laptop Dell Inspiron 14 5425,13990000,https://laptop88.vn/moi-99-laptop-dell-inspiron-14-5425-amd-r5-5625u-16gb-ram-14-inch-full-hd-touch.html,https://laptop88.vn/media/product/pro_poster_7765.jpg,"AMD R5-5625U
+",16GB DDR4 ,SSD 512GB NVMe,"AMD Radeon Vega
+",14.0 Full HD+ Touch,New Outlet
+Laptop Acer Nitro 5 AN515,19690000,https://laptop88.vn/moi-100-full-box-laptop-acer-nitro-5-eagle-an515-57-54mv-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6713.jpg,i5 - 12500H,16GB DDR4,SSD 512GB,Nvidia RTX 3050Ti,15.6 Full HD 144Hz,New Outlet
+Laptop cũ Dell XPS 13 9350,8690000,https://laptop88.vn/laptop-dell-xps-9350-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_5006.jpg,i5 - 6200U,8GB LPDDR3,SSD 256GB,Intel HD 520,13.3 inch Full HD,Used
+Lenovo Legion 5 15IAH7 82RC008LVN,23990000,https://laptop88.vn/moi-100-full-box-laptop-lenovo-legion-5-pro-2022-16iah7-82s00004us-intek-core-i7-12700h-rtx-3050ti-16-inch-165hz.html,https://laptop88.vn/media/product/pro_poster_7036.jpg,i5 - 12500H,8GB DDR5,SSD 512GB NVMe ,Nvidia RTX 3050,"15.6 FHD, 165Hz",New 100%
+Laptop Cũ HP Probook 640 G3,5990000,https://laptop88.vn/laptop-cu-hp-probook-640-g3-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6796.jpg,i5 - 7200U,8GB DDR4,SSD 256GB,Intel HD 620,14 inch HD,Used
+Laptop Dell Latitude E5570,6090000,https://laptop88.vn/laptop-dell-latitude-e5570-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_3984.jpg,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD 520,15.6 inch Full HD,Used
+Laptop Dell Vostro 3405 R1505D,10990000,https://laptop88.vn/moi-100-full-box-laptop-dell-vostro-v3405-v4r53500u003w1-amd-ryzen-5.html,https://laptop88.vn/media/product/pro_poster_6881.jpg,"AMD R5-3500U
+",8GB DDR4,SSD 256GB NVMe,"Card AMD Vega 
+",14 Full HD,New 100%
+Laptop cũ Dell Latitude E5550,5490000,https://laptop88.vn/laptop-dell-latitude-e5550-intel-core-i5-5300u-ram-4gb-ssd-120gb-intel-hd-graphics-5500-15.6-inch-hd/p3992.html,https://laptop88.vn/media/product/pro_poster_3992.jpg,i5 - 5200U,4GB DDR3,SSD 120GB,Intel HD 5500,15.6 inch HD,Used
+Laptop Cũ Dell Latitude E6440,3990000,https://laptop88.vn/dell-latitude-e6440-core-i5.html,https://laptop88.vn/media/product/pro_poster_2440.jpg,i5 - 4200M,4GB DDR3,SSD 120GB,Intel HD 620,14 inch HD,Used
+Laptop cũ Dell Latitude E6540,5390000,https://laptop88.vn/laptop-dell-latitude-e6540-core-i5.html,https://laptop88.vn/media/product/pro_poster_3804.jpg,i5 - 4200M,4GB DDR3L,SSD 120GB,Intel HD 4600,15.6 inch Full HD,Used
+Laptop Dell Latitude 7280,5490000,https://laptop88.vn/laptop-dell-latitude-7280-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_4672.jpg,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD Graphics,12.5 inch Full HD,Used
+Laptop Cũ Dell Latitude 5500,9790000,https://laptop88.vn/laptop-cu-dell-latitude-5500-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_7213.jpg,i7 - 8560u,8GB DDR4,SSD 256GB,Intel UHD 620,15.6 inch Full HD,New 100%
+Laptop cũ Dell Latitude E5450,4990000,https://laptop88.vn/laptop-dell-latitude-e5450-intel-core-i5-5300uram-4gbssd-120gbintel-hd-graphics-550014-inch-hd.html,https://laptop88.vn/media/product/pro_poster_3952.jpg,i5 - 5200U,4GB DDR3,SSD 120GB,Intel HD 5500,14 inch HD,Used
+Laptop Cũ Dell Latitude 5591,10690000,https://laptop88.vn/laptop-cu-dell-latitude-5591-intel-core-i7.html,https://laptop88.vn/media/product/7493_laptop_dell_latitude_5591_1.jpg,i7 - 8850H,8GB or 16GB DDR4,SSD 256GB,Intel UHD Graphics,15.6 inch Full HD,Used
+Laptop Cũ Dell Vostro 3400,7990000,https://laptop88.vn/moi-100-full-box-laptop-dell-vostro-3400-intel-core-i3.html,https://laptop88.vn/media/product/6700_dsc04677_min.jpg,"Intel Core i3 1115G4
 ",4GB DDR4,SSD 256GB NVMe,"Card Intel UHD Graphics
-",14.0 HD
-Laptop Gaming cũ Dell Inspiron 5577 - Intel Core i5,10990000,https://laptop88.vn/dell-inspiron-gaming-5577-intel-i5-7300hqram8ssd-hdd-1tb-nvidia-geforce-gtx-1050-4gb-ddr5fhd-ips156inch.html,i5 - 7300HQ,8GB DDR4,SSD 240GB,Nvidia GTX 1050,15.6 Full HD
-Laptop Dell Latitude 7280  - Intel Core i5,5690000,https://laptop88.vn/laptop-dell-latitude-7280-intel-core-i5.html,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD Graphics,12.5 inch Full HD
-Laptop Cũ Dell Latitude E6440 - Intel Core i5,3990000,https://laptop88.vn/dell-latitude-e6440-core-i5.html,i5 - 4200M,4GB DDR3,SSD 120GB,Intel HD 620,14 inch HD
-Laptop cũ Dell Latitude E5550 - Intel Core i5,5490000,https://laptop88.vn/laptop-dell-latitude-e5550-intel-core-i5-5300u-ram-4gb-ssd-120gb-intel-hd-graphics-5500-15.6-inch-hd/p3992.html,i5 - 5200U,4GB DDR3,SSD 120GB,Intel HD 5500,15.6 inch HD
-Laptop Dell Latitude E5570 - Intel Core i5,6290000,https://laptop88.vn/laptop-dell-latitude-e5570-intel-core-i5.html,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD 520,15.6 inch Full HD
-Laptop Cũ HP Probook 640 G3 - Intel Core i5,5990000,https://laptop88.vn/laptop-cu-hp-probook-640-g3-intel-core-i5.html,i5 - 7200U,8GB DDR4,SSD 256GB,Intel HD 620,14 inch HD
-Laptop cũ Dell XPS 13 9350 - Intel Core i5,8690000,https://laptop88.vn/laptop-dell-xps-9350-intel-core-i5.html,i5 - 6200U,8GB LPDDR3,SSD 256GB,Intel HD 520,13.3 inch Full HD
-Laptop Cũ Asus Zenbook Q408UG - AMD Ryzen 5-5500U | 14 inch Full HD,11990000,https://laptop88.vn/laptop-cu-asus-zenbook-q408ug-amd-ryzen-5-5500u-14-inch-full-hd.html,R5 - 5500U,8GB DDR4,SSD 256GB,Radeon Graphics,14 Full HD
-Laptop Dell XPS 15 9570 - Intel Core i7 - 8750H | GTX 1050Ti,17490000,https://laptop88.vn/laptop-dell-xps-15-9570-intel-core-i7-8750h.html,i7 - 8750H,16GB DDR4,SSD 1TB,Nvidia GTX 1050Ti,15.6 Full HD
-Laptop Cũ Dell Latitude 5500 - Intel Core i5,9290000,https://laptop88.vn/laptop-cu-dell-latitude-5500-intel-core-i5.html,i5 - 8350U,8GB DDR4,SSD 256GB,Intel UHD 620,15.6 Full HD
-Laptop Cũ Dell Latitude 3410 - Intel Core i5,9990000,https://laptop88.vn/laptop-cu-dell-latitude-3410-intel-core-i5.html,i5 - 10210U,8GB DDR4,SSD 256GB,Intel UHD 620,14 Full HD
-Laptop Cũ HP Probook 640 G2 - Intel Core i7,5290000,https://laptop88.vn/laptop-cu-hp-probook-640-g2-intel-core-i7.html,i7 - 6600U,8GB DDR4,SSD 128GB,Intel HD 520,14 inch HD
+",14.0 HD,Used
+Laptop Workstation Cũ ThinkPad P50,12990000,https://laptop88.vn/laptop-workstation-cu-thinkpad-p50-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_4854.jpg,i7 - 6700HQ,8GB DDR4,SSD 240GB,Quadro M1000M,15.6 Full HD,Used
+Laptop ASUS TUF Gaming A15 FA507NU,28990000,https://laptop88.vn/moi-100-full-box-laptop-asus-tuf-gaming-a15-fa507nu-lp034w-amd-ryzen-7-7735hs-rtx-4050-6gb-15.6-inch-full-hd-144hz.html,https://laptop88.vn/media/product/pro_poster_7960.jpg,"R7 - 7735HS 
+",8GB DDR5,SSD 512GB NVMe,Nvidia RTX 4050 6GB,15.6 Full HD 144Hz,New 100%
+Laptop Cũ Dell Latitude 7300,8190000,https://laptop88.vn/laptop-cu-dell-latitude-7300-intel-core-i5.html,https://laptop88.vn/media/product/7210_5401.png,i5 - 8265U,8GB DDR4,SSD 256GB,Intel UHD 620,13.3 Full HD,Used
+Laptop Gaming cũ Dell Inspiron 5577,10990000,https://laptop88.vn/dell-inspiron-gaming-5577-intel-i5-7300hqram8ssd-hdd-1tb-nvidia-geforce-gtx-1050-4gb-ddr5fhd-ips156inch.html,https://laptop88.vn/media/product/pro_poster_3773.jpg,i5 - 7300HQ,8GB DDR4,SSD 240GB,Nvidia GTX 1050,15.6 Full HD,Used
+Laptop Dell Gaming G15 5511,16990000,https://laptop88.vn/moi-100-full-box-laptop-dell-gaming-g15-5511-70266676-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6908.jpg,"Core i5-11260H
+",8GB DDR4,SSD 256GB NVMe,Nvidia RTX 3050,15.6 Full HD,New Outlet
+Laptop Lenovo Legion 5 Pro 16ARX8 82WM001SCD,35990000,https://laptop88.vn/new-100-laptop-lenovo-legion-5-pro-16arx8-82wm001scd-amd-ryzen-7-7745hx-rtx-4060-16-inch-wqxga-100-srgb-165hz.html,https://laptop88.vn/media/product/pro_poster_8149.jpg,R7-7745HX,16GB DDR5,SSD 512GB NVMe,Nvidia RTX 4060 8GB,16 240Hz 100%sRGB,New 100%
+Laptop Asus ROG STRIX G15 G513IH,17790000,https://laptop88.vn/moi-100-full-box-laptop-asus-rog-strix-g15-g513ih-hn015t-amd-ryzen-7.html,https://laptop88.vn/media/product/pro_poster_6637.jpg,R7-4800H,8GB DDR4,SSD 512GB,Nvidia GTX 1650,15.6 Full HD 144Hz,New 100%
+Laptop Dell Inspiron 14 7420 4X4J0 2in1 (2022),18690000,https://laptop88.vn/moi-100-full-box-laptop-dell-inspiron-14-7420-r6h1w-2in1-intel-core-i5-1235u-14-inch-full-hd-touch.html,https://laptop88.vn/media/product/7401_dsc06756_edit__2_.jpg,"Core i5-1235U
+",8GB DDR4,SSD 512GB,"Intel Iris Xe Graphics
+",14.0 Full HD,New Outlet
+Lenovo Legion Pro 7 16IRX8H 82WQ002SUS,76990000,https://laptop88.vn/new-100-lenovo-legion-pro-7-16irx8h-82wq002sus-intel-core-i9-13900hx-rtx-4080-16-inch-qhd-240hz-500nits-100-srgb.html,https://laptop88.vn/media/product/pro_poster_8060.jpg,i9 - 13900HX,8GB DDR5 5600Mhz,SSD 1TB NVMe,Nvidia RTX 4080,16 240Hz 100% sRGB,New 100%
+Laptop Dell Inspiron 5405,14990000,https://laptop88.vn/new-100-laptop-dell-inspiron-5405-r2602s-amd-ryzen-5-4500u-14-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7870.jpg,"R5-4500U
+",16GB DDR4,SSD 512GB NMVe,"AMD Radeon Graphics
+",14 Full HD,New 100%
+Laptop Dell Gaming G15 5525,15990000,https://laptop88.vn/moi-100-full-box-laptop-dell-g15-5525-r5h085w11gr3050-amd-ryzen-5-6600h-rtx-3050-4gb-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7829.jpg,R5 - 6600H,8GB DDR5,SSD 512GB NVMe,AMD Radeon Vega,15.6 Full HD,Used
+Laptop Dell Gaming G15 5520 R1766B,26990000,https://laptop88.vn/moi-100-full-box-laptop-dell-gaming-g15-5520-2022-intel-core-i7-12700h-rtx-3050ti.html,https://laptop88.vn/media/product/pro_poster_7053.jpg,i7-12700H,16GB DDR5,SSD 512GB,NVIDIA RTX3060 ,15.6 165Hz 100%sRGB,New 100%
+Laptop Gaming Acer Nitro 17 Phoenix AN17,34690000,https://laptop88.vn/new-100-laptop-acer-nitro-17-2023.html,https://laptop88.vn/media/product/pro_poster_7878.jpg,"Intel i5 13500H
+",8GB DDR5,SSD 512GB NVMe,Nvidia RTX 4050,17.3 165Hz 100% sRGB,New 100%
+Laptop Lenovo Legion 5 Pro 16IAH7H 82S00003US,24590000,https://laptop88.vn/moi-100-full-box-laptop-lenovo-legion-5-pro-16iah7h-82s0003us-intel-core-i7-12700h-rtx-3050ti-6gb-16-inch-wqxga.html,https://laptop88.vn/media/product/pro_poster_8145.jpg,i7 - 12700H,16GB DDR5,SSD 512GB NVMe,Nvidia RTX 3050,16 WQXGA 165Hz,New Outlet
+Laptop ASUS TUF GAMING FX506HF,18990000,https://laptop88.vn/new-100-laptop-asus-tuf-gaming-fx506hf-hn014w-intel-core-i5-11400h-rtx2050-15.6-inch-full-hd-144hz.html,https://laptop88.vn/media/product/7980_7832_7452_11020_asus_tuf_gaming_a15_fa506ihr_1.jpg,"i5-11400H
+",8GB DDR4,SSD 512GB NVMe,"Nvidia RTX 2050
+",15.6 Full HD 144Hz,New 100%
+Laptop Asus TUF Dash 2022 F15 FX517ZC HN077W,20790000,https://laptop88.vn/moi-100-full-box-laptop-asus-tuf-dash-2022-f15-intel-core-i5-12450h-rtx-3050-black.html,https://laptop88.vn/media/product/pro_poster_7008.jpg,"Intel Core i5-12450H
+",8GB DDR5 ,SSD 512GB NVMe,Geforce RTX 3050,15.6 Full HD 144Hz,New 100%
+Laptop Asus TUF Gaming A15 FA507RE,20690000,https://laptop88.vn/moi-100-full-box-laptop-asus-tuf-gaming-a15-fa507r-m004y0-amd-ryzen-7-6800h-rtx-3050-ti-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7784.jpg,R7 - 6800H,8GB DDR5,SSD 512GB NMVe,Nvidia RTX  3050Ti,15.6 Full HD ,New 100%
+Laptop ASUS TUF Dash F15  FX517ZE,21990000,https://laptop88.vn/moi-100-full-box-laptop-asus-tuf-dash-f15-fx517ze-hn045w-intel-core-i5-12450h-rtx-3050-ram-8gb-ddr5.html,https://laptop88.vn/media/product/pro_poster_7410.jpg,Intel Core i5-12450H,8GB DDR5,SSD 512GB NVMe,RTX 3050Ti,15.6 Full HD 144Hz,New 100%
+Laptop MSI Gaming Bravo 15 B5DD,15490000,https://laptop88.vn/new-100-laptop-msi-gaming-bravo-15-b5dd-417vn-amd-ryzen-5-5600h-rx5500m-4gb-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7874.jpg,"AMD R5-5600H
+",8GB DDR4,SSD 512GB NMVe,RX5500M 4GB GDDR6,15.6 Full HD 144hz,New 100%
+Laptop Cũ Lenovo Legion 5 Pro 16ITH6H,21690000,https://laptop88.vn/moi-100-full-box-laptop-lenovo-legion-5-pro-16ach6h.html,https://laptop88.vn/media/product/pro_poster_6403.jpg,"i7-11800H
+",16GB DDR4,SSD 512GB NMVe,"Nvidia RTX 3050
+",16 2K 100% sRGB,Used
+Laptop Acer Predator Triton 300 SE PT314,28990000,https://laptop88.vn/new-100-laptop-acer-predator-triton-300-se-pt314-52s-747p-nh.qhmaa.001-intel-core-i7-12700h-rtx3060-14-inch-wuxga.html,https://laptop88.vn/media/product/pro_poster_8151.jpg,"i7 - 12700H
+",16GB DDR5 ,SSD 512GB NMVe,Nvidia RTX 3060,14 inch (1920 x 1200),New 100%
+Laptop Lenovo Legion 5 Pro 16IAH7H 82RF0043VN,33990000,https://laptop88.vn/moi-100-full-box-laptop-lenovo-legion-5-pro-16iah7h-82rf0002us-intel-core-i7-12700h-rtx-3060-6gb-16-inch-wqxga.html,https://laptop88.vn/media/product/pro_poster_7665.jpg,i7 - 12700H,16GB DDR5,SSD 512GB NVMe,Nvidia RTX 3060,16 WQXGA 165Hz,New 100%
+Laptop Cũ Dell Inspiron 5310,13690000,https://laptop88.vn/moi-100-full-box-laptop-dell-vostro-5310-intel-core-i5-11320h-13.3-inch-qhd.html,https://laptop88.vn/media/product/7785_7375_dell_inspiron_5310____nh_ch__nh_bzgdak.jpg,i5 - 11320H,8GB DDR4,SSD 512GB,Intel Iris Xe Graphics,13.3 2K,Used
+Laptop Asus Vivobook 15X OLED  A1503ZA,16890000,https://laptop88.vn/moi-100-full-box-laptop-asus-vivobook-15x-a1503za-l1422w-intel-i5-12500h.html,https://laptop88.vn/media/product/pro_poster_7321.jpg,"Core i5-12500H
+",8GB DDR4,SSD 512GB NVMe,"Intel Iris Xe
+",15.6 FHD 100%DCi-P3,New 100%
+Laptop Dell Vostro 16 5620 R1505A,16690000,https://laptop88.vn/moi-100-full-box-laptop-dell-vostro-16-5620-r1505a-intel-core-i5-1240p-16-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7810.jpg,i5 - 1240P,8GB DDR4,SSD 256GB,"Intel UHD Graphics
+",16 Full HD+,New 100%
+Laptop HP 15s,14390000,https://laptop88.vn/moi-100-full-box-laptop-hp-15s-fq2602tu-4b6d3pa-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6662.jpg,"Core i5-1235U
+",8GB DDR4,SSD 256GB NVMe,"Intel UHD Graphics
+",15.6 Full HD,New 100%
+Laptop ASUS Vivobook 15 OLED A1505VA,18790000,https://laptop88.vn/new-100-laptop-asus-vivobook-15-oled-a1505va-l1114w-intel-core-i5-13500h-15.6-inch-full-hd-oled.html,https://laptop88.vn/media/product/pro_poster_8039.jpg,"I5-13500H
+",16GB DDR4,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",15.6 Full HD OLED,New 100%
+Laptop Dell Inspiron 3511 XG9DP,11990000,https://laptop88.vn/moi-100-full-box-laptop-dell-inspiron-15-3511-intel-core-i5-1.html,https://laptop88.vn/media/product/pro_poster_6932.jpg,"Core i5-1035G1
+",8GB DDR4 ,SSD 256GB NVMe,"Intel UHD Graphics
+",15.6 Full HD,New 100%
+Laptop Lenovo Ideapad 5 Pro 16ARH7 82SN00B0VN,24590000,https://laptop88.vn/new-100-laptop-lenovo-ideapad-5-pro-16arh7-82sn00b0vn-ryzen-7-6800hs-16gb-512gb-rtx-3050-16-inch-2.5k.html,https://laptop88.vn/media/product/pro_poster_8194.jpg,R7 - 6800HS,16GB LPDDR5,SSD 512GB NVMe,RTX 3050,16 inch 2.5K,New 100%
+Laptop Lenovo Ideapad Slim 9i 14ITL5 82D2000QUS,18990000,https://laptop88.vn/new-outlet-laptop-lenovo-ideapad-slim-9-14itl5-82d2000qus-intel-core-i7-1195g7-16gb-14-inch-4k-ips-500nits-90-dci-p3.html,https://laptop88.vn/media/product/pro_poster_8059.jpg,"Core i7-1195G7
+",16GB LPDDR4,SSD 512GB NVMe,"Intel Iris Xe Graphics
+",14 4K 500nits 100% sRGB,New Outlet
+Laptop Dell Inspiron 14 7425 RG6WW  2 in 1,15690000,https://laptop88.vn/moi-100-full-box-laptop-dell-inspiron-14-7425-2-in-1-amd-ryzen-5-5625u-2022.html,https://laptop88.vn/media/product/pro_poster_7381.jpg,"AMD R5-5625U
+",8GB DDR4,SSD 512GB,"Integrated AMD Vega
+",14.0 Full HD+ Touch,New 100%
+Laptop Dell Inspiron 15 3511 JNM5H,13290000,https://laptop88.vn/moi-100-full-box-laptop-dell-inspiron-15-3511-r1605s-intel-core-i5-1135g7-15.6-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7716.jpg,Intel Core i5-1135G7,8GB,SSD 256GB,Intel VGA,15.6 Full HD,New 100%
+Laptop Dell Inspiron 16 5625 R1505S,15290000,https://laptop88.vn/moi-100-full-box-laptop-dell-inspiron-16-5625-70281537-amd-ryzen-5-5625u-16-inch-full-hd-2022.html,https://laptop88.vn/media/product/pro_poster_7413.jpg,"R5 - 5625U
+",8GB DDR4,SSD 512GB NVMe,"AMD Radeon Graphics
+",16.0 Full HD+,New 100%
+Laptop Cũ Dell Inspiron 5502 MFK29,12990000,https://laptop88.vn/new-outlet-laptop-dell-inspiron-5502-mfk29-intel-core-i5-1135g7-15.6-inch-full-hd.html,https://laptop88.vn/media/product/8050_untitled_1.jpg,i5 - 1135G7,12GB DDR4,SSD 256GB NMVe,Intel Iris Xe Graphics,15.6 inch Full HD,Used
+Laptop Acer Nitro 5 AN515,22990000,https://laptop88.vn/new-100-laptop-acer-nitro-5-an515-58-52sp-intel-core-i5-12500h-rtx-3050-4gb-15.6-inch-full-hd-144hz.html,https://laptop88.vn/media/product/pro_poster_7866.jpg,"i5 - 12500H
+",8GB DDR4,SSD 512GB NVMe,Nvidia RTX 3050 4GB,15.6 Full HD 144Hz,New 100%
+Laptop ThinkPad T14 Gen 3 21CF003WUS,24990000,https://laptop88.vn/moi-100-full-box-laptop-thinkpad-t14-gen-3-21cf003wus-amd-ryzen-7-pro-6850u-14-inch-wuxga.html,https://laptop88.vn/media/product/pro_poster_7697.jpg,"R7 PRO-6850U
+",16GB LPDDR5,SSD 512GB NVMe,"AMD Radeo 680M
+",14.0 WUXGA,New 100%
+Laptop Cũ Dell Latitude 5400,8990000,https://laptop88.vn/laptop-cu-dell-latitude-5400-intel-core-i7.html,https://laptop88.vn/media/product/8175_5976_37636_laptop_latitude_5400_h3.jpg,i7-8650U,8GB DDR4,SSD 240GB,Intel HD 620,14 inch Full HD,Used
+Laptop Cũ Dell Inspiron 5493,11690000,https://laptop88.vn/laptop-gaming-cu-dell-inspiron-5493-intel-core-i5-1035g1-mx230.html,https://laptop88.vn/media/product/8205_dell_inspiron_5493_laptopg7_com_vn_01_1632623278.png,i5 - 1035G1,8GB DDR4,SSD 512GB,MX230,15.6 Full HD,Used
+Laptop Cũ Dell Precision 5550,31990000,https://laptop88.vn/laptop-cu-dell-precision-5550-intel-core-i7-10750h-t1000.html,https://laptop88.vn/media/product/8152_6961_dell_precision_5550_3__2_.jpg,"Core i9-10885H
+",32GB DDR4,SSD 1TB NVMe,"Nvidia Quadro T
+",15.6 inch Full HD+,Used
+Laptop cũ HP Elitebook x360 1040 G5,14990000,https://laptop88.vn/laptop-cu-hp-elitebook-x360-1040-g5-intel-core-i7-14-inch-full-hd.html,https://laptop88.vn/media/product/pro_poster_7971.jpg,"i5 - 8560u
+",8GB LPDDR4,SSD 256GB ,UHD 620,14 inch Full HD,New 100%
+Laptop Cũ Dell Latitude 7490,8790000,https://laptop88.vn/laptop-cu-dell-latitude-e7490-intel-core-i7/p4830.html,https://laptop88.vn/media/product/pro_poster_4830.jpg,i7 - 8650U,8GB DDR4,SSD 240GB,Intel HD 620,14 Full HD,New 100%
+Laptop Gaming Cũ Dell Inspiron G7 7588,13990000,https://laptop88.vn/laptop-gaming-cu-dell-inspiron-g7-7588-intel-core-i5/p4827.html,https://laptop88.vn/media/product/pro_poster_4827.jpg,i5 - 8300H,8GB DDR4,SSD 256GB,Nvidia GTX 1050Ti,15.6 Full HD,New 100%
+Laptop Cũ HP Probook 640 G2,4790000,https://laptop88.vn/laptop-cu-hp-probook-640-g2-intel-core-i5/p5073.html,https://laptop88.vn/media/product/pro_poster_5073.jpg,i5 - 6200U,8GB DDR4,SSD 256GB,Intel HD 520,14 inch HD,Used
+Laptop cũ Dell Precision M4700,6990000,https://laptop88.vn/laptop-cu-dell-precision-m4700-core-i7-3720qm-3820qm-3840qm-ram-8gb-hdd-500gb-vga-2gb-nvidia-quadro-K1000m-K2000m-156-inch-fullhd-bh-1-nam.html,https://laptop88.vn/media/product/pro_poster_2430.jpg,i7 - 3740QM,8GB DDR3,SSD 240GB,Quadro K1000M,15.6 Full HD,Used
+Laptop Cũ HP Folio Elitebook 1040 G3,6700000,https://laptop88.vn/laptop-cu-hp-elitebook-1040-g3-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_4991.jpg,i5 - 6200U,16GB Onmain,SSD 240GB,Intel HD 520,14 Full HD,Used
+Laptop Cũ Dell Latitude 7390 2 in 1,8990000,https://laptop88.vn/laptop-cu-dell-latitude-7390-2-in-1-intel-core-i7/p5099.html,https://laptop88.vn/media/product/pro_poster_5099.jpg,i5 - 8250u,8GB LPDDR4,SSD 256GB,Intel UHD 620,13.3 inch Full HD,New 100%
+Laptop Cũ Lenovo Thinkpad T480s,11690000,https://laptop88.vn/laptop-cu-lenovo-thinkpad-t480s-intel-core-i7-8650u/p5181.html,https://laptop88.vn/media/product/pro_poster_5181.jpg,i7 - 8650U,8GB DDR4,SSD 240GB,Intel HD 620,14 Full HD,Used
+Laptop Cũ Dell Latitude 3500,8490000,https://laptop88.vn/laptop-cu-dell-latitude-3500-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6378.jpg,i5 - 8250U,8GB DDR4,SSD 256GB,Intel HD 620,15.6 inch Full HD,Used
+Laptop Cũ Dell Precision M2800,6990000,https://laptop88.vn/laptop-cu-dell-precision-m2800-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_5394.jpg,i7 - 4810MQ,8GB DDR3L,SSD 256GB,AMD W4170M,15.6 Full HD,Used
+Laptop Cũ Dell Inspiron Gaming G3 3590,13990000,https://laptop88.vn/laptop-cu-dell-gaming-g3-3590-intel-core-i5/p5587.html,https://laptop88.vn/media/product/5587_71d538geyxl__ac_sl1500_.jpg,i5 - 9300H,16GB DDR4,SSD 512GB,Nvidia GTX 1650,15.6 Full HD,New 100%
+Laptop Cũ Dell Latitude 7380,7390000,https://laptop88.vn/laptop-cu-dell-latitude-7380-intel-core-i7/p5695.html,https://laptop88.vn/media/product/pro_poster_5695.jpg,i7 - 6600U,8GB DDR4,SSD 240GB,Intel HD 520,13.3 inch Full HD,New 100%
+Laptop Cũ Lenovo Thinkpad L570,6490000,https://laptop88.vn/laptop-cu-lenovo-thinkpad-l570-intel-core-i5/p5701.html,https://laptop88.vn/media/product/pro_poster_5701.jpg,i5 - 7200U,8GB DDR4,SSD 256GB,Intel UHD Graphics,15.6 inch HD,Used
+Laptop Cũ Dell Precision 5530,15490000,https://laptop88.vn/laptop-cu-dell-precision-5530-intel-core-i5.html,https://laptop88.vn/media/product/6006_5395_dell_precision_5530.png,i5 - 8300H,16GB DDR4,SSD 240GB,Quadro P1000,15.6 inch Full HD,Used
+Laptop Cũ Dell Inspiron 7537,5390000,https://laptop88.vn/laptop-cu-dell-inspiron-7537-intel-core-i5.html,https://laptop88.vn/media/product/6344_inspiron_7537_5.jpg,i5 - 4200U,6GB DDR3L,SSD 120GB,Nvidia GT750,15 inch HD,Used
+Laptop cũ HP Elitebook 840 G1,4390000,https://laptop88.vn/laptop-hp-elitebook-840-g1-core-i5-4300u-ram-4gb-hdd-320gb-intel-hd-graphics-4400-14-inch-bao-hanh-1-nam/p2375.html/p2375.html,https://laptop88.vn/media/product/pro_poster_2375.jpg,i5 - 4200U,8GB DDR3L,SSD 120GB,Intel HD ,14 inch HD,New 100%
+Laptop Cũ Dell Latitude E7440,3690000,https://laptop88.vn/laptop-cu-dell-latitude-e7440-intel-core-i3.html,https://laptop88.vn/media/product/pro_poster_6844.jpg,i5 - 6200U,8GB DDR4,SSD 256GB,"Intel Iris Xe Graphics
+",15.6 Full HD 144Hz,Used
+Laptop Cũ Dell Precision 5550,25990000,https://laptop88.vn/laptop-cu-dell-precision-5550-intel-core-i7.html,https://laptop88.vn/media/product/6961_dell_precision_5550_3.jpg,"Core i7 10750H
+",32GB DDR4,SSD 1TB NVMe,"Nvidia Quadro T1000
+",15.6 inch Full HD+,Used
+Laptop Cũ Dell Latitude 3490,4290000,https://laptop88.vn/laptop-cu-dell-latitude-3490-intel-core-i3.html,https://laptop88.vn/media/product/pro_poster_6952.jpg,i3-6010U,4GB DDR4,SSD 128GB,Intel HD 520,14 inch HD,Used
+Laptop cũ HP Probook 6570b,4190000,https://laptop88.vn/laptop-cu-hp-probook-6570b-core-i5-3320m-ram-4gb-hdd-250gb-vga-intel-hd-graphics-4000-156-inch-bao-hanh-1-nam/p2421.html,https://laptop88.vn/media/product/pro_poster_2421.jpg,i5 - 6200U,8GB DDR4,SSD 256GB,"Intel Iris Xe Graphics
+",15.6 Full HD 144Hz,Used
+Laptop Lenovo Thinkpad T440s,4590000,https://laptop88.vn/laptop-lenovo-thinkpad-t440s-core-i5-4300u-ram-4gb-ssd-240gb-intel-hd-graphics-4400-14.0-inch-hd.html,https://laptop88.vn/media/product/pro_poster_2393.jpg,i5 - 4200U,4GB DDR3L,SSD 120GB,Intel HD 4400,14 inch HD+,Used
+Laptop Cũ Dell Latitude E5470,5290000,https://laptop88.vn/laptop-dell-latitude-e5470.html,https://laptop88.vn/media/product/pro_poster_3974.jpg,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD 520,14 inch Full HD,Used
+Laptop Cũ Dell Inspiron 15 5570,9390000,https://laptop88.vn/laptop-dell-inspiron-5570-intel-core-i5-8250uram-8gbhdd-1tbintel-uhd-graphics-620156-inch-fullhd-cam-ungkeyled/p3924.html,https://laptop88.vn/media/product/3924_1.png,i5 - 8250U,8GB DDR4,SSD 256GB,Card rời AMD,15.6 inch Full HD,Used
+Laptop Cũ Dell Latitude E7280 i7 6600U,6390000,https://laptop88.vn/laptop-latitude-e7280-core-i7-6600u-ram/p4189.html,https://laptop88.vn/media/product/pro_poster_4189.jpg,i7 - 6600u,8GB ,SSD 256GB,Intel HD 520,12.5 inch Full HD,New 100%
+Laptop Gaming Cũ Dell Inspiron G3 3579,12390000,https://laptop88.vn/laptop-gaming-cu-dell-g3-3579-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_4293.jpg,i5 - 8300H,8GB DDR4,SSD 256GB,Nvidia GTX 1050,15.6 inch Full HD,Used
+Laptop Gaming Cũ Dell Inspiron G7 7588,15490000,https://laptop88.vn/laptop-gaming-cu-dell-inspiron-g7-7588-intel-core-i7/p4316.html,https://laptop88.vn/media/product/pro_poster_4316.jpg,i7 - 8750H,8GB DDR4,SSD 240GB,GTX 1060,15.6 Full HD,New 100%
+Laptop Cũ Dell Latitude E5480,7190000,https://laptop88.vn/laptop-cu-dell-latitude-e5480-intel-core-i7/p4675.html,https://laptop88.vn/media/product/pro_poster_4675.jpg,i7-7820HQ,8GB DDR4,SSD 256GB,Nvidia GT 930M,14 inch Full HD,Used
+Laptop cũ Dell XPS 13 9350,10990000,https://laptop88.vn/laptop-dell-xps-13-9350-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_4063.jpg,i7-6500U,16GB LPDDR3,SSD 256GB,Intel HD 520,13.3 inch 3K,Used
+Laptop Cũ Dell Latitude 7400,8490000,https://laptop88.vn/laptop-cu-dell-latitude-7400-intel-core-i5/p6081.html,https://laptop88.vn/media/product/pro_poster_6081.jpg,i5 - 8265U,8GB DDR4,SSD 240GB,Intel UHD 620,14 Full HD,Used
+Laptop cũ HP Elitebook 840 G5,8990000,https://laptop88.vn/laptop-cu-hp-elitebook-840-g5-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_4740.jpg,i7 - 8650U,8GB DDR4,SSD 256GB,Intel HD 620,14 Full HD,Used
+Laptop Cũ Dell Latitude 7490,7690000,https://laptop88.vn/laptop-cu-dell-latitude-7490-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_4671.jpg,i5 - 8250U,8GB DDR4,SSD 240GB,Intel UHD 620,14 inch Full HD,Used
+Laptop Cũ Dell Latitude 5490,6990000,https://laptop88.vn/laptop-cu-dell-latitude-5490-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_4815.jpg,i5 - 8250U,8GB DDR4,SSD 240GB,Intel HD 620,14 Full HD,Used
+Laptop Cũ Dell Precision 7510,9490000,https://laptop88.vn/laptop-cu-dell-precision-7510-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_4249.jpg,i7 - 6820HQ,8GB DDR4,SSD 256GB,Quadro M1000,15.6 Full HD | 4K,Used
+Laptop Cũ Dell Latitude E5580,6690000,https://laptop88.vn/laptop-cu-dell-latitude-5580-intel-core-i5/p4570.html,https://laptop88.vn/media/product/pro_poster_4570.jpg,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD 620,15.6 inch Full HD,Used
+Laptop Cũ Dell Precision M6800 Intel Core i7 MQ,10990000,https://laptop88.vn/laptop-cu-dell-precision-m6800-core-i7.html,https://laptop88.vn/media/product/pro_poster_2541.jpg,i7 - 4800MQ,16GB DDR3L,SSD 256GB,Quadro K3100M,17.3 inch Full HD,Used
+Laptop cũ HP Elitebook 840 G3,5990000,https://laptop88.vn/laptop-cu-hp-elitebook-840-g3-core-i5.html,https://laptop88.vn/media/product/pro_poster_2542.jpg,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD 520,14 Full HD,Used
+Laptop Cũ HP Probook 645 G3,3990000,https://laptop88.vn/laptop-cu-hp-probook-645-g3-amd-a10.html,https://laptop88.vn/media/product/pro_poster_7624.jpg,AMD A10,8GB DDR4,SSD 128GB,"AMD Radeon Vega
+",14 HD,Used
+Dell XPS 13 9315,19990000,https://laptop88.vn/laptop-cu-dell-xps-9300-intel-core-i5.html,https://laptop88.vnhttps://laptop88.vn/media/product/6460_ac_m___i_100__full_box_laptop_dell_xps_13_9315_f4gh8_2022__3_.jpg,Intel Core i5-1230U,8GB LPDDR5,SSD 512GB,Intel Iris xe Graphics,13.4 inch Full HD+,New Outlet
+Laptop Workstation Cũ HP Zbook 15 G3,10390000,https://laptop88.vn/laptop-workstation-cu-hp-zbook-15-g3-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_4673.jpg,i7 - 6820HQ,16GB DDR4,SSD 512GB,Quadro M1000M,15.6 inch Full HD,Used
+Laptop cũ Dell Latitude 7480,7390000,https://laptop88.vn/laptop-cu-dell-latitude-e7480-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_4572.jpg,i7 - 7600U,8GB DDR4,SSD 240GB,Intel HD 520,"14 inch Full HD
+",Used
+Laptop Cũ HP Elitebook 840 G5,8490000,https://laptop88.vn/laptop-cu-hp-elitebook-840-g5-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_4583.jpg,i5 - 8350U,8GB DDR4,SSD 256GB,Intel UHD 620,14 Full HD,Used
+Laptop Cũ Dell XPS 13 9380,13990000,https://laptop88.vn/laptop-cu-dell-xps-13-9380-intel-core-i5.html,https://laptop88.vn/media/product/5888_2_1080_1050878595.jpg,i5 - 8265U,8/16GB ,SSD 256GB,Intel UHD Graphics,13.3 Full HD,Used
+Laptop Cũ HP Notebook 14s,7990000,https://laptop88.vn/laptop-cu-hp-notebook-14s-cr1006tu-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_7779.jpg,i5 - 8265U,8GB DDR4,SSD 256GB,Intel UHD Graphics,14 inch Full HD,Used
+Laptop Cũ HP Probook 445 G7,10490000,https://laptop88.vn/laptop-cu-hp-probook-445g7-amd-ryzen-5.html,https://laptop88.vn/media/product/pro_poster_7679.jpg,R5 -4500U,8GB DDR4,SSD 256GB,AMD Radeon Graphics,14 Full HD,Used
+Laptop Dell Latitude E7470,6090000,https://laptop88.vn/laptop-dell-latitude-e7470-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_3969.jpg,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD 520,14 inch Full HD,Used
+Laptop cũ Dell Latitude E7270,4790000,https://laptop88.vn/laptop-dell-latitude-e7270-core-i5-6300u-ram-8gb-ssd-250gb-hd-graphics-520-fhd-keyboard-led-125-inch-bao-hanh-1-nam.html,https://laptop88.vn/media/product/3823_anh_noi_bat_e7270.jpg,i5 - 6200U,8GB ,SSD 120GB,Intel HD 520,12.5 inch HD,Used
+Laptop Cũ Dell Latitude 7390,9290000,https://laptop88.vn/laptop-cu-dell-latitude-7390-intel-core-i7/p4932.html,https://laptop88.vn/media/product/pro_poster_4932.jpg,i7 - 8560U,8GB DDR4,SSD 256GB,Intel HD 620,13.3 Full HD,Used
+Laptop Cũ Dell Latitude E5480,6090000,https://laptop88.vn/laptop-cu-dell-latitude-5480-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_6357.jpg,i5 - 6200U,8GB DDR4,SSD 240GB,Intel HD Graphics,14 inch Full HD,Used
+Laptop Cũ Dell Precision 5530,16990000,https://laptop88.vn/laptop-cu-dell-precision-5530-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_5395.jpg,i7 - 8850H,16GB DDR4,SSD 512GB,Quadro P1000,15.6 Full HD,Used
+Laptop cũ Dell Precision M4800,5990000,https://laptop88.vn/laptop-cu-dell-precision-m4800-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_5219.jpg,i5 - 4200M,8GB DDR3,SSD 256GB,AMD M5100,15.6 HD / Full HD,Used
+Dell XPS Plus 9320,28190000,https://laptop88.vn/laptop-dell-xps-plus-9320-intel-core-i7-1260p-ram-16gb-13.3-inch-3.5k-100-dci-p3.html,https://laptop88.vnhttps://laptop88.vn/media/product/7431_dell_xps_plus_9320.jpg,i7 - 1260P,16GB DDR5,SSD 512GB,Intel Xe Graphics,13.3 inch Full HD+,New Outlet
+Laptop Cũ Dell Latitude 3400,8990000,https://laptop88.vn/laptop-cu-dell-latitude-3400-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_6792.jpg,i7-8565U,8GB DDR4,SSD 240GB,Card rời MX130,14 Full HD,Used
+Laptop Cũ HP Spectre Pro X360 G2,8690000,https://laptop88.vn/laptop-cu-hp-spectre-pro-x360-g2-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_5095.jpg,i5 - 6300U,8GB DDR4,SSD 256GB,Intel HD Graphics,13.3 Full HD,Used
+Laptop Cũ Dell Latitude 5410,10690000,https://laptop88.vn/laptop-cu-dell-latitude-5410-intel-core-i5-14-inch-full-hd.html,https://laptop88.vn/media/product/7575_dell_latitude_5410_jakarta_1.jpg,i5 - 10310U,8GB DDR4,SSD 256GB,UHD Graphics 620,14 inch Full HD,New 100%
+Laptop Cũ Dell Precision M4800,7990000,https://laptop88.vn/laptop-cu-dell-precision-m4800-core-i7-4800mq-ram-8gb-ssd-256gb-vga-2gb-nvidia-quadro-k1100m-156-inch-fullhd-bh-1-nam.html,https://laptop88.vn/media/product/pro_poster_2434.jpg,i7 - 4800MQ,8GB DDR4,SSD 256GB,Quadro K1100M,15.6 Full HD | 4K,Used
+Laptop cũ Dell Latitude 7480,6890000,https://laptop88.vn/laptop-cu-dell-latitude-e7480-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_4261.jpg,i5 - 7200U,8GB DDR4,SSD 240GB,Intel HD Graphics,14 HD | Full HD,Used
+Laptop Cũ Dell Precision 7520,9690000,https://laptop88.vn/laptop-workstation-cu-dell-precision-7520-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_4674.jpg,i7 - 6820HQ,8GB DDR4,SSD 256GB,Quadro M1200,15.6 inch Full HD,Used
+Laptop Cũ Dell Precision 3530,12990000,https://laptop88.vn/laptop-cu-dell-precision-3530-intel-core-i7.html,https://laptop88.vn/media/product/pro_poster_6069.jpg,i7 - 8750H,16GB DDR4,SSD 512GB,Nvidia P600,15.6 Full HD,Used
+Laptop Cũ Dell Latitude 7390,7690000,https://laptop88.vn/laptop-cu-dell-latitude-7390-intel-core-i5.html,https://laptop88.vn/media/product/pro_poster_5091.jpg,i5 - 8250U,8GB DDR4,SSD 256GB,Intel HD 620,13.3 inch Full HD,Used
