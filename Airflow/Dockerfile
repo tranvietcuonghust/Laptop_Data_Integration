@@ -153,6 +153,8 @@ RUN pip install azure-cosmos
 RUN pip install apache-airflow-providers-microsoft-azure==1.1.0
 RUN pip install scrapy
 RUN pip install selenium
+RUN pip install paramiko
+RUN pip install fuzzymatcher
 USER airflow
 WORKDIR ${AIRFLOW_USER_HOME}
 # RUN pip install -r requirements.txt

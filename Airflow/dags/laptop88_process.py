@@ -39,7 +39,8 @@ dag = DAG(
         dag_id="laptop88_process_data_2", 
         description="This DAG runs a Pyspark app",
         default_args=default_args, 
-        schedule_interval=timedelta(1)
+        max_active_runs=1,
+        schedule_interval= None 
     )
 
 def load_to_postgres():
@@ -114,4 +115,4 @@ load_to_postgres_task = PythonOperator(
 
 end = DummyOperator(task_id="end", dag=dag)
 
-start >> spark_job>>load_to_postgres_task >> end
+start >> spark_job >> end

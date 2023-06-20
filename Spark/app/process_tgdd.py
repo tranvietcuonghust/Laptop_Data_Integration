@@ -50,7 +50,7 @@ df = df.withColumn("Price", translate("Price", ".đ", "")) \
       .withColumn("RAM", regexp_replace("Ram", " GB", "GB")) \
       .withColumn("Storage", regexp_replace("Storage", " GB", "GB")) \
       .withColumn("Screen", regexp_replace("Screen", "inches", " inch")) \
-      .withColumn('weight', split('Size', 'Nặng')[1]) \
+      .withColumn('Weight', split('Size', 'Nặng')[1]) \
       .withColumn("Size", regexp_replace("Size", " - Nặng.*", "")) \
       .withColumn("Size", regexp_replace("Size", "Dài|Rộng|Dày", "")) \
       .withColumn("Size", regexp_replace("Size", "-", "x")) 

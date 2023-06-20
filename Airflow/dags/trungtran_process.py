@@ -62,19 +62,10 @@ dag = DAG(
         dag_id="trungtran_process_data_2", 
         description="This DAG runs a Pyspark app",
         default_args=default_args, 
-        schedule_interval=timedelta(1)
+        schedule_interval=None 
     )
 
 start = DummyOperator(task_id="start", dag=dag)
-# spark_save = SparkSubmitOperator(
-#     task_id="spark_save_to_hdfs",
-#     application="./dags/spark/save_to_hdfs.py", # Spark application path created in airflow and spark cluster
-#     name="spark_save_data",
-#     conn_id="spark_local",
-#     verbose=1,
-#     conf={"spark.master":spark_master},
-#     # application_args=[csv_file],
-#     dag=dag)
 
 spark_job = SparkSubmitOperator(
     task_id="trungtran_clean_data_11",
@@ -85,28 +76,13 @@ spark_job = SparkSubmitOperator(
     conf={"spark.master":other_spark_master},
     # application_args=[csv_file],
     dag=dag)
-# spark_job = SSHOperator(
-#     task_id="spark_job_clean_data_by_ssh",
-#     ssh_conn_id="ssh_connection_spark",
-#     command='/opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.master=spark://spark-master:7077 --name spark_clean_data --verbose /opt/spark/app/preprocess_data.py',
-#     dag=dag
-# )
-# train_model = BashOperator(
-#     task_id='train_model',
-#     bash_command='python ./dags/src/data_analysis.py',
-#     dag=dag
-# )
-#spark-submit --master spark://spark-master:7077 --conf spark.master=spark://spark-master:7077 --name spark_clean_data --verbose /opt/spark/app/preprocess_data.py
+
 load_to_postgres_task = PythonOperator(
     task_id='load_to_postgres',
     python_callable=load_to_postgres,
-    # op_kwargs={
-    #     'conn_id': 'azure_cosmos_default',
-    #     'database_name': 'test_Database',
-    #     'container_name': 'test_Container'
-    # },
+    
     dag=dag,
 )
 end = DummyOperator(task_id="end", dag=dag)
 
-start >> spark_job>> load_to_postgres_task >> end
+start >> spark_job >> end

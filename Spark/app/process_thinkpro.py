@@ -49,8 +49,7 @@ df = df.filter(col("Price").isNotNull() & ~(col("Price").contains("Liên hệ"))
 df = df.withColumn("Price", translate("Price", ".đ", "")) \
       .withColumn("RAM", regexp_replace("Ram", " GB", "GB")) \
       .withColumn("Storage", regexp_replace("Storage", " GB", "GB")) \
-      .withColumn("Screen", regexp_replace("Screen", "inches", " inch")) \
-      .withColumn("Battery", when(regexp_extract("Battery", "\d+", 0) == "", None).otherwise("Battery"))
+      .withColumn("Screen", regexp_replace("Screen", "inches", " inch")) 
 for col_name in df.columns:
     df = df.withColumn(col_name, when(df[col_name].isNull(), df[col_name]).otherwise(regexp_replace(df[col_name], "(^\n|\")", ""))) 
     df = df.withColumn(col_name, when(df[col_name].isNull(), df[col_name]).otherwise(translate(df[col_name], "®™", ""))) 

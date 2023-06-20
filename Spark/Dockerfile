@@ -52,6 +52,9 @@ COPY spark-env.sh /opt/spark/conf/
 COPY start-spark.sh /
 
 RUN export HADOOP_CONF_DIR=/opt/spark/conf/hadoop-conf
+RUN pip3 install --upgrade pip
+RUN pip3 install --upgrade setuptools
 
+RUN pip3 install fuzzymatcher
 
 CMD ["/bin/bash", "/start-spark.sh"]

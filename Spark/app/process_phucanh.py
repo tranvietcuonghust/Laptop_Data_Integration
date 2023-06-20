@@ -67,7 +67,6 @@ df = df.withColumn("CPU", translate("CPU", "®™", "")) \
         .withColumn("Storage", regexp_replace("Storage", " GB", "GB")) \
         .withColumn("Weight", regexp_replace("Weight", "(kg|KG)", "")) \
         .withColumn("Name", regexp_replace("Name", "\(.*?\)", "")) \
-        .withColumn("Battery", when(regexp_extract("Battery", "\d+", 0) == "", None).otherwise("Battery")) \
         .withColumn("Display", regexp_replace("Display", "(\"|″|”)", " inch")) \
         .withColumn("CPU", concat_ws(" ", col("CPU"), col("CPU_code"), col("CPU_speed")))\
         .withColumn("Ram", concat_ws(" ", col("Ram"), col("Ram_type"), col("Ram_speed"))) \

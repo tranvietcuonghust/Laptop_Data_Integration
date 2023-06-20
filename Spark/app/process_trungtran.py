@@ -57,9 +57,8 @@ df = df.withColumn("CPU", translate("CPU", "®™", "")) \
         .withColumn("Storage", regexp_replace("Storage", " GB", "GB")) \
         .withColumn("Size", regexp_replace("Size", "cm", "")) \
         .withColumn("Weight", regexp_replace("Weight", "(kg|KG)", "")) \
-        .withColumn("Battery", when(regexp_extract("Battery", "\d+", 0) == "", None).otherwise("Battery")) \
         .withColumn("Display", regexp_replace("Display", "(\"|″|”)", " inch"))
-
+# .withColumn("Battery", when(regexp_extract("Battery", "\d+", 0) == "", None).otherwise("Battery")) \
 for col_name in df.columns:
     df = df.withColumn(col_name, when(df[col_name].isNull(), df[col_name]).otherwise(regexp_replace(df[col_name], "(^\n|\")", ""))) 
     df = df.withColumn(col_name, when(df[col_name].isNull(), df[col_name]).otherwise(translate(df[col_name], "®™", ""))) 

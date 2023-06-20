@@ -39,7 +39,8 @@ dag = DAG(
         dag_id="tgdd_process_data_7", 
         description="This DAG runs a Pyspark app",
         default_args=default_args, 
-        schedule_interval=timedelta(1)
+        max_active_runs=1,
+        schedule_interval=None 
     )
 
 def load_to_postgres():
@@ -54,7 +55,7 @@ def load_to_postgres():
     # Create a new container in your database   
     table_name = "TGDD"
     cur = conn.cursor()
-    cur.execute("CREATE TABLE IF NOT EXISTS {0} (Product varchar(255) , Price varchar(255), Image varchar(255), Link varchar(255), CPU varchar(255), RAM varchar(255), Storage varchar(255), Graphics varchar(255), Screen varchar(255), Status varchar(255), OS varchar(255), Size varchar(255), Connector varchar(255), Brand varchar(255), Weight varchar(255), PRIMARY KEY (Product, CPU, RAM, Storage));".format(table_name))
+    cur.execute("CREATE TABLE IF NOT EXISTS {0} (Product varchar(255) , Price varchar(255), Image varchar(255), Link varchar(255), CPU varchar(255), RAM varchar(255), Storage varchar(255), Graphics varchar(255), Screen varchar(255), Status varchar(255), OS varchar(255), Size varchar(255), Connector TEXT, Brand varchar(255), Weight varchar(255), PRIMARY KEY (Product, CPU, RAM, Storage));".format(table_name))
     conn.commit()
 
 # Open the CSV file and read its contents
@@ -90,4 +91,4 @@ load_to_postgres_task = PythonOperator(
 )
 end = DummyOperator(task_id="end", dag=dag)
 
-start >> spark_job>> load_to_postgres_task>> end
+start >> spark_job>> end

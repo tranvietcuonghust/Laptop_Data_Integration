@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   spark-master:
-    image: tranvietcuonghust/tichhopdulieu_spark
+    image: tranvietcuonghust/tichhopdulieu_spark_fuzzy
     hostname: spark-master
     ports:
       - "9090:8080"
@@ -18,7 +18,7 @@ services:
     networks:
       - tichhopdulieu
   spark-worker-a:
-    image: tranvietcuonghust/tichhopdulieu_spark
+    image: tranvietcuonghust/tichhopdulieu_spark_fuzzy
     ports:
       - "8082:8080"
     depends_on:
@@ -38,7 +38,7 @@ services:
     networks:
       - tichhopdulieu
   spark-worker-b:
-    image: tranvietcuonghust/tichhopdulieu_spark
+    image: tranvietcuonghust/tichhopdulieu_spark_fuzzy
     ports:
       - "9092:8080"
       - "7001:7000"
